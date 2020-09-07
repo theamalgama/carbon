@@ -1,12 +1,12 @@
 {
-  "name": "carbon-components-react",
+  "name": "@theamalgama/carbon-components-react",
   "description": "The Carbon Design System is IBM’s open-source design system for products and experiences.",
   "version": "7.19.0",
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "repository": "https://github.com/carbon-design-system/carbon/tree/master/packages/react",
-  "bugs": "https://github.com/carbon-design-system/carbon/issues",
+  "repository": "https://github.com/theamalgama/carbon",
+  "bugs": "https://github.com/theamalgama/carbon/issues",
   "files": [
     "lib/**/*",
     "es/**/*",
