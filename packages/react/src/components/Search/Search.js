@@ -57,6 +57,10 @@ export default class Search extends Component {
      * VoiceOver on Mac will read both
      */
     placeHolderText: PropTypes.string,
+    /**
+     * Optional function to render your own icon in the underlying button
+     */
+    renderIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
 
     /**
      * Specify the search size
@@ -145,6 +149,7 @@ export default class Search extends Component {
       small,
       size = !small ? 'xl' : 'sm',
       light,
+      renderIcon: SearchIconElement,
       ...other
     } = this.props;
 
@@ -166,7 +171,12 @@ export default class Search extends Component {
 
     return (
       <div role="search" aria-labelledby={searchId} className={searchClasses}>
-        <Search16 className={`${prefix}--search-magnifier`} />
+        {!SearchIconElement 
+          ?
+          <Search16 className={`${prefix}--search-magnifier`} />
+          :
+          <SearchIconElement className={`${prefix}--search-magnifier`} />
+        }
         <label id={searchId} htmlFor={id} className={`${prefix}--label`}>
           {labelText}
         </label>
