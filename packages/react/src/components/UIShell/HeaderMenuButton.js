@@ -22,6 +22,8 @@ const HeaderMenuButton = ({
   onClick,
   isActive,
   isCollapsible,
+  renderIcon: IconElement,
+  renderCloseIcon: CloseIconElement,
   ...rest
 }) => {
   const className = cx({
@@ -45,7 +47,20 @@ const HeaderMenuButton = ({
       title={ariaLabel}
       type="button"
       onClick={onClick}>
-      {isActive ? <Close20 /> : <Menu20 />}
+      {isActive 
+      ? 
+        CloseIconElement
+        ?
+        <CloseIconElement />
+        :
+        <Close20 /> 
+      : 
+        IconElement
+        ?
+        <IconElement />
+        :
+        <Menu20 />
+      }
     </button>
   );
 };
@@ -69,6 +84,14 @@ HeaderMenuButton.propTypes = {
    * button fires it's onclick event
    */
   onClick: PropTypes.func,
+  /**
+    * Optional function to render your own icon in the underlying button
+    */
+  renderCloseIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+  /**
+    * Optional function to render your own icon in the underlying button
+    */
+  renderIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
 };
 
 export default HeaderMenuButton;
