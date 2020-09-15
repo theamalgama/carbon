@@ -112,7 +112,7 @@ FileUploaderItem.propTypes = {
   /**
    * Status of the file upload
    */
-  status: PropTypes.oneOf(['uploading', 'edit', 'complete']),
+  status: PropTypes.oneOf(['default', 'uploading', 'edit', 'complete']),
 
   /**
    * Unique identifier for the file object
