@@ -38,6 +38,7 @@ const sizes = {
   Small: 'small',
 };
 const filenameStatuses = {
+  'Default (default)': 'default',
   'Edit (edit)': 'edit',
   'Complete (complete)': 'complete',
   'Uploading (uploading)': 'uploading',
