@@ -37,6 +37,10 @@ jobs:
     - name: Set NPM version with realease tag
       run: npm version ${{ github.event.release.tag_name }}
       working-directory: ${{env.working-directory}}
+    # install dependencies.
+    - name: Install dependencies
+      run: npm run install
+      working-directory: ${{env.working-directory}}
     # build the project
     - name: Build
       run: npm run build
