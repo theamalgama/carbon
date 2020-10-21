@@ -10,6 +10,8 @@ jobs:
 
     # Run on latest version of ubuntu
     runs-on: ubuntu-latest
+    env: 
+      working-directory: ./packages/react
 
     steps:
     - uses: actions/checkout@v2
@@ -25,19 +27,31 @@ jobs:
         # Specifies the registry, this field is required!
         registry-url: https://npm.pkg.github.com/theamalgama
     # set up git since we will later push to the repo
-    - run: git config --global user.name "Franco Serio"
-    - run: git config --global user.email "francoagustinserio@gmail.com"
+    - name: Set git username
+      run: git config --global user.name "Franco Serio"
+      working-directory: ${{env.working-directory}}
+    - name: Set git email
+      run: git config --global user.email "francoagustinserio@gmail.com"
+      working-directory: ${{env.working-directory}}
     # upgrade npm version in package.json to the tag used in the release.
-    - run: npm version ${{ github.event.release.tag_name }}
+    - name: Set NPM version with realease tag
+      run: npm version ${{ github.event.release.tag_name }}
+      working-directory: ${{env.working-directory}}
     # build the project
-    - run: npm run build
+    - name: Build
+      run: npm run build
+      working-directory: ${{env.working-directory}}
     # publish to NPM -> there is one caveat, continue reading for the fix
-    - run: npm publish
+    - name: NPM Publish
+      run: npm publish
+      working-directory: ${{env.working-directory}}
       env:
         # Use a token to publish to NPM. See below for how to set it up
         NODE_AUTH_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
     # push the version changes to GitHub
-    - run: git push
+    - name: Push changes
+      run: git push
+      working-directory: ${{env.working-directory}}
       env:
         # The secret is passed automatically. Nothing to configure.
         github-token: ${{ secrets.GITHUB_TOKEN }}
