@@ -39,7 +39,7 @@ jobs:
       working-directory: ${{env.working-directory}}
     # install dependencies.
     - name: Install dependencies
-      run: yarn install --offline
+      run: yarn install
       working-directory: ${{env.working-directory}}
     # publish to NPM -> there is one caveat, continue reading for the fix
     - name: NPM Publish
