@@ -37,10 +37,12 @@ jobs:
     - name: Set NPM version with realease tag
       run: yarn version --new-version ${{ github.event.release.tag_name }}
       working-directory: ${{env.working-directory}}
-    # install dependencies.
+    # Install dependencies.
     - name: Install dependencies
-      run: yarn install
-      working-directory: ${{env.working-directory}}
+      run: yarn install --offline
+    # Build project
+    - name: Build project
+      run: yarn build
     # publish to NPM -> there is one caveat, continue reading for the fix
     - name: NPM Publish
       run: yarn publish
