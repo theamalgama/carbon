@@ -16,6 +16,8 @@ import uid from '../../tools/uniqueId';
 const { prefix } = settings;
 
 function FileUploaderItem({
+  thumbnail,
+  thumbnailAlt,
   uuid,
   name,
   status,
@@ -35,7 +37,10 @@ function FileUploaderItem({
   });
   return (
     <span className={classes} {...other}>
-      <p className={`${prefix}--file-filename`}>{name}</p>
+      <span className={`${prefix}--file-filename-and-thumbnail`}>
+        {thumbnail && <img className={`${prefix}--file-thumbnail`} src={thumbnail} alt={thumbnailAlt} />}
+        <p className={`${prefix}--file-filename`}>{name}</p>
+      </span>
       <span className={`${prefix}--file__state-container`}>
         <Filename
           iconDescription={iconDescription}
@@ -112,7 +117,17 @@ FileUploaderItem.propTypes = {
   /**
    * Status of the file upload
    */
-  status: PropTypes.oneOf(['uploading', 'edit', 'complete']),
+  status: PropTypes.oneOf(['default', 'uploading', 'edit', 'complete']),
+
+  /**
+   * Optional thumbnail url
+   */
+  thumbnail: PropTypes.string,
+
+  /**
+   * Optional thumbnail alt
+   */
+  thumbnailAlt: PropTypes.string,
 
   /**
    * Unique identifier for the file object

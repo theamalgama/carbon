@@ -50,6 +50,10 @@ export default class ToolbarSearch extends Component {
     placeHolderText: PropTypes.string,
 
     /**
+     * Optional function to render your own icon in the underlying button
+     */
+    renderIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+    /**
      * Optional prop to specify the role of the ToolbarSearch
      */
     role: PropTypes.string,
@@ -111,6 +115,7 @@ export default class ToolbarSearch extends Component {
       labelText,
       role,
       labelId,
+      renderIcon: ToolbarSearchIcon,
       ...other
     } = this.props;
 
@@ -142,10 +147,18 @@ export default class ToolbarSearch extends Component {
             className={`${prefix}--toolbar-search__btn`}
             title={labelText}
             onClick={this.expandSearch}>
+            {!ToolbarSearchIcon
+            ?
             <Search16
               className={`${prefix}--search-magnifier`}
               aria-label={labelText}
             />
+            :
+            <ToolbarSearchIcon
+              className={`${prefix}--search-magnifier`}
+              aria-label={labelText}
+            />
+            }
           </button>
         </div>
       </ClickListener>

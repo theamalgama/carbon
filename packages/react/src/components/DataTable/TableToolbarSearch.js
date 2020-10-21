@@ -37,6 +37,7 @@ const TableToolbarSearch = ({
   persistant,
   id,
   tabIndex,
+  renderIcon,
   ...rest
 }) => {
   const { current: controlled } = useRef(expandedProp !== undefined);
@@ -114,6 +115,7 @@ const TableToolbarSearch = ({
       className={searchContainerClasses}>
       <Search
         size="sm"
+        renderIcon={renderIcon}
         tabIndex={searchExpanded ? tabIndex : '-1'}
         className={className}
         value={value}
@@ -152,7 +154,6 @@ TableToolbarSearch.propTypes = {
    * Specifies if the search should expand
    */
   expanded: PropTypes.bool,
-
   /**
    * Provide an optional id for the search container
    */
@@ -187,6 +188,11 @@ TableToolbarSearch.propTypes = {
    * Provide an optional placeholder text for the Search component
    */
   placeHolderText: PropTypes.string,
+
+  /**
+     * Optional function to render your own icon in the underlying button
+     */
+    renderIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
 
   /**
    * Provide an optional className for the overal container of the Search
