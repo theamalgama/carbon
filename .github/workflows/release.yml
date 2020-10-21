@@ -3,7 +3,7 @@ name: NPM publish CD workflow
 on:
   release:
     # This specifies that the build will be triggered when we publish a release
-    types: [published]
+    types: [published, edited, released]
 
 jobs:
   build:
