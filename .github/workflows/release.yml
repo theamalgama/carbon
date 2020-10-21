@@ -35,7 +35,7 @@ jobs:
       working-directory: ${{env.working-directory}}
     # upgrade npm version in package.json to the tag used in the release.
     - name: Set NPM version with realease tag
-      run: yarn version ${{ github.event.release.tag_name }}
+      run: yarn version --new-version ${{ github.event.release.tag_name }}
       working-directory: ${{env.working-directory}}
     # install dependencies.
     - name: Install dependencies
