@@ -35,7 +35,7 @@ jobs:
       working-directory: ${{env.working-directory}}
     # upgrade npm version in package.json to the tag used in the release.
     - name: Set NPM version with realease tag
-      run: npm version ${{ github.event.release.tag_name }}
+      run: yarn version ${{ github.event.release.tag_name }}
       working-directory: ${{env.working-directory}}
     # install dependencies.
     - name: Install dependencies
@@ -43,7 +43,7 @@ jobs:
       working-directory: ${{env.working-directory}}
     # publish to NPM -> there is one caveat, continue reading for the fix
     - name: NPM Publish
-      run: npm publish
+      run: yarn publish
       working-directory: ${{env.working-directory}}
       env:
         # Use a token to publish to NPM. See below for how to set it up
