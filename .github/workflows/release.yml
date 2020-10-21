@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: 12
         # Specifies the registry, this field is required!
-        registry-url: https://npm.pkg.github.com/
+        registry-url: https://npm.pkg.github.com/theamalgama
     # set up git since we will later push to the repo
     - run: git config --global user.name "Franco Serio"
     - run: git config --global user.email "francoagustinserio@gmail.com"
