@@ -33,7 +33,7 @@
     "snapshot": "build-storybook && percy-storybook --widths=320,1280"
   },
   "peerDependencies": {
-    "@theamalgama/carbon-components": "^10.19.11",
+    "@theamalgama/carbon-components": "^10.19.12",
     "carbon-icons": "^7.0.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
