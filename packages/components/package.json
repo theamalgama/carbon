@@ -1,7 +1,7 @@
 {
   "name": "@theamalgama/carbon-components",
   "description": "The Carbon Design System is IBM’s open-source design system for products and experiences.",
-  "version": "10.19.11",
+  "version": "10.19.12",
   "license": "Apache-2.0",
   "main": "umd/index.js",
   "module": "es/index.js",
@@ -84,7 +84,7 @@
     "@carbon/icons-react": "^10.17.0",
     "@carbon/test-utils": "^10.11.0",
     "@frctl/fractal": "^1.1.0",
-    "@theamalgama/carbon-components": "^10.19.11",
+    "@theamalgama/carbon-components": "^10.19.12",
     "@theamalgama/carbon-components-react": "^6.0.0",
     "adaro": "1.0.4",
     "autoprefixer": "^9.7.4",
