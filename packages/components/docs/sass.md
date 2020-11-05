@@ -17939,6 +17939,11 @@ File uploader styles
     padding-right: rem(64px);
   }
 
+  .#{$prefix}--file-filename-and-thumbnail {
+    display: inline-flex;
+    align-items: center;
+  }
+
   .#{$prefix}--file-browse-btn {
     display: inline-block;
     width: 100%;
@@ -18049,12 +18054,27 @@ File uploader styles
     }
   }
 
+  .#{$prefix}--file-thumbnail {
+    width: $carbon--spacing-09;
+    height: $carbon--spacing-09;
+  }
+
   .#{$prefix}--file__selected-file--field {
     min-height: rem(40px);
+
+    .#{$prefix}--file-thumbnail {
+      width: rem(40px);
+      height: rem(40px);
+    }
   }
 
   .#{$prefix}--file__selected-file--sm {
     min-height: rem(32px);
+
+    .#{$prefix}--file-thumbnail {
+      width: rem(32px);
+      height: rem(32px);
+    }
   }
 
   // TODO: deprecate this block

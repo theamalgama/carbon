@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "main": "umd/index.js",
   "module": "es/index.js",
-  "repository": "https://github.com/theamalgama/carbon/tree/master/packages/components",
+  "repository": "https://github.com/theamalgama/carbon",
   "bugs": "https://github.com/theamalgama/carbon/issues",
   "homepage": "https://www.carbondesignsystem.com/",
   "engines": {
@@ -199,5 +199,6 @@
       "@babel/plugin-proposal-object-rest-spread",
       "dev-expression"
     ]
-  }
+  },
+  "gitHead": "a15a2311feb3e476271752659a851d7417a3d1c1"
 }
