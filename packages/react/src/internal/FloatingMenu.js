@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import window from 'window-or-global';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import OptimizedResize from './OptimizedResize';
 import { selectorFocusable, selectorTabbable } from './keyboard/navigation';
 import wrapFocus from './wrapFocus';

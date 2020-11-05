@@ -413,7 +413,7 @@ For teams using these features, they will need to import the functionality by
 using the `unstable_` prefix. For example:
 
 ```jsx
-import { unstable_Pagination as Pagination } from 'carbon-components-react';
+import { unstable_Pagination as Pagination } from '@theamalgama/carbon-components-react';
 ```
 
 This code should be treated as experimental and will break between release

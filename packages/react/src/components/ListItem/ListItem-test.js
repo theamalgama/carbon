@@ -8,7 +8,7 @@
 import React from 'react';
 import ListItem from '../ListItem';
 import { shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

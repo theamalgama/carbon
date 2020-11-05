@@ -9,7 +9,7 @@ import cx from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Close16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { match, keys } from '../../internal/keyboard';
 
 const { prefix } = settings;

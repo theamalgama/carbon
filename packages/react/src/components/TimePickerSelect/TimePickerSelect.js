@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import { ChevronDown16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import deprecate from '../../prop-types/deprecate';
 
 const { prefix } = settings;

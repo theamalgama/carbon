@@ -8,7 +8,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import setupGetInstanceId from '../../../tools/setupGetInstanceId';
 import Select from '../../Select';
 import SelectItem from '../../SelectItem';

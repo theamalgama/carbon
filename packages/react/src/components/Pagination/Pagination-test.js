@@ -11,7 +11,7 @@ import Pagination from '../Pagination';
 import Select from '../Select';
 import SelectItem from '../SelectItem';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

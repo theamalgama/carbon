@@ -8,7 +8,7 @@
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import {
   ArrowUp20 as Arrow,
   ArrowsVertical20 as Arrows,

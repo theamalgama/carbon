@@ -8,7 +8,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import {
   CheckmarkFilled16 as CheckmarkFilled,
   ChevronDown16,

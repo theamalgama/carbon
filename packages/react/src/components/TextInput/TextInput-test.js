@@ -8,7 +8,7 @@
 import React from 'react';
 import TextInput from '../TextInput';
 import { mount, shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import Button from '../Button';
 import ButtonSet from '../ButtonSet';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { Close20 } from '@carbon/icons-react';
 import toggleClass from '../../tools/toggleClass';
 import requiredIfGivenPropIsTruthy from '../../prop-types/requiredIfGivenPropIsTruthy';

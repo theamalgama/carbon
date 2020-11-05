@@ -8,7 +8,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import cx from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import SkeletonText from '../SkeletonText';
 
 const { prefix } = settings;

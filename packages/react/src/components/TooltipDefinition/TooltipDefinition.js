@@ -8,7 +8,7 @@
 import cx from 'classnames';
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import debounce from 'lodash.debounce';
 import setupGetInstanceId from '../../tools/setupGetInstanceId';
 import { composeEventHandlers } from '../../tools/events';

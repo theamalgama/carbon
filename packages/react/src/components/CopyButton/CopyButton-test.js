@@ -9,7 +9,7 @@ import React from 'react';
 import CopyButton from '../CopyButton';
 import { Copy16 } from '@carbon/icons-react';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 jest.useFakeTimers();

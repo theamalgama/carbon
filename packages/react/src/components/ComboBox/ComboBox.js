@@ -9,7 +9,7 @@ import cx from 'classnames';
 import Downshift from 'downshift';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { Checkmark16, WarningFilled16 } from '@carbon/icons-react';
 import ListBox, { PropTypes as ListBoxPropTypes } from '../ListBox';
 import { match, keys } from '../../internal/keyboard';

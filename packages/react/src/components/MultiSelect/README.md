@@ -31,7 +31,7 @@ yarn add carbon-components-react carbon-components carbon-icons
 You can use `MultiSelect` by doing the following in your project:
 
 ```js
-import { MultiSelect } from 'carbon-components-react';
+import { MultiSelect } from '@theamalgama/carbon-components-react';
 ```
 
 You can then create the `MultiSelect` by the following:

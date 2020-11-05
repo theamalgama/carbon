@@ -8,7 +8,7 @@
 import React from 'react';
 import SkeletonText from '../SkeletonText';
 import { shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

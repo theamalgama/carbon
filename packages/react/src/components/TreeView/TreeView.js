@@ -8,7 +8,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { keys, match, matches } from '../../internal/keyboard';
 import uniqueId from '../../tools/uniqueId';
 

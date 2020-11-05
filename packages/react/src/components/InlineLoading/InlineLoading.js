@@ -9,7 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { CheckmarkFilled16, ErrorFilled16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import deprecate from '../../prop-types/deprecate';
 import Loading from '../Loading';
 

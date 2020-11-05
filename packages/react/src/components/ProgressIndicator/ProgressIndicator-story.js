@@ -11,7 +11,7 @@ import { action } from '@storybook/addon-actions';
 import { ProgressIndicator, ProgressStep } from '../ProgressIndicator';
 import ProgressIndicatorSkeleton from '../ProgressIndicator/ProgressIndicator.Skeleton';
 import Tooltip from '../Tooltip';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

@@ -166,7 +166,7 @@ This setting is used in JavaScript files to make sure that components use the
 correct prefix for class names. For example:
 
 ```jsx
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import React from 'react';
 
 const { prefix } = settings;
@@ -181,7 +181,7 @@ mutate this value before including any references to other packages (like
 `carbon-components-react`) in order to change `prefix` across
 
 ```js
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 // Set custom prefix, should match what is set in Sass
 settings.prefix = 'cds';
 ```

@@ -15,7 +15,7 @@ import {
   TileBelowTheFoldContent,
 } from '../Tile';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import PropTypes from 'prop-types';
 
 const { prefix } = settings;

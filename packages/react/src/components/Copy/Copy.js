@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import React, { useState, useEffect, useCallback } from 'react';
 import debounce from 'lodash.debounce';
 import classnames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { composeEventHandlers } from '../../tools/events';
 
 const { prefix } = settings;

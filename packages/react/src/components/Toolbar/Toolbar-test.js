@@ -15,7 +15,7 @@ import Toolbar, {
 import OverflowMenu from '../OverflowMenu';
 import ToolbarSearch from '../ToolbarSearch';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

@@ -11,7 +11,7 @@ import Select from '../Select';
 import SelectItem from '../SelectItem';
 import SelectSkeleton from '../Select/Select.Skeleton';
 import { mount, shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 describe('Select', () => {

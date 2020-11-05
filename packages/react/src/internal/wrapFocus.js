@@ -6,7 +6,7 @@
  */
 
 import findLast from 'lodash.findlast';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import {
   DOCUMENT_POSITION_BROAD_PRECEDING,
   DOCUMENT_POSITION_BROAD_FOLLOWING,

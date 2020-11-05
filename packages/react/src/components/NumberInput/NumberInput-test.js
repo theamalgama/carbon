@@ -10,7 +10,7 @@ import { mount, shallow } from 'enzyme';
 import { CaretDownGlyph, CaretUpGlyph } from '@carbon/icons-react';
 import NumberInput from '../NumberInput';
 import NumberInputSkeleton from '../NumberInput/NumberInput.Skeleton';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 describe('NumberInput', () => {

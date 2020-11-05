@@ -8,7 +8,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { ButtonKinds } from '../../prop-types/types';
 import deprecate from '../../prop-types/deprecate';
 

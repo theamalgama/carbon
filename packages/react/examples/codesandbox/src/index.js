@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Button } from 'carbon-components-react';
+import { Button } from '@theamalgama/carbon-components-react';
 
 const App = () => (
   <div>

@@ -10,7 +10,7 @@ import React, { useState, useRef } from 'react';
 import classNames from 'classnames';
 import useResizeObserver from 'use-resize-observer/polyfilled';
 import { ChevronDown16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import Copy from '../Copy';
 import Button from '../Button';
 import CopyButton from '../CopyButton';

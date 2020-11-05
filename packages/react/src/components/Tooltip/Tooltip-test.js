@@ -15,7 +15,7 @@ import {
   Add16 as Add,
   OverflowMenuVertical16,
 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

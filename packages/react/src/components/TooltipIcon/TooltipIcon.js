@@ -8,7 +8,7 @@
 import cx from 'classnames';
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import setupGetInstanceId from '../../tools/setupGetInstanceId';
 import { composeEventHandlers } from '../../tools/events';
 import { keys, matches } from '../../internal/keyboard';

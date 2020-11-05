@@ -971,7 +971,7 @@ Update the `index.css` import to `index.scss` in `index.js`. At the top of
 `App.js`, import the `Button` component by adding the following:
 
 ```js
-import { Button } from 'carbon-components-react';
+import { Button } from '@theamalgama/carbon-components-react';
 ```
 
 In the `App` component return, add the `Button` and then run `yarn start` and

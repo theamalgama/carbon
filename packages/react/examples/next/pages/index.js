@@ -1,7 +1,7 @@
 import 'carbon-components/scss/globals/scss/styles.scss';
 
 import React, { Component } from 'react';
-import { Accordion, AccordionItem } from 'carbon-components-react';
+import { Accordion, AccordionItem } from '@theamalgama/carbon-components-react';
 
 import '../styles/App.scss';
 

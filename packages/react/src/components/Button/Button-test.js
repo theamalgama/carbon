@@ -11,7 +11,7 @@ import Button from '../Button';
 import Link from '../Link';
 import ButtonSkeleton from '../Button/Button.Skeleton';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

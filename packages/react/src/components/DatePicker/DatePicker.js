@@ -10,7 +10,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import flatpickr from 'flatpickr';
 import l10n from 'flatpickr/dist/l10n/index';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import DatePickerInput from '../DatePickerInput';
 import carbonFlatpickrAppendToPlugin from './plugins/appendToPlugin';
 import carbonFlatpickrFixEventsPlugin from './plugins/fixEventsPlugin';

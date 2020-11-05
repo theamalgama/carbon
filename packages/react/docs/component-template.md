@@ -37,7 +37,7 @@ yarn add carbon-components-react carbon-components carbon-icons
 You can use `ComponentName` by doing the following in your project:
 
 ```jsx
-import { ComponentName } from 'carbon-components-react';
+import { ComponentName } from '@theamalgama/carbon-components-react';
 // Provide high-level example
 ```
 

@@ -9,7 +9,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { CaretDown16 } from '@carbon/icons-react';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { keys, match, matches } from '../../internal/keyboard';
 import uniqueId from '../../tools/uniqueId';
 

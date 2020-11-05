@@ -10,7 +10,7 @@ import { Search16, Close16 } from '@carbon/icons-react';
 import Search from '../Search';
 import SearchSkeleton from '../Search/Search.Skeleton';
 import { mount, shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

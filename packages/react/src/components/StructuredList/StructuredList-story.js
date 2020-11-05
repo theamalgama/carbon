@@ -16,7 +16,7 @@ import {
   StructuredListCell,
 } from '../StructuredList';
 import StructuredListSkeleton from '../StructuredList/StructuredList.Skeleton';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

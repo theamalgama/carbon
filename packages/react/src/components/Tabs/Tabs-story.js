@@ -14,7 +14,7 @@ import {
   select,
   text,
 } from '@storybook/addon-knobs';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import classNames from 'classnames';
 import './Tabs-story.scss';
 import CodeSnippet from '../CodeSnippet';

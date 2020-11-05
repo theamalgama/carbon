@@ -11,7 +11,7 @@ import React from 'react';
 import { Simulate } from 'react-dom/test-utils';
 import AccordionItem from '../AccordionItem';
 import { mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import React, { useRef } from 'react';
 import uid from '../../tools/uniqueId';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { CheckmarkFilled16 as CheckmarkFilled } from '@carbon/icons-react';
 import { keys, matches } from '../../internal/keyboard';
 import deprecate from '../../prop-types/deprecate';

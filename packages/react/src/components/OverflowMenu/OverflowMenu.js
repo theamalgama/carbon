@@ -9,7 +9,7 @@ import invariant from 'invariant';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import ClickListener from '../../internal/ClickListener';
 import FloatingMenu, {
   DIRECTION_TOP,

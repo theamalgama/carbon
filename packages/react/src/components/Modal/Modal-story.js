@@ -11,7 +11,7 @@ import { action } from '@storybook/addon-actions';
 import { withKnobs, boolean, select, text } from '@storybook/addon-knobs';
 import Modal from '../Modal';
 import TextInput from '../TextInput';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import mdx from './Modal.mdx';
 
 const { prefix } = settings;

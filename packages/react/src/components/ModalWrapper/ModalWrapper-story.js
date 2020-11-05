@@ -11,7 +11,7 @@ import { AddFilled16, Search16 } from '@carbon/icons-react';
 import { action } from '@storybook/addon-actions';
 
 import { withKnobs, boolean, text, select } from '@storybook/addon-knobs';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import ModalWrapper from '../ModalWrapper';
 import TextInput from '../TextInput';
 import Select from '../Select';

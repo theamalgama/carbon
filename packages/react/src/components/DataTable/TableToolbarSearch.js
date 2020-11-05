@@ -8,7 +8,7 @@
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import React, { useMemo, useRef, useState, useEffect } from 'react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import Search from '../Search';
 import setupGetInstanceId from './tools/instanceId';
 import deprecate from '../../prop-types/deprecate';

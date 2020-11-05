@@ -14,7 +14,7 @@ import ComposedModal, {
   ModalFooter,
 } from '../ComposedModal';
 import Button from '../Button';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

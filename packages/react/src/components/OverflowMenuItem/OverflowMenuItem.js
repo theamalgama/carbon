@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
 import warning from 'warning';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { match, keys } from '../../internal/keyboard';
 import deprecate from '../../prop-types/deprecate.js';
 

@@ -8,7 +8,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { HeaderMenu, HeaderMenuItem } from '../';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

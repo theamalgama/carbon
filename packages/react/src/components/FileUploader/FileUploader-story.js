@@ -17,7 +17,7 @@ import {
   select,
   text,
 } from '@storybook/addon-knobs';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import FileUploader, { FileUploaderButton } from '../FileUploader';
 import FileUploaderSkeleton from '../FileUploader/FileUploader.Skeleton';
 import FileUploaderItem from './FileUploaderItem';

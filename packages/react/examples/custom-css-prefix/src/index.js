@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { hot } from 'react-hot-loader';
-import { Button } from 'carbon-components-react';
+import { Button } from '@theamalgama/carbon-components-react';
 import './styles.scss';
 
 const App = () => (

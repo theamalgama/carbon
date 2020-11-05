@@ -1,7 +1,7 @@
 {
   "name": "@theamalgama/carbon-components-react",
   "description": "The Carbon Design System is IBM’s open-source design system for products and experiences.",
-  "version": "10.19.10",
+  "version": "10.19.11",
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -33,8 +33,8 @@
     "snapshot": "build-storybook && percy-storybook --widths=320,1280"
   },
   "peerDependencies": {
-    "@theamalgama/carbon-components": "^10.19.9",
-    "@theamalgama/carbon-icons": "^7.0.7",
+    "@theamalgama/carbon-components": "^10.19.11",
+    "carbon-icons": "^7.0.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

@@ -8,7 +8,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { WarningFilled16 } from '@carbon/icons-react';
 
 const { prefix } = settings;

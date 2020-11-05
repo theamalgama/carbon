@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { View16, ViewOff16, WarningFilled16 } from '@carbon/icons-react';
 import { textInputProps } from './util';
 

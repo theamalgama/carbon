@@ -182,7 +182,7 @@ ExampleComponent.propTypes = {
 semver bump: **major**
 
 ```diff
-import { SomeComponent } from 'carbon-components-react';
+import { SomeComponent } from '@theamalgama/carbon-components-react';
 
 function ExampleComponent() {
   function onChange(arg) {
@@ -200,7 +200,7 @@ function ExampleComponent() {
 semver bump: **minor**
 
 ```diff
-import { SomeComponent } from 'carbon-components-react';
+import { SomeComponent } from '@theamalgama/carbon-components-react';
 
 function ExampleComponent() {
 -  function onChange(a, b) {
@@ -217,7 +217,7 @@ function ExampleComponent() {
 semver bump: **major**
 
 ```diff
-import { SomeComponent } from 'carbon-components-react';
+import { SomeComponent } from '@theamalgama/carbon-components-react';
 
 function ExampleComponent() {
 -  function onChange(a, b, c) {

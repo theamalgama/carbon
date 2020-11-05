@@ -1,7 +1,7 @@
 import React from 'react';
 import PasswordInput from './PasswordInput';
 import { mount, shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

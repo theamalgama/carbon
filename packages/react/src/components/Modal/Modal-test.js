@@ -11,7 +11,7 @@ import Modal from '../Modal';
 import ModalWrapper from '../ModalWrapper';
 import InlineLoading from '../InlineLoading';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

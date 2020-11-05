@@ -8,7 +8,7 @@
 import PropTypes from 'prop-types';
 import React, { useContext } from 'react';
 import classNames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { WarningFilled16, WarningAltFilled16 } from '@carbon/icons-react';
 import PasswordInput from './PasswordInput';
 import ControlledPasswordInput from './ControlledPasswordInput';

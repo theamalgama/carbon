@@ -6,7 +6,7 @@
  */
 
 import React, { useState } from 'react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { withKnobs, select, text, number } from '@storybook/addon-knobs';
 import Tooltip from '../Tooltip';
 import Button from '../Button';

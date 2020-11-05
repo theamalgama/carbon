@@ -8,7 +8,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import warning from 'warning';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { ListBulleted16, Grid16 } from '@carbon/icons-react';
 
 const { prefix } = settings;

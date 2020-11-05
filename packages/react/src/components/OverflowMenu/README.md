@@ -35,7 +35,7 @@ You can include `OverflowMenu` and `OverflowMenuItem` by doing the following in
 your project:
 
 ```js
-import { OverflowMenu, OverflowMenuItem } from 'carbon-components-react';
+import { OverflowMenu, OverflowMenuItem } from '@theamalgama/carbon-components-react';
 ```
 
 You can then create the menu by the following:

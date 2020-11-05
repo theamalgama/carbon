@@ -6,7 +6,7 @@
  */
 
 import { ChevronRight16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';

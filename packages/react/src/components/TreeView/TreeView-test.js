@@ -8,7 +8,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { Document16, Folder16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import TreeView, { TreeNode } from './';
 
 const { prefix } = settings;

@@ -8,7 +8,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import classnames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { Copy16 } from '@carbon/icons-react';
 import Copy from '../Copy';
 

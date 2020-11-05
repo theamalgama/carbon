@@ -9,7 +9,7 @@ import React from 'react';
 import { ListBulleted16, Grid16 } from '@carbon/icons-react';
 import SearchLayoutButton from '../SearchLayoutButton';
 import { shallow, mount } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

@@ -6,7 +6,7 @@
  */
 
 import wrapComponent from '../../tools/wrapComponent';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
 

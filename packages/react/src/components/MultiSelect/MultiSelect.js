@@ -6,7 +6,7 @@
  */
 
 import { WarningFilled16 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import cx from 'classnames';
 import Downshift, { useSelect } from 'downshift';
 import isEqual from 'lodash.isequal';

@@ -13,7 +13,7 @@ import {
   CaretLeft16,
   OverflowMenuHorizontal16,
 } from '@carbon/icons-react';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import Button from '../Button';
 
 const { prefix } = settings;

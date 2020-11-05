@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { useSelect } from 'downshift';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import { Checkmark16, WarningFilled16 } from '@carbon/icons-react';

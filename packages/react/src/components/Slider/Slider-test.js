@@ -11,7 +11,7 @@ import SliderSkeleton from '../Slider/Slider.Skeleton';
 import { mount, shallow } from 'enzyme';
 import 'requestanimationframe';
 import throttle from 'lodash.throttle';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 
 jest.mock('lodash.throttle');
 

@@ -9,7 +9,7 @@ import React from 'react';
 import Tag from '../Tag';
 import TagSkeleton from '../Tag/Tag.Skeleton';
 import { shallow } from 'enzyme';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { render, cleanup } from '@carbon/test-utils/react';
 
 const { prefix } = settings;

@@ -8,7 +8,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { settings } from 'carbon-components';
+import { settings } from '@theamalgama/carbon-components';
 import { CaretRight16, CaretLeft16 } from '@carbon/icons-react';
 import Button from '../../Button';
 import Select from '../../Select';
