@@ -13,5 +13,10 @@
     "**/e2e/**",
     "**/examples/**",
     "**/*.md"
-  ]
+  ],
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com/theamalgama"
+    }
+  }
 }
