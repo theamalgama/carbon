@@ -58,9 +58,9 @@ const TableHeader = React.forwardRef(function TableHeader(
     scope,
     sortDirection,
     translateWithId: t,
-    renderIconAsc,
-    renderIconDesc,
-    renderIconNone,
+    renderIconAsc: AscSortingIcon,
+    renderIconDesc : DescSortingIcon,
+    renderIconNone: NoSortingIcon,
     ...rest
   },
   ref
@@ -99,16 +99,16 @@ const TableHeader = React.forwardRef(function TableHeader(
       <button type="button" className={className} onClick={onClick} {...rest}>
         <span className={`${prefix}--table-sort__flex`}>
           <div className={`${prefix}--table-header-label`}>{children}</div>
-          {(renderIconAsc && sortDirection === sortStates.ASC) &&
-          <renderIconAsc className={`${prefix}--table-sort__icon`} />
+          {(AscSortingIcon && sortDirection === sortStates.ASC) &&
+          <AscSortingIcon className={`${prefix}--table-sort__icon`} />
           }
-          {(renderIconDesc && sortDirection === sortStates.DESC) &&
-          <renderIconDesc className={`${prefix}--table-sort__icon`} />
+          {(DescSortingIcon && sortDirection === sortStates.DESC) &&
+          <DescSortingIcon className={`${prefix}--table-sort__icon`} />
           }
-          {(renderIconAsc && sortDirection === sortStates.NONE) &&
-          <renderIconNone className={`${prefix}--table-sort__icon`} />
+          {(NoSortingIcon && sortDirection === sortStates.NONE) &&
+          <NoSortingIcon className={`${prefix}--table-sort__icon`} />
           }
-          {(!renderIconAsc && !renderIconDesc) && 
+          {(!AscSortingIcon && !DescSortingIcon) && 
           <Arrow
             className={`${prefix}--table-sort__icon`}
             aria-label={t('carbon.table.header.icon.description', {
@@ -118,7 +118,7 @@ const TableHeader = React.forwardRef(function TableHeader(
               sortStates,
             })}
           />}
-          {!renderIconNone &&
+          {!NoSortingIcon &&
             <Arrows
             className={`${prefix}--table-sort__icon-unsorted`}
             aria-label={t('carbon.table.header.icon.description', {
