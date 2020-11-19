@@ -58,6 +58,9 @@ const TableHeader = React.forwardRef(function TableHeader(
     scope,
     sortDirection,
     translateWithId: t,
+    renderIconAsc,
+    renderIconDesc,
+    renderIconNone,
     ...rest
   },
   ref
@@ -96,6 +99,16 @@ const TableHeader = React.forwardRef(function TableHeader(
       <button type="button" className={className} onClick={onClick} {...rest}>
         <span className={`${prefix}--table-sort__flex`}>
           <div className={`${prefix}--table-header-label`}>{children}</div>
+          {(renderIconAsc && sortDirection === sortStates.ASC) &&
+          <renderIconAsc className={`${prefix}--table-sort__icon`} />
+          }
+          {(renderIconDesc && sortDirection === sortStates.DESC) &&
+          <renderIconDesc className={`${prefix}--table-sort__icon`} />
+          }
+          {(renderIconAsc && sortDirection === sortStates.NONE) &&
+          <renderIconNone className={`${prefix}--table-sort__icon`} />
+          }
+          {(!renderIconAsc && !renderIconDesc) && 
           <Arrow
             className={`${prefix}--table-sort__icon`}
             aria-label={t('carbon.table.header.icon.description', {
@@ -104,8 +117,9 @@ const TableHeader = React.forwardRef(function TableHeader(
               isSortHeader,
               sortStates,
             })}
-          />
-          <Arrows
+          />}
+          {!renderIconNone &&
+            <Arrows
             className={`${prefix}--table-sort__icon-unsorted`}
             aria-label={t('carbon.table.header.icon.description', {
               header: children,
@@ -114,6 +128,7 @@ const TableHeader = React.forwardRef(function TableHeader(
               sortStates,
             })}
           />
+          }
         </span>
       </button>
     </th>
@@ -153,6 +168,21 @@ TableHeader.propTypes = {
    */
   onClick: PropTypes.func,
 
+  /**
+    * Optional function to render your own ascending icon in the underlying button
+    */
+  renderIconAsc: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+
+  /**
+    * Optional function to render your own descending icon in the underlying button
+    */
+  renderIconDesc: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+
+  /**
+    * Optional function to render your own no sorting icon in the underlying button
+    */
+  renderIconNone: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+  
   /**
    * Specify the scope of this table header. You can find more info about this
    * attribute at the following URL:
