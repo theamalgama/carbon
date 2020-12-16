@@ -315,6 +315,7 @@ class OverflowMenu extends Component {
   handleClickOutside = (evt) => {
     if (
       this.state.open &&
+      !(evt.target.classList.includes('bx--list-box__menu-item__option')) &&
       (!this._menuBody || !this._menuBody.contains(evt.target))
     ) {
       this.closeMenu();
