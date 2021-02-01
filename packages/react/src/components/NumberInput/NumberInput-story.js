@@ -17,7 +17,9 @@ import {
   select,
 } from '@storybook/addon-knobs';
 import NumberInput from '../NumberInput';
+import { NumberInput as OGNumberInput } from './NumberInput';
 import NumberInputSkeleton from '../NumberInput/NumberInput.Skeleton';
+import mdx from './NumberInput.mdx';
 
 const sizes = {
   'Extra large size (xl)': 'xl',
@@ -43,6 +45,11 @@ const props = () => ({
     'Form validation UI content (invalidText)',
     'Number is not valid'
   ),
+  warn: boolean('Show warning state (warn)', false),
+  warnText: text(
+    'Warning state text (warnText)',
+    'A high threshold may impact performance'
+  ),
   helperText: text('Helper text (helperText)', 'Optional helper text.'),
   light: boolean('Light variant (light)', false),
   onChange: action('onChange'),
@@ -59,10 +66,13 @@ const props = () => ({
 
 export default {
   title: 'NumberInput',
+  component: OGNumberInput,
   decorators: [withKnobs],
 
   parameters: {
-    component: NumberInput,
+    docs: {
+      page: mdx,
+    },
 
     subcomponents: {
       NumberInputSkeleton,
@@ -78,15 +88,6 @@ export const Default = () => {
       {...rest}
     />
   );
-};
-
-Default.parameters = {
-  info: {
-    text: `
-        Number inputs are similar to text fields, but contain controls used to increase or decrease an incremental value.
-        The Number Input component can be passed a starting value, a min, a max, and the step.
-      `,
-  },
 };
 
 export const Skeleton = () => (

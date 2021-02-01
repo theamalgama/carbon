@@ -70,6 +70,12 @@
 
     padding: 0 rem(48px) 0 rem(16px);
     text-align: left;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      border: 1px solid transparent;
+    }
   }
 
   .#{$prefix}--dropdown--xl {
@@ -343,7 +349,6 @@
 
   .#{$prefix}--dropdown--disabled {
     border-bottom-color: transparent;
-    cursor: not-allowed;
 
     &:hover {
       background-color: $field-01;
@@ -368,6 +373,11 @@
     &.#{$prefix}--dropdown--light:hover {
       background-color: $field-02;
     }
+  }
+
+  .#{$prefix}--dropdown--disabled .#{$prefix}--list-box__field,
+  .#{$prefix}--dropdown--disabled .#{$prefix}--list-box__menu-icon {
+    cursor: not-allowed;
   }
 
   .#{$prefix}--dropdown--auto-width {

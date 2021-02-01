@@ -60,11 +60,17 @@ const props = () => ({
   disabled: boolean('Disabled (disabled)', false),
   light: boolean('Light variant (light)', false),
   titleText: text('Title (titleText)', 'Dropdown label'),
+  hideLabel: boolean('No title text shown (hideLabel)', false),
   helperText: text('Helper text (helperText)', 'This is some helper text.'),
   invalid: boolean('Show form validation UI (invalid)', false),
   invalidText: text(
     'Form validation UI content (invalidText)',
     'A valid value is required'
+  ),
+  warn: boolean('Show warning state (warn)', false),
+  warnText: text(
+    'Warning state text (warnText)',
+    'This mode may perform worse on older machines'
   ),
 });
 
@@ -85,7 +91,7 @@ export default {
 };
 
 export const Default = () => (
-  <div style={{ width: 300 }}>
+  <div style={{ width: 400 }}>
     <Dropdown
       id="default"
       titleText="Dropdown label"

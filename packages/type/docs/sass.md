@@ -819,7 +819,13 @@ Include default type styles
   }
 
   a {
-    color: #0062ff;
+    @if global-variable-exists('carbon--theme') and
+      map-has-key($carbon--theme, 'link-01')
+    {
+      color: map-get($carbon--theme, 'link-01');
+    } @else {
+      color: #0062fe;
+    }
   }
 
   em {
@@ -2654,6 +2660,7 @@ $expressive-heading-03: (
     ),
     max: (
       font-size: carbon--type-scale(6),
+      line-height: 1.334,
     ),
   ),
 );
@@ -2774,7 +2781,7 @@ $expressive-heading-06: (
 $expressive-paragraph-01: (
   font-size: carbon--type-scale(6),
   font-weight: carbon--font-weight('light'),
-  line-height: 1.25,
+  line-height: 1.334,
   letter-spacing: 0,
   breakpoints: (
     lg: (
@@ -2811,7 +2818,7 @@ $quotation-01: (
     ),
     lg: (
       font-size: carbon--type-scale(6),
-      line-height: 1.25,
+      line-height: 1.334,
     ),
     xlg: (
       font-size: carbon--type-scale(7),

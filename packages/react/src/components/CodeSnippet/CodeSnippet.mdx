@@ -3,10 +3,13 @@ import { withKnobs, boolean, select, text } from '@storybook/addon-knobs';
 import * as stories from './CodeSnippet-story.js';
 import CodeSnippet from '../CodeSnippet';
 
-<!-- How do I get <Props> to work?
- -->
-
 # CodeSnippet
+
+[Source code](https://github.com/carbon-design-system/carbon/tree/master/packages/react/src/components/CodeSnippet)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/code-snippet/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/code-snippet/accessibility)
 
 ## Table of Contents
 
@@ -52,7 +55,8 @@ name or similar small piece of code from it's surrounding text.
 
 Multiple line code snippets are used for displaying code with more than one
 line. They're shown in a block and useful for showing classes, functions, blocks
-of styles and the like.
+of styles and the like. There is an option to wrap the lines displayed if the lines 
+are longer than the container.
 
 <Preview>
   <Story id="codesnippet--multiline" />
@@ -70,9 +74,10 @@ invocations, expressions etc.
 
 ## Component API
 
-<Props sort="asc" />
+<Props />
 
 ## Feedback
 
-Help us improve these docs by
-[editing this file on GitHub](https://github.com/carbon-design-system/carbon/edit/master/packages/react/src/components/CodeSnippet/CodeSnippet.stories.mdx)
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
+[GitHub](https://github.com/carbon-design-system/carbon/edit/master/packages/react/src/components/CodeSnippet/CodeSnippet.stories.mdx)

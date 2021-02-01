@@ -3,6 +3,12 @@ import { Accordion, AccordionItem, AccordionSkeleton } from '../Accordion';
 
 # Accordion
 
+[Source code](https://github.com/carbon-design-system/carbon/tree/master/packages/react/src/components/Accordion)
+&nbsp;|&nbsp;
+[Usage guidelines](https://www.carbondesignsystem.com/components/accordion/usage)
+&nbsp;|&nbsp;
+[Accessibility](https://www.carbondesignsystem.com/components/accordion/accessibility)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -88,7 +94,9 @@ through to the underlying accordion header.
 
 The `className` prop passed into `AccordionItem` will be forwarded along to the
 underlying accordion header. This is useful for specifying a custom class name
-for layout.
+for layout. As a reminder, the callback signature will look like
+`({ isOpen: boolean, event: Event })` rather than the usual
+`(event: Event, state: { isOpen: boolean })` until the next major version.
 
 ```jsx
 <Accordion>
@@ -97,6 +105,19 @@ for layout.
   </AccordionItem>
   <AccordionItem title="Panel B">Panel B</AccordionItem>
   <AccordionItem title="Panel C">Panel C</AccordionItem>
+</Accordion>
+```
+
+### AccordionItem onHeadingClick
+
+You can use the `onHeadingClick` prop to determine the state of the
+`AccordionItem` when it is clicked. it will return
+
+```jsx
+<Accordion>
+  <AccordionItem onHeadingClick={({ isOpen }) => console.log(isOpen)}>
+    Panel A
+  </AccordionItem>
 </Accordion>
 ```
 
@@ -149,6 +170,6 @@ or screen reader.
 
 ## Feedback
 
-Help us improve this component by providing feedback, asking questions, and
-leaving any other comments on
+Help us improve this component by providing feedback, asking questions on Slack,
+or updating this file on
 [GitHub](https://github.com/carbon-design-system/carbon/edit/master/packages/react/src/components/Accordion/Accordion.mdx).

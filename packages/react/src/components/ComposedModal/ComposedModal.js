@@ -34,6 +34,11 @@ export default class ComposedModal extends Component {
 
   static propTypes = {
     /**
+     * Specify the aria-label for bx--modal-container
+     */
+    ['aria-label']: PropTypes.string,
+
+    /**
      * Specify the content to be placed in the ComposedModal
      */
     children: PropTypes.node,
@@ -70,6 +75,8 @@ export default class ComposedModal extends Component {
      * Specify whether the Modal is currently open
      */
     open: PropTypes.bool,
+
+    preventCloseOnClickOutside: PropTypes.bool,
 
     /**
      * Specify a CSS selector that matches the DOM element that should be
@@ -109,6 +116,12 @@ export default class ComposedModal extends Component {
 
   handleClick = (evt) => {
     if (
+      !this.innerModal.current.contains(evt.target) &&
+      this.props.preventCloseOnClickOutside
+    ) {
+      return;
+    }
+    if (
       this.innerModal.current &&
       !this.innerModal.current.contains(evt.target)
     ) {
@@ -142,11 +155,14 @@ export default class ComposedModal extends Component {
     } else if (prevState.open && !this.state.open) {
       this.beingOpen = false;
     }
-    toggleClass(
-      document.body,
-      `${prefix}--body--with-modal-open`,
-      this.state.open
-    );
+
+    if (prevState.open !== this.state.open) {
+      toggleClass(
+        document.body,
+        `${prefix}--body--with-modal-open`,
+        this.state.open
+      );
+    }
   }
 
   focusButton = (focusContainerElement) => {
@@ -205,10 +221,12 @@ export default class ComposedModal extends Component {
   render() {
     const { open } = this.state;
     const {
+      ['aria-label']: ariaLabel,
       className,
       containerClassName,
       children,
       danger,
+      preventCloseOnClickOutside, // eslint-disable-line
       selectorPrimaryFocus, // eslint-disable-line
       size,
       ...other
@@ -227,9 +245,12 @@ export default class ComposedModal extends Component {
       [containerClassName]: containerClassName,
     });
 
+    // Generate aria-label based on Modal Header label if one is not provided (L253)
+    let generatedAriaLabel;
     const childrenWithProps = React.Children.toArray(children).map((child) => {
       switch (child.type) {
         case React.createElement(ModalHeader).type:
+          generatedAriaLabel = child.props.label;
           return React.cloneElement(child, {
             closeModal: this.closeModal,
           });
@@ -261,7 +282,12 @@ export default class ComposedModal extends Component {
           className={`${prefix}--visually-hidden`}>
           Focus sentinel
         </span>
-        <div ref={this.innerModal} className={containerClass} role="dialog">
+        <div
+          ref={this.innerModal}
+          className={containerClass}
+          role="dialog"
+          aria-modal="true"
+          aria-label={ariaLabel ? ariaLabel : generatedAriaLabel}>
           {childrenWithProps}
         </div>
         {/* Non-translatable: Focus-wrap code makes this `<span>` not actually read by screen readers */}
@@ -360,6 +386,7 @@ export class ModalHeader extends Component {
       iconDescription,
       closeModal, // eslint-disable-line
       buttonOnClick, // eslint-disable-line
+      preventCloseOnClickOutside, // eslint-disable-line
       ...other
     } = this.props;
 
@@ -390,9 +417,9 @@ export class ModalHeader extends Component {
 
     return (
       <div className={headerClass} {...other}>
-        {label && <p className={labelClass}>{label}</p>}
+        {label && <h2 className={labelClass}>{label}</h2>}
 
-        {title && <p className={titleClass}>{title}</p>}
+        {title && <h3 className={titleClass}>{title}</h3>}
 
         {children}
 
@@ -410,7 +437,14 @@ export class ModalHeader extends Component {
 }
 
 export function ModalBody(props) {
-  const { className, children, hasForm, hasScrollingContent, ...other } = props;
+  const {
+    className,
+    children,
+    hasForm,
+    hasScrollingContent,
+    preventCloseOnClickOutside, // eslint-disable-line
+    ...other
+  } = props;
   const contentClass = classNames({
     [`${prefix}--modal-content`]: true,
     [`${prefix}--modal-content--with-form`]: hasForm,

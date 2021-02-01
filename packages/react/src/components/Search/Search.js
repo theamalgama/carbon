@@ -10,6 +10,8 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import { Search16, Close16 } from '@carbon/icons-react';
 import { settings } from '@theamalgama/carbon-components';
+import { composeEventHandlers } from '../../tools/events';
+import { keys, match } from '../../internal/keyboard';
 import deprecate from '../../prop-types/deprecate';
 
 const { prefix } = settings;
@@ -32,6 +34,11 @@ export default class Search extends Component {
     defaultValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 
     /**
+     * Specify whether the `<input>` should be disabled
+     */
+    disabled: PropTypes.bool,
+
+    /**
      * Specify a custom `id` for the input
      */
     id: PropTypes.string,
@@ -50,6 +57,11 @@ export default class Search extends Component {
      * Optional callback called when the search value changes.
      */
     onChange: PropTypes.func,
+
+    /**
+     * Provide a handler that is invoked on the key down event for the input
+     */
+    onKeyDown: PropTypes.func,
 
     /**
      * Provide an optional placeholder text for the Search.
@@ -132,8 +144,12 @@ export default class Search extends Component {
     this.setState({
       hasContent: evt.target.value !== '',
     });
+  };
 
-    this.props.onChange(evt);
+  handleKeyDown = (evt) => {
+    if (match(evt, keys.Escape)) {
+      this.clearInput(evt);
+    }
   };
 
   render() {
@@ -150,6 +166,9 @@ export default class Search extends Component {
       size = !small ? 'xl' : 'sm',
       light,
       renderIcon: SearchIconElement,
+      disabled,
+      onChange,
+      onKeyDown,
       ...other
     } = this.props;
 
@@ -159,6 +178,7 @@ export default class Search extends Component {
       [`${prefix}--search`]: true,
       [`${prefix}--search--${size}`]: size,
       [`${prefix}--search--light`]: light,
+      [`${prefix}--search--disabled`]: disabled,
       [className]: className,
     });
 
@@ -171,12 +191,11 @@ export default class Search extends Component {
 
     return (
       <div role="search" aria-labelledby={searchId} className={searchClasses}>
-        {!SearchIconElement 
-          ?
+        {!SearchIconElement ? (
           <Search16 className={`${prefix}--search-magnifier`} />
-          :
+        ) : (
           <SearchIconElement className={`${prefix}--search-magnifier`} />
-        }
+        )}
         <label id={searchId} htmlFor={id} className={`${prefix}--label`}>
           {labelText}
         </label>
@@ -185,16 +204,19 @@ export default class Search extends Component {
           autoComplete="off"
           {...other}
           type={type}
+          disabled={disabled}
           className={`${prefix}--search-input`}
           id={id}
           placeholder={placeHolderText}
-          onChange={this.handleChange}
+          onChange={composeEventHandlers([onChange, this.handleChange])}
+          onKeyDown={composeEventHandlers([onKeyDown, this.handleKeyDown])}
           ref={(input) => {
             this.input = input;
           }}
         />
         <button
           className={clearClasses}
+          disabled={disabled}
           onClick={this.clearInput}
           type="button"
           aria-label={closeButtonLabelText}>

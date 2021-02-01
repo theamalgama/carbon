@@ -220,13 +220,15 @@ export default class DataTable extends React.Component {
       // Compose the event handlers so we don't overwrite a consumer's `onClick`
       // handler
       onClick: (evt) => {
-        const nextSorting = getNextSortState(this.props, this.state, { key: header.key });
+        const nextSorting = getNextSortState(this.props, this.state, {
+          key: header.key,
+        });
         this.setState(nextSorting, () => {
-          if ( onClick ) {
+          if (onClick) {
             this.handleOnHeaderClick(onClick, {
               sortHeaderKey: header.key,
               sortDirection: nextSorting.sortDirection,
-            })( evt );
+            })(evt);
           }
         });
       },
@@ -446,7 +448,7 @@ export default class DataTable extends React.Component {
           })
         : this.state.rowIds;
     if (filteredRowIds.length == 0) {
-      return this.state.rowIds;
+      return [];
     }
     return filteredRowIds;
   };

@@ -34,17 +34,30 @@
   - [✅exports [mixin]](#exports-mixin)
 - [@carbon/layout](#carbonlayout)
   - [✅carbon--grid-gutter [variable]](#carbon--grid-gutter-variable)
+  - [✅grid-gutter [variable]](#grid-gutter-variable)
   - [✅carbon--grid-gutter--condensed [variable]](#carbon--grid-gutter--condensed-variable)
+  - [✅grid-gutter--condensed [variable]](#grid-gutter--condensed-variable)
   - [✅carbon--grid-breakpoints [variable]](#carbon--grid-breakpoints-variable)
+  - [✅grid-breakpoints [variable]](#grid-breakpoints-variable)
   - [✅carbon--breakpoint-next [function]](#carbon--breakpoint-next-function)
+  - [✅breakpoint-next [function]](#breakpoint-next-function)
   - [✅carbon--breakpoint-prev [function]](#carbon--breakpoint-prev-function)
+  - [✅breakpoint-prev [function]](#breakpoint-prev-function)
   - [✅carbon--is-smallest-breakpoint [function]](#carbon--is-smallest-breakpoint-function)
+  - [✅is-smallest-breakpoint [function]](#is-smallest-breakpoint-function)
   - [✅carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
+  - [✅largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+  - [✅breakpoint-infix [function]](#breakpoint-infix-function)
   - [✅carbon--breakpoint-infix [function]](#carbon--breakpoint-infix-function)
+  - [✅breakpoint-up [mixin]](#breakpoint-up-mixin)
   - [✅carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+  - [✅breakpoint-down [mixin]](#breakpoint-down-mixin)
   - [✅carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
+  - [✅breakpoint-between [mixin]](#breakpoint-between-mixin)
   - [✅carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
+  - [✅largest-breakpoint [mixin]](#largest-breakpoint-mixin)
   - [✅carbon--largest-breakpoint [mixin]](#carbon--largest-breakpoint-mixin)
+  - [✅breakpoint [mixin]](#breakpoint-mixin)
   - [✅carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [✅carbon--container-01 [variable]](#carbon--container-01-variable)
   - [✅carbon--container-02 [variable]](#carbon--container-02-variable)
@@ -58,13 +71,21 @@
   - [✅container-04 [variable]](#container-04-variable)
   - [✅container-05 [variable]](#container-05-variable)
   - [✅carbon--base-font-size [variable]](#carbon--base-font-size-variable)
+  - [✅base-font-size [variable]](#base-font-size-variable)
   - [✅carbon--rem [function]](#carbon--rem-function)
+  - [✅rem [function]](#rem-function)
   - [✅carbon--em [function]](#carbon--em-function)
+  - [✅em [function]](#em-function)
   - [✅carbon--fluid-spacing-01 [variable]](#carbon--fluid-spacing-01-variable)
+  - [✅fluid-spacing-01 [variable]](#fluid-spacing-01-variable)
   - [✅carbon--fluid-spacing-02 [variable]](#carbon--fluid-spacing-02-variable)
+  - [✅fluid-spacing-02 [variable]](#fluid-spacing-02-variable)
   - [✅carbon--fluid-spacing-03 [variable]](#carbon--fluid-spacing-03-variable)
+  - [✅fluid-spacing-03 [variable]](#fluid-spacing-03-variable)
   - [✅carbon--fluid-spacing-04 [variable]](#carbon--fluid-spacing-04-variable)
+  - [✅fluid-spacing-04 [variable]](#fluid-spacing-04-variable)
   - [✅carbon--fluid-spacing [variable]](#carbon--fluid-spacing-variable)
+  - [✅fluid-spacing [variable]](#fluid-spacing-variable)
   - [✅fluid-spacing-01 [variable]](#fluid-spacing-01-variable)
   - [✅fluid-spacing-02 [variable]](#fluid-spacing-02-variable)
   - [✅fluid-spacing-03 [variable]](#fluid-spacing-03-variable)
@@ -95,18 +116,31 @@
   - [✅carbon--mini-unit-size [variable]](#carbon--mini-unit-size-variable)
   - [✅carbon--mini-units [function]](#carbon--mini-units-function)
   - [✅carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
+  - [✅spacing-01 [variable]](#spacing-01-variable)
   - [✅carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
+  - [✅spacing-02 [variable]](#spacing-02-variable)
   - [✅carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [✅spacing-03 [variable]](#spacing-03-variable)
   - [✅carbon--spacing-04 [variable]](#carbon--spacing-04-variable)
+  - [✅spacing-04 [variable]](#spacing-04-variable)
   - [✅carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
+  - [✅spacing-05 [variable]](#spacing-05-variable)
   - [✅carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
+  - [✅spacing-06 [variable]](#spacing-06-variable)
   - [✅carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
+  - [✅spacing-07 [variable]](#spacing-07-variable)
   - [✅carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
+  - [✅spacing-08 [variable]](#spacing-08-variable)
   - [✅carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
+  - [✅spacing-09 [variable]](#spacing-09-variable)
   - [✅carbon--spacing-10 [variable]](#carbon--spacing-10-variable)
+  - [✅spacing-10 [variable]](#spacing-10-variable)
   - [✅carbon--spacing-11 [variable]](#carbon--spacing-11-variable)
+  - [✅spacing-11 [variable]](#spacing-11-variable)
   - [✅carbon--spacing-12 [variable]](#carbon--spacing-12-variable)
+  - [✅spacing-12 [variable]](#spacing-12-variable)
   - [✅carbon--spacing [variable]](#carbon--spacing-variable)
+  - [✅spacing [variable]](#spacing-variable)
   - [✅spacing-01 [variable]](#spacing-01-variable)
   - [✅spacing-02 [variable]](#spacing-02-variable)
   - [✅spacing-03 [variable]](#spacing-03-variable)
@@ -120,7 +154,10 @@
   - [✅spacing-11 [variable]](#spacing-11-variable)
   - [✅spacing-12 [variable]](#spacing-12-variable)
   - [✅map-deep-get [function]](#map-deep-get-function)
+  - [✅map-deep-get [function]](#map-deep-get-function)
   - [✅carbon--key-by-index [function]](#carbon--key-by-index-function)
+  - [✅key-by-index [function]](#key-by-index-function)
+  - [✅last-map-item [function]](#last-map-item-function)
   - [✅last-map-item [function]](#last-map-item-function)
 - [@carbon/motion](#carbonmotion)
   - [✅carbon--easings [variable]](#carbon--easings-variable)
@@ -170,7 +207,8 @@
   - [✅inverse-support-03 [variable]](#inverse-support-03-variable)
   - [✅inverse-support-04 [variable]](#inverse-support-04-variable)
   - [✅overlay-01 [variable]](#overlay-01-variable)
-  - [✅danger [variable]](#danger-variable)
+  - [✅danger-01 [variable]](#danger-01-variable)
+  - [✅danger-02 [variable]](#danger-02-variable)
   - [✅focus [variable]](#focus-variable)
   - [✅inverse-focus-ui [variable]](#inverse-focus-ui-variable)
   - [✅hover-primary [variable]](#hover-primary-variable)
@@ -181,10 +219,12 @@
   - [✅hover-tertiary [variable]](#hover-tertiary-variable)
   - [✅active-tertiary [variable]](#active-tertiary-variable)
   - [✅hover-ui [variable]](#hover-ui-variable)
+  - [✅hover-light-ui [variable]](#hover-light-ui-variable)
+  - [✅hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [✅active-ui [variable]](#active-ui-variable)
+  - [✅active-light-ui [variable]](#active-light-ui-variable)
   - [✅selected-ui [variable]](#selected-ui-variable)
   - [✅selected-light-ui [variable]](#selected-light-ui-variable)
-  - [✅hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [✅inverse-hover-ui [variable]](#inverse-hover-ui-variable)
   - [✅hover-danger [variable]](#hover-danger-variable)
   - [✅active-danger [variable]](#active-danger-variable)
@@ -195,7 +235,6 @@
   - [✅disabled-03 [variable]](#disabled-03-variable)
   - [✅highlight [variable]](#highlight-variable)
   - [✅decorative-01 [variable]](#decorative-01-variable)
-  - [✅hover-light-ui [variable]](#hover-light-ui-variable)
   - [✅button-separator [variable]](#button-separator-variable)
   - [✅skeleton-01 [variable]](#skeleton-01-variable)
   - [✅skeleton-02 [variable]](#skeleton-02-variable)
@@ -204,6 +243,7 @@
   - [✅⚠️brand-03 [variable]](#brand-03-variable)
   - [✅⚠️active-01 [variable]](#active-01-variable)
   - [✅⚠️hover-field [variable]](#hover-field-variable)
+  - [✅danger [variable]](#danger-variable)
   - [✅caption-01 [variable]](#caption-01-variable)
   - [✅label-01 [variable]](#label-01-variable)
   - [✅helper-text-01 [variable]](#helper-text-01-variable)
@@ -395,12 +435,14 @@ Define color variables
   $ibm-color__magenta-30: #ffafd2 !default !global;
   $ibm-color__magenta-40: #ff7eb6 !default !global;
   $ibm-color__magenta-50: #ee5396 !default !global;
-  $ibm-color__magenta-60: #d12771 !default !global;
+  $ibm-color__magenta-60: #d02670 !default !global;
   $ibm-color__magenta-70: #9f1853 !default !global;
   $ibm-color__magenta-80: #740937 !default !global;
   $ibm-color__magenta-90: #510224 !default !global;
   $ibm-color__magenta-100: #2a0a18 !default !global;
   $ibm-color__orange-40: #ff832b !default !global;
+  $ibm-color__orange-60: #ba4e00 !default !global;
+  $ibm-color__orange-70: #8a3800 !default !global;
   $ibm-color__purple-10: #f6f2ff !default !global;
   $ibm-color__purple-20: #e8daff !default !global;
   $ibm-color__purple-30: #d4bbff !default !global;
@@ -436,7 +478,7 @@ Define color variables
   $ibm-color__warm-gray-30: #cac5c4 !default !global;
   $ibm-color__warm-gray-40: #ada8a8 !default !global;
   $ibm-color__warm-gray-50: #8f8b8b !default !global;
-  $ibm-color__warm-gray-60: #736f6f !default !global;
+  $ibm-color__warm-gray-60: #726e6e !default !global;
   $ibm-color__warm-gray-70: #565151 !default !global;
   $ibm-color__warm-gray-80: #3c3838 !default !global;
   $ibm-color__warm-gray-90: #272525 !default !global;
@@ -444,6 +486,8 @@ Define color variables
   $ibm-color__white-0: #ffffff !default !global;
   $ibm-color__yellow-20: #fdd13a !default !global;
   $ibm-color__yellow-30: #f1c21b !default !global;
+  $ibm-color__yellow-40: #d2a106 !default !global;
+  $ibm-color__yellow-50: #b28600 !default !global;
   $ibm-color-map: (
     'black': (
       100: #000000,
@@ -526,7 +570,7 @@ Define color variables
       30: #ffafd2,
       40: #ff7eb6,
       50: #ee5396,
-      60: #d12771,
+      60: #d02670,
       70: #9f1853,
       80: #740937,
       90: #510224,
@@ -534,6 +578,8 @@ Define color variables
     ),
     'orange': (
       40: #ff832b,
+      60: #ba4e00,
+      70: #8a3800,
     ),
     'purple': (
       10: #f6f2ff,
@@ -577,7 +623,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -589,7 +635,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -601,6 +647,8 @@ Define color variables
     'yellow': (
       20: #fdd13a,
       30: #f1c21b,
+      40: #d2a106,
+      50: #b28600,
     ),
   ) !default !global;
 }
@@ -676,12 +724,14 @@ Define color variables
   $carbon--magenta-30: #ffafd2 !default !global;
   $carbon--magenta-40: #ff7eb6 !default !global;
   $carbon--magenta-50: #ee5396 !default !global;
-  $carbon--magenta-60: #d12771 !default !global;
+  $carbon--magenta-60: #d02670 !default !global;
   $carbon--magenta-70: #9f1853 !default !global;
   $carbon--magenta-80: #740937 !default !global;
   $carbon--magenta-90: #510224 !default !global;
   $carbon--magenta-100: #2a0a18 !default !global;
   $carbon--orange-40: #ff832b !default !global;
+  $carbon--orange-60: #ba4e00 !default !global;
+  $carbon--orange-70: #8a3800 !default !global;
   $carbon--purple-10: #f6f2ff !default !global;
   $carbon--purple-20: #e8daff !default !global;
   $carbon--purple-30: #d4bbff !default !global;
@@ -717,7 +767,7 @@ Define color variables
   $carbon--warm-gray-30: #cac5c4 !default !global;
   $carbon--warm-gray-40: #ada8a8 !default !global;
   $carbon--warm-gray-50: #8f8b8b !default !global;
-  $carbon--warm-gray-60: #736f6f !default !global;
+  $carbon--warm-gray-60: #726e6e !default !global;
   $carbon--warm-gray-70: #565151 !default !global;
   $carbon--warm-gray-80: #3c3838 !default !global;
   $carbon--warm-gray-90: #272525 !default !global;
@@ -725,6 +775,8 @@ Define color variables
   $carbon--white-0: #ffffff !default !global;
   $carbon--yellow-20: #fdd13a !default !global;
   $carbon--yellow-30: #f1c21b !default !global;
+  $carbon--yellow-40: #d2a106 !default !global;
+  $carbon--yellow-50: #b28600 !default !global;
   $black-100: #000000 !default !global;
   $blue-10: #edf5ff !default !global;
   $blue-20: #d0e2ff !default !global;
@@ -781,12 +833,14 @@ Define color variables
   $magenta-30: #ffafd2 !default !global;
   $magenta-40: #ff7eb6 !default !global;
   $magenta-50: #ee5396 !default !global;
-  $magenta-60: #d12771 !default !global;
+  $magenta-60: #d02670 !default !global;
   $magenta-70: #9f1853 !default !global;
   $magenta-80: #740937 !default !global;
   $magenta-90: #510224 !default !global;
   $magenta-100: #2a0a18 !default !global;
   $orange-40: #ff832b !default !global;
+  $orange-60: #ba4e00 !default !global;
+  $orange-70: #8a3800 !default !global;
   $purple-10: #f6f2ff !default !global;
   $purple-20: #e8daff !default !global;
   $purple-30: #d4bbff !default !global;
@@ -822,7 +876,7 @@ Define color variables
   $warm-gray-30: #cac5c4 !default !global;
   $warm-gray-40: #ada8a8 !default !global;
   $warm-gray-50: #8f8b8b !default !global;
-  $warm-gray-60: #736f6f !default !global;
+  $warm-gray-60: #726e6e !default !global;
   $warm-gray-70: #565151 !default !global;
   $warm-gray-80: #3c3838 !default !global;
   $warm-gray-90: #272525 !default !global;
@@ -830,6 +884,8 @@ Define color variables
   $white-0: #ffffff !default !global;
   $yellow-20: #fdd13a !default !global;
   $yellow-30: #f1c21b !default !global;
+  $yellow-40: #d2a106 !default !global;
+  $yellow-50: #b28600 !default !global;
   $carbon--colors: (
     'black': (
       100: #000000,
@@ -912,7 +968,7 @@ Define color variables
       30: #ffafd2,
       40: #ff7eb6,
       50: #ee5396,
-      60: #d12771,
+      60: #d02670,
       70: #9f1853,
       80: #740937,
       90: #510224,
@@ -920,6 +976,8 @@ Define color variables
     ),
     'orange': (
       40: #ff832b,
+      60: #ba4e00,
+      70: #8a3800,
     ),
     'purple': (
       10: #f6f2ff,
@@ -963,7 +1021,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -975,7 +1033,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -987,6 +1045,8 @@ Define color variables
     'yellow': (
       20: #fdd13a,
       30: #f1c21b,
+      40: #d2a106,
+      50: #b28600,
     ),
   ) !default !global;
 }
@@ -1635,6 +1695,7 @@ Generate the CSS for a grid for the given breakpoints and gutters
   - [carbon--hang [mixin]](#carbon--hang-mixin)
   - [carbon--aspect-ratio [mixin]](#carbon--aspect-ratio-mixin)
   - [prefix [variable]](#prefix-variable)
+  - [grid-gutter [variable]](#grid-gutter-variable)
 
 ### ✅prefix [variable]
 
@@ -1759,6 +1820,24 @@ $carbon--grid-gutter: carbon--rem(32px);
 - **Used by**:
   - [carbon--make-container [mixin]](#carbon--make-container-mixin)
 
+### ✅grid-gutter [variable]
+
+Carbon gutter size in rem
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-gutter: convert.rem(32px);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--grid [mixin]](#carbon--grid-mixin)
+
 ### ✅carbon--grid-gutter--condensed [variable]
 
 Carbon condensed gutter size in rem
@@ -1768,6 +1847,22 @@ Carbon condensed gutter size in rem
 
 ```scss
 $carbon--grid-gutter--condensed: carbon--rem(1px);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+
+### ✅grid-gutter--condensed [variable]
+
+Carbon condensed gutter size in rem
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-gutter--condensed: convert.rem(1px);
 ```
 
 </details>
@@ -1815,6 +1910,46 @@ $carbon--grid-breakpoints: (
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Map`
 
+### ✅grid-breakpoints [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-breakpoints: (
+  sm: (
+    columns: 4,
+    margin: 0,
+    width: convert.rem(320px),
+  ),
+  md: (
+    columns: 8,
+    margin: convert.rem(16px),
+    width: convert.rem(672px),
+  ),
+  lg: (
+    columns: 16,
+    margin: convert.rem(16px),
+    width: convert.rem(1056px),
+  ),
+  xlg: (
+    columns: 16,
+    margin: convert.rem(16px),
+    width: convert.rem(1312px),
+  ),
+  max: (
+    columns: 16,
+    margin: convert.rem(24px),
+    width: convert.rem(1584px),
+  ),
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Map`
+
 ### ✅carbon--breakpoint-next [function]
 
 Get the value of the next breakpoint, or null for the last breakpoint
@@ -1850,6 +1985,40 @@ Get the value of the next breakpoint, or null for the last breakpoint
 - **Returns**: `String`
 - **Used by**:
   - [fluid-type-size [mixin]](#fluid-type-size-mixin)
+
+### ✅breakpoint-next [function]
+
+Get the value of the next breakpoint, or null for the last breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-next(
+  $name,
+  $breakpoints: $grid-breakpoints,
+  $breakpoint-names: map-keys($breakpoints)
+) {
+  $n: list.index($breakpoint-names, $name);
+  @if $n != null and $n < list.length($breakpoint-names) {
+    @return list.nth($breakpoint-names, $n + 1);
+  }
+  @return null;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name                | Description                                                                                                     | Type     | Default value            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
+| `$name`             | The name of the brekapoint                                                                                      | `String` | —                        |
+| `$breakpoints`      | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints`      |
+| `$breakpoint-names` | A list of names from the `$breakpoints` map                                                                     | `List`   | `map-keys($breakpoints)` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
 
 ### ✅carbon--breakpoint-prev [function]
 
@@ -1887,6 +2056,40 @@ Get the value of the previous breakpoint, or null for the first breakpoint
 - **Used by**:
   - [carbon--make-container [mixin]](#carbon--make-container-mixin)
 
+### ✅breakpoint-prev [function]
+
+Get the value of the previous breakpoint, or null for the first breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-prev(
+  $name,
+  $breakpoints: $grid-breakpoints,
+  $breakpoint-names: map-keys($breakpoints)
+) {
+  $n: list.index($breakpoint-names, $name);
+  @if $n != null and $n > 1 {
+    @return list.nth($breakpoint-names, $n - 1);
+  }
+  @return null;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name                | Description                                                                                                     | Type     | Default value            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
+| `$name`             | The name of the brekapoint                                                                                      | `String` | —                        |
+| `$breakpoints`      | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints`      |
+| `$breakpoint-names` | A list of names from the `$breakpoints` map                                                                     | `List`   | `map-keys($breakpoints)` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+
 ### ✅carbon--is-smallest-breakpoint [function]
 
 Check to see if the given breakpoint name
@@ -1916,6 +2119,33 @@ Check to see if the given breakpoint name
 - **Returns**: `Bool`
 - **Used by**:
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+
+### ✅is-smallest-breakpoint [function]
+
+Check to see if the given breakpoint name
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function is-smallest-breakpoint($name, $breakpoints: $grid-breakpoints) {
+  @return list.index(map.keys($breakpoints), $name) == 1;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                                                                                     | Type     | Default value       |
+| -------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------- |
+| `$name`        | The name of the brekapoint                                                                                      | `String` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Bool`
+- **Used by**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
 
 ### ✅carbon--largest-breakpoint-name [function]
 
@@ -1948,6 +2178,60 @@ Returns the largest breakpoint name
 - **Used by**:
   - [carbon--largest-breakpoint [mixin]](#carbon--largest-breakpoint-mixin)
 
+### ✅largest-breakpoint-name [function]
+
+Returns the largest breakpoint name
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function largest-breakpoint-name($breakpoints: $grid-breakpoints) {
+  $total-breakpoints: list.length($breakpoints);
+  @return key-by-index($breakpoints, $total-breakpoints);
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type  | Default value       |
+| -------------- | ---------------------------------------------- | ----- | ------------------- |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map` | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+- **Requires**:
+  - [key-by-index [function]](#key-by-index-function)
+- **Used by**:
+  - [largest-breakpoint [mixin]](#largest-breakpoint-mixin)
+
+### ✅breakpoint-infix [function]
+
+Get the infix for a given breakpoint in a list of breakpoints. Usesful for
+generate the size part in a selector, for example: `.prefix--col-sm-2`.
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-infix($name) {
+  @return '-#{$name}';
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name    | Description                | Type     | Default value |
+| ------- | -------------------------- | -------- | ------------- |
+| `$name` | The name of the breakpoint | `String` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+
 ### ✅carbon--breakpoint-infix [function]
 
 Get the infix for a given breakpoint in a list of breakpoints. Usesful for
@@ -1974,6 +2258,51 @@ generate the size part in a selector, for example: `.prefix--col-sm-2`.
 - **Returns**: `String`
 - **Used by**:
   - [carbon--make-grid-columns [mixin]](#carbon--make-grid-columns-mixin)
+
+### ✅breakpoint-up [mixin]
+
+Generate a media query from the width of the given breakpoint to infinity
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-up($name, $breakpoints: $grid-breakpoints) {
+  @if meta.type-of($name) == 'number' {
+    @media (min-width: $name) {
+      @content;
+    }
+  } @else if map.has-key($breakpoints, $name) {
+    $breakpoint: map.get($breakpoints, $name);
+    $width: map.get($breakpoint, width);
+    @if is-smallest-breakpoint($name, $breakpoints) {
+      @content;
+    } @else {
+      @media (min-width: $width) {
+        @content;
+      }
+    }
+  } @else {
+    @error 'Unable to find a breakpoint with name `#{$name}`. Expected one of: (#{map.keys($breakpoints)})';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [is-smallest-breakpoint [function]](#is-smallest-breakpoint-function)
+- **Used by**:
+  - [breakpoint-between [mixin]](#breakpoint-between-mixin)
+  - [breakpoint [mixin]](#breakpoint-mixin)
 
 ### ✅carbon--breakpoint-up [mixin]
 
@@ -2020,6 +2349,49 @@ Generate a media query from the width of the given breakpoint to infinity
   - [carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
 
+### ✅breakpoint-down [mixin]
+
+Generate a media query for the maximum width of the given styles
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-down($name, $breakpoints: $grid-breakpoints) {
+  @if meta.type-of($name) == 'number' {
+    @media (max-width: $name) {
+      @content;
+    }
+  } @else if map.has-key($breakpoints, $name) {
+    // We borrow this logic from bootstrap for specifying the value of the
+    // max-width. The maximum width is calculated by finding the breakpoint and
+    // subtracting .02 from its value. This value is used instead of .01 to
+    // avoid rounding issues in Safari
+    // https://github.com/twbs/bootstrap/blob/c5b1919deaf5393fcca9e9b9d7ce9c338160d99d/scss/mixins/_breakpoints.scss#L34-L46
+    $breakpoint: map.get($breakpoints, $name);
+    $width: map.get($breakpoint, width) - 0.02;
+    @media (max-width: $width) {
+      @content;
+    }
+  } @else {
+    @error 'Unable to find a breakpoint with name `#{$name}`. Expected one of: (#{map.keys($breakpoints)})';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Used by**:
+  - [breakpoint-between [mixin]](#breakpoint-between-mixin)
+
 ### ✅carbon--breakpoint-down [mixin]
 
 Generate a media query for the maximum width of the given styles
@@ -2062,6 +2434,55 @@ Generate a media query for the maximum width of the given styles
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Used by**:
   - [carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
+
+### ✅breakpoint-between [mixin]
+
+Generate a media query for the range between the lower and upper breakpoints
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+  $is-number-lower: meta.type-of($lower) == 'number';
+  $is-number-upper: meta.type-of($upper) == 'number';
+  $min: if($is-number-lower, $lower, map.get($breakpoints, $lower));
+  $max: if($is-number-upper, $upper, map.get($breakpoints, $upper));
+
+  @if $min and $max {
+    $min-width: if(not $is-number-lower and $min, map.get($min, width), $min);
+    $max-width: if(not $is-number-upper and $max, map.get($max, width), $max);
+    @media (min-width: $min-width) and (max-width: $max-width) {
+      @content;
+    }
+  } @else if $min != null and $max == null {
+    @include breakpoint-up($lower) {
+      @content;
+    }
+  } @else if $min == null and $max != null {
+    @include breakpoint-down($upper) {
+      @content;
+    }
+  } @else {
+    @error 'Unable to find a breakpoint to satisfy: (#{$lower},#{$upper}). Expected both to be one of (#{map.keys($breakpoints)}).';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$lower`       | —                                              | `String \| Number` | —                   |
+| `$upper`       | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
+  - [breakpoint-down [mixin]](#breakpoint-down-mixin)
 
 ### ✅carbon--breakpoint-between [mixin]
 
@@ -2116,6 +2537,34 @@ Generate a media query for the range between the lower and upper breakpoints
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
   - [carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
 
+### ✅largest-breakpoint [mixin]
+
+Generate media query for the largest breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin largest-breakpoint($breakpoints: $grid-breakpoints) {
+  @include breakpoint(largest-breakpoint-name()) {
+    @content;
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type  | Default value       |
+| -------------- | ---------------------------------------------- | ----- | ------------------- |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map` | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint [mixin]](#breakpoint-mixin)
+  - [largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+
 ### ✅carbon--largest-breakpoint [mixin]
 
 Generate media query for the largest breakpoint
@@ -2145,6 +2594,36 @@ Generate media query for the largest breakpoint
   - [carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
 - **Used by**:
   - [carbon--grid [mixin]](#carbon--grid-mixin)
+
+### ✅breakpoint [mixin]
+
+Generate a media query for a given breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint($name, $breakpoints: $grid-breakpoints) {
+  @include breakpoint-up($name, $breakpoints) {
+    @content;
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
+- **Used by**:
+  - [largest-breakpoint [mixin]](#largest-breakpoint-mixin)
 
 ### ✅carbon--breakpoint [mixin]
 
@@ -2384,6 +2863,25 @@ $carbon--base-font-size: 16px;
   - [carbon--rem [function]](#carbon--rem-function)
   - [carbon--em [function]](#carbon--em-function)
 
+### ✅base-font-size [variable]
+
+Default font size
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$base-font-size: 16px;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [rem [function]](#rem-function)
+  - [em [function]](#em-function)
+
 ### ✅carbon--rem [function]
 
 Convert a given px unit to a rem unit
@@ -2417,6 +2915,37 @@ Convert a given px unit to a rem unit
 - **Used by**:
   - [carbon--mini-units [function]](#carbon--mini-units-function)
 
+### ✅rem [function]
+
+Convert a given px unit to a rem unit
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function rem($px) {
+  @if unit($px) != 'px' {
+    // TODO: update to @error in v11
+    @warn "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $base-font-size) * 1rem;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name  | Description         | Type     | Default value |
+| ----- | ------------------- | -------- | ------------- |
+| `$px` | Number with px unit | `Number` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Number` Number with rem unit
+- **Requires**:
+  - [base-font-size [variable]](#base-font-size-variable)
+
 ### ✅carbon--em [function]
 
 Convert a given px unit to a em unit
@@ -2448,6 +2977,37 @@ Convert a given px unit to a em unit
 - **Requires**:
   - [carbon--base-font-size [variable]](#carbon--base-font-size-variable)
 
+### ✅em [function]
+
+Convert a given px unit to a em unit
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function em($px) {
+  @if unit($px) != 'px' {
+    // TODO: update to @error in v11
+    @warn "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $base-font-size) * 1em;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name  | Description         | Type     | Default value |
+| ----- | ------------------- | -------- | ------------- |
+| `$px` | Number with px unit | `Number` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Number` Number with em unit
+- **Requires**:
+  - [base-font-size [variable]](#base-font-size-variable)
+
 ### ✅carbon--fluid-spacing-01 [variable]
 
 <details>
@@ -2463,6 +3023,22 @@ $carbon--fluid-spacing-01: 0;
 - **Type**: `Number`
 - **Aliased**:
   - `fluid-spacing-01`
+
+### ✅fluid-spacing-01 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-01: 0;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--fluid-spacing-02 [variable]
 
@@ -2480,6 +3056,22 @@ $carbon--fluid-spacing-02: 2vw;
 - **Aliased**:
   - `fluid-spacing-02`
 
+### ✅fluid-spacing-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-02: 2vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--fluid-spacing-03 [variable]
 
 <details>
@@ -2495,6 +3087,22 @@ $carbon--fluid-spacing-03: 5vw;
 - **Type**: `Number`
 - **Aliased**:
   - `fluid-spacing-03`
+
+### ✅fluid-spacing-03 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-03: 5vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--fluid-spacing-04 [variable]
 
@@ -2512,6 +3120,22 @@ $carbon--fluid-spacing-04: 10vw;
 - **Aliased**:
   - `fluid-spacing-04`
 
+### ✅fluid-spacing-04 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-04: 10vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--fluid-spacing [variable]
 
 <details>
@@ -2523,6 +3147,25 @@ $carbon--fluid-spacing: (
   $carbon--fluid-spacing-02,
   $carbon--fluid-spacing-03,
   $carbon--fluid-spacing-04
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `List`
+
+### ✅fluid-spacing [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing: (
+  $fluid-spacing-01,
+  $fluid-spacing-02,
+  $fluid-spacing-03,
+  $fluid-spacing-04
 );
 ```
 
@@ -2545,8 +3188,6 @@ $fluid-spacing-01: $carbon--fluid-spacing-01;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-01`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-02 [variable]
 
@@ -2562,8 +3203,6 @@ $fluid-spacing-02: $carbon--fluid-spacing-02;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-02`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-03 [variable]
 
@@ -2579,8 +3218,6 @@ $fluid-spacing-03: $carbon--fluid-spacing-03;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-03`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-04 [variable]
 
@@ -2596,8 +3233,6 @@ $fluid-spacing-04: $carbon--fluid-spacing-04;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-04`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--icon-size-01 [variable]
 
@@ -3124,6 +3759,22 @@ $carbon--spacing-01: 0.125rem;
 - **Aliased**:
   - `spacing-01`
 
+### ✅spacing-01 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-01: 0.125rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-02 [variable]
 
 <details>
@@ -3139,6 +3790,22 @@ $carbon--spacing-02: 0.25rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-02`
+
+### ✅spacing-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-02: 0.25rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing-03 [variable]
 
@@ -3156,6 +3823,22 @@ $carbon--spacing-03: 0.5rem;
 - **Aliased**:
   - `spacing-03`
 
+### ✅spacing-03 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-03: 0.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-04 [variable]
 
 <details>
@@ -3171,6 +3854,22 @@ $carbon--spacing-04: 0.75rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-04`
+
+### ✅spacing-04 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-04: 0.75rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing-05 [variable]
 
@@ -3188,6 +3887,22 @@ $carbon--spacing-05: 1rem;
 - **Aliased**:
   - `spacing-05`
 
+### ✅spacing-05 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-05: 1rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-06 [variable]
 
 <details>
@@ -3203,6 +3918,22 @@ $carbon--spacing-06: 1.5rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-06`
+
+### ✅spacing-06 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-06: 1.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing-07 [variable]
 
@@ -3220,6 +3951,22 @@ $carbon--spacing-07: 2rem;
 - **Aliased**:
   - `spacing-07`
 
+### ✅spacing-07 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-07: 2rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-08 [variable]
 
 <details>
@@ -3235,6 +3982,22 @@ $carbon--spacing-08: 2.5rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-08`
+
+### ✅spacing-08 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-08: 2.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing-09 [variable]
 
@@ -3252,6 +4015,22 @@ $carbon--spacing-09: 3rem;
 - **Aliased**:
   - `spacing-09`
 
+### ✅spacing-09 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-09: 3rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-10 [variable]
 
 <details>
@@ -3267,6 +4046,22 @@ $carbon--spacing-10: 4rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-10`
+
+### ✅spacing-10 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-10: 4rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing-11 [variable]
 
@@ -3284,6 +4079,22 @@ $carbon--spacing-11: 5rem;
 - **Aliased**:
   - `spacing-11`
 
+### ✅spacing-11 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-11: 5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-12 [variable]
 
 <details>
@@ -3299,6 +4110,22 @@ $carbon--spacing-12: 6rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-12`
+
+### ✅spacing-12 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-12: 6rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing [variable]
 
@@ -3327,6 +4154,33 @@ $carbon--spacing: (
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `List`
 
+### ✅spacing [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing: (
+  $spacing-01,
+  $spacing-02,
+  $spacing-03,
+  $spacing-04,
+  $spacing-05,
+  $spacing-06,
+  $spacing-07,
+  $spacing-08,
+  $spacing-09,
+  $spacing-10,
+  $spacing-11,
+  $spacing-12
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `List`
+
 ### ✅spacing-01 [variable]
 
 <details>
@@ -3341,8 +4195,6 @@ $spacing-01: $carbon--spacing-01;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-01`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-02 [variable]
 
@@ -3358,8 +4210,6 @@ $spacing-02: $carbon--spacing-02;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-02`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-03 [variable]
 
@@ -3375,8 +4225,6 @@ $spacing-03: $carbon--spacing-03;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-03`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-04 [variable]
 
@@ -3392,8 +4240,6 @@ $spacing-04: $carbon--spacing-04;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-04`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-05 [variable]
 
@@ -3409,8 +4255,6 @@ $spacing-05: $carbon--spacing-05;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-05`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-06 [variable]
 
@@ -3426,8 +4270,6 @@ $spacing-06: $carbon--spacing-06;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-06`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-07 [variable]
 
@@ -3443,8 +4285,6 @@ $spacing-07: $carbon--spacing-07;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-07`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-08 [variable]
 
@@ -3460,8 +4300,6 @@ $spacing-08: $carbon--spacing-08;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-08`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-09 [variable]
 
@@ -3477,8 +4315,6 @@ $spacing-09: $carbon--spacing-09;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-09`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-10 [variable]
 
@@ -3494,8 +4330,6 @@ $spacing-10: $carbon--spacing-10;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-10`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-11 [variable]
 
@@ -3511,8 +4345,6 @@ $spacing-11: $carbon--spacing-11;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-11`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-12 [variable]
 
@@ -3528,8 +4360,34 @@ $spacing-12: $carbon--spacing-12;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-12`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
+### ✅map-deep-get [function]
+
+Map deep get
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function map-deep-get($map, $keys) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name    | Description | Type      | Default value |
+| ------- | ----------- | --------- | ------------- |
+| `$map`  | Map         | `Map`     | —             |
+| `$keys` | Key chain   | `Arglist` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `*` Desired value
 
 ### ✅map-deep-get [function]
 
@@ -3588,6 +4446,34 @@ Provide a map and index, and get back the relevant key value
   - [carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
   - [last-map-item [function]](#last-map-item-function)
 
+### ✅key-by-index [function]
+
+Provide a map and index, and get back the relevant key value
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function key-by-index($map, $index) {
+  $keys: map-keys($map);
+  @return nth($keys, $index);
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name     | Description | Type      | Default value |
+| -------- | ----------- | --------- | ------------- |
+| `$map`   | Map         | `Map`     | —             |
+| `$index` | Key chain   | `Integer` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String` Desired value
+- **Used by**:
+  - [largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+
 ### ✅last-map-item [function]
 
 Pass in a map, and get the last one in the list back
@@ -3616,6 +4502,33 @@ Pass in a map, and get the last one in the list back
   - [carbon--key-by-index [function]](#carbon--key-by-index-function)
 - **Used by**:
   - [carbon--set-largest-breakpoint [mixin]](#carbon--set-largest-breakpoint-mixin)
+
+### ✅last-map-item [function]
+
+Pass in a map, and get the last one in the list back
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function last-map-item($map) {
+  $total-length: length($map);
+  @return map-get($map, carbon--key-by-index($map, $total-length));
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name   | Description | Type  | Default value |
+| ------ | ----------- | ----- | ------------- |
+| `$map` | Map         | `Map` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `*` Desired value
+- **Requires**:
+  - [carbon--key-by-index [function]](#carbon--key-by-index-function)
 
 ## @carbon/motion
 
@@ -3823,7 +4736,8 @@ Define theme variables from a map of tokens
   $inverse-support-03: map-get($theme, 'inverse-support-03') !global;
   $inverse-support-04: map-get($theme, 'inverse-support-04') !global;
   $overlay-01: map-get($theme, 'overlay-01') !global;
-  $danger: map-get($theme, 'danger') !global;
+  $danger-01: map-get($theme, 'danger-01') !global;
+  $danger-02: map-get($theme, 'danger-02') !global;
   $focus: map-get($theme, 'focus') !global;
   $inverse-focus-ui: map-get($theme, 'inverse-focus-ui') !global;
   $hover-primary: map-get($theme, 'hover-primary') !global;
@@ -3834,10 +4748,12 @@ Define theme variables from a map of tokens
   $hover-tertiary: map-get($theme, 'hover-tertiary') !global;
   $active-tertiary: map-get($theme, 'active-tertiary') !global;
   $hover-ui: map-get($theme, 'hover-ui') !global;
+  $hover-light-ui: map-get($theme, 'hover-light-ui') !global;
+  $hover-selected-ui: map-get($theme, 'hover-selected-ui') !global;
   $active-ui: map-get($theme, 'active-ui') !global;
+  $active-light-ui: map-get($theme, 'active-light-ui') !global;
   $selected-ui: map-get($theme, 'selected-ui') !global;
   $selected-light-ui: map-get($theme, 'selected-light-ui') !global;
-  $hover-selected-ui: map-get($theme, 'hover-selected-ui') !global;
   $inverse-hover-ui: map-get($theme, 'inverse-hover-ui') !global;
   $hover-danger: map-get($theme, 'hover-danger') !global;
   $active-danger: map-get($theme, 'active-danger') !global;
@@ -3848,7 +4764,6 @@ Define theme variables from a map of tokens
   $disabled-03: map-get($theme, 'disabled-03') !global;
   $highlight: map-get($theme, 'highlight') !global;
   $decorative-01: map-get($theme, 'decorative-01') !global;
-  $hover-light-ui: map-get($theme, 'hover-light-ui') !global;
   $button-separator: map-get($theme, 'button-separator') !global;
   $skeleton-01: map-get($theme, 'skeleton-01') !global;
   $skeleton-02: map-get($theme, 'skeleton-02') !global;
@@ -3857,6 +4772,7 @@ Define theme variables from a map of tokens
   $brand-03: map-get($theme, 'brand-03') !global;
   $active-01: map-get($theme, 'active-01') !global;
   $hover-field: map-get($theme, 'hover-field') !global;
+  $danger: map-get($theme, 'danger') !global;
   $caption-01: map-get($theme, 'caption-01') !global;
   $label-01: map-get($theme, 'label-01') !global;
   $helper-text-01: map-get($theme, 'helper-text-01') !global;
@@ -4058,9 +4974,13 @@ Define theme variables from a map of tokens
       --#{$custom-property-prefix}-overlay-01,
       map-get($theme, 'overlay-01')
     ) !global;
-    $danger: var(
-      --#{$custom-property-prefix}-danger,
-      map-get($theme, 'danger')
+    $danger-01: var(
+      --#{$custom-property-prefix}-danger-01,
+      map-get($theme, 'danger-01')
+    ) !global;
+    $danger-02: var(
+      --#{$custom-property-prefix}-danger-02,
+      map-get($theme, 'danger-02')
     ) !global;
     $focus: var(
       --#{$custom-property-prefix}-focus,
@@ -4102,9 +5022,21 @@ Define theme variables from a map of tokens
       --#{$custom-property-prefix}-hover-ui,
       map-get($theme, 'hover-ui')
     ) !global;
+    $hover-light-ui: var(
+      --#{$custom-property-prefix}-hover-light-ui,
+      map-get($theme, 'hover-light-ui')
+    ) !global;
+    $hover-selected-ui: var(
+      --#{$custom-property-prefix}-hover-selected-ui,
+      map-get($theme, 'hover-selected-ui')
+    ) !global;
     $active-ui: var(
       --#{$custom-property-prefix}-active-ui,
       map-get($theme, 'active-ui')
+    ) !global;
+    $active-light-ui: var(
+      --#{$custom-property-prefix}-active-light-ui,
+      map-get($theme, 'active-light-ui')
     ) !global;
     $selected-ui: var(
       --#{$custom-property-prefix}-selected-ui,
@@ -4113,10 +5045,6 @@ Define theme variables from a map of tokens
     $selected-light-ui: var(
       --#{$custom-property-prefix}-selected-light-ui,
       map-get($theme, 'selected-light-ui')
-    ) !global;
-    $hover-selected-ui: var(
-      --#{$custom-property-prefix}-hover-selected-ui,
-      map-get($theme, 'hover-selected-ui')
     ) !global;
     $inverse-hover-ui: var(
       --#{$custom-property-prefix}-inverse-hover-ui,
@@ -4158,10 +5086,6 @@ Define theme variables from a map of tokens
       --#{$custom-property-prefix}-decorative-01,
       map-get($theme, 'decorative-01')
     ) !global;
-    $hover-light-ui: var(
-      --#{$custom-property-prefix}-hover-light-ui,
-      map-get($theme, 'hover-light-ui')
-    ) !global;
     $button-separator: var(
       --#{$custom-property-prefix}-button-separator,
       map-get($theme, 'button-separator')
@@ -4193,6 +5117,10 @@ Define theme variables from a map of tokens
     $hover-field: var(
       --#{$custom-property-prefix}-hover-field,
       map-get($theme, 'hover-field')
+    ) !global;
+    $danger: var(
+      --#{$custom-property-prefix}-danger,
+      map-get($theme, 'danger')
     ) !global;
     $spacing-01: var(
       --#{$custom-property-prefix}-spacing-01,
@@ -4589,8 +5517,14 @@ Define theme variables from a map of tokens
       @include custom-property('overlay-01', map-get($theme, 'overlay-01'));
     }
 
-    @if should-emit($theme, $parent-carbon-theme, 'danger', $emit-difference) {
-      @include custom-property('danger', map-get($theme, 'danger'));
+    @if should-emit($theme, $parent-carbon-theme, 'danger-01', $emit-difference)
+    {
+      @include custom-property('danger-01', map-get($theme, 'danger-01'));
+    }
+
+    @if should-emit($theme, $parent-carbon-theme, 'danger-02', $emit-difference)
+    {
+      @include custom-property('danger-02', map-get($theme, 'danger-02'));
     }
 
     @if should-emit($theme, $parent-carbon-theme, 'focus', $emit-difference) {
@@ -4706,9 +5640,48 @@ Define theme variables from a map of tokens
       @include custom-property('hover-ui', map-get($theme, 'hover-ui'));
     }
 
+    @if should-emit(
+      $theme,
+      $parent-carbon-theme,
+      'hover-light-ui',
+      $emit-difference
+    )
+    {
+      @include custom-property(
+        'hover-light-ui',
+        map-get($theme, 'hover-light-ui')
+      );
+    }
+
+    @if should-emit(
+      $theme,
+      $parent-carbon-theme,
+      'hover-selected-ui',
+      $emit-difference
+    )
+    {
+      @include custom-property(
+        'hover-selected-ui',
+        map-get($theme, 'hover-selected-ui')
+      );
+    }
+
     @if should-emit($theme, $parent-carbon-theme, 'active-ui', $emit-difference)
     {
       @include custom-property('active-ui', map-get($theme, 'active-ui'));
+    }
+
+    @if should-emit(
+      $theme,
+      $parent-carbon-theme,
+      'active-light-ui',
+      $emit-difference
+    )
+    {
+      @include custom-property(
+        'active-light-ui',
+        map-get($theme, 'active-light-ui')
+      );
     }
 
     @if should-emit(
@@ -4731,19 +5704,6 @@ Define theme variables from a map of tokens
       @include custom-property(
         'selected-light-ui',
         map-get($theme, 'selected-light-ui')
-      );
-    }
-
-    @if should-emit(
-      $theme,
-      $parent-carbon-theme,
-      'hover-selected-ui',
-      $emit-difference
-    )
-    {
-      @include custom-property(
-        'hover-selected-ui',
-        map-get($theme, 'hover-selected-ui')
       );
     }
 
@@ -4849,19 +5809,6 @@ Define theme variables from a map of tokens
     @if should-emit(
       $theme,
       $parent-carbon-theme,
-      'hover-light-ui',
-      $emit-difference
-    )
-    {
-      @include custom-property(
-        'hover-light-ui',
-        map-get($theme, 'hover-light-ui')
-      );
-    }
-
-    @if should-emit(
-      $theme,
-      $parent-carbon-theme,
       'button-separator',
       $emit-difference
     )
@@ -4920,6 +5867,10 @@ Define theme variables from a map of tokens
     )
     {
       @include custom-property('hover-field', map-get($theme, 'hover-field'));
+    }
+
+    @if should-emit($theme, $parent-carbon-theme, 'danger', $emit-difference) {
+      @include custom-property('danger', map-get($theme, 'danger'));
     }
 
     @if should-emit(
@@ -5629,7 +6580,8 @@ Define theme variables from a map of tokens
   - [inverse-support-03 [variable]](#inverse-support-03-variable)
   - [inverse-support-04 [variable]](#inverse-support-04-variable)
   - [overlay-01 [variable]](#overlay-01-variable)
-  - [danger [variable]](#danger-variable)
+  - [danger-01 [variable]](#danger-01-variable)
+  - [danger-02 [variable]](#danger-02-variable)
   - [focus [variable]](#focus-variable)
   - [inverse-focus-ui [variable]](#inverse-focus-ui-variable)
   - [hover-primary [variable]](#hover-primary-variable)
@@ -5640,10 +6592,12 @@ Define theme variables from a map of tokens
   - [hover-tertiary [variable]](#hover-tertiary-variable)
   - [active-tertiary [variable]](#active-tertiary-variable)
   - [hover-ui [variable]](#hover-ui-variable)
+  - [hover-light-ui [variable]](#hover-light-ui-variable)
+  - [hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [active-ui [variable]](#active-ui-variable)
+  - [active-light-ui [variable]](#active-light-ui-variable)
   - [selected-ui [variable]](#selected-ui-variable)
   - [selected-light-ui [variable]](#selected-light-ui-variable)
-  - [hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [inverse-hover-ui [variable]](#inverse-hover-ui-variable)
   - [hover-danger [variable]](#hover-danger-variable)
   - [active-danger [variable]](#active-danger-variable)
@@ -5654,7 +6608,6 @@ Define theme variables from a map of tokens
   - [disabled-03 [variable]](#disabled-03-variable)
   - [highlight [variable]](#highlight-variable)
   - [decorative-01 [variable]](#decorative-01-variable)
-  - [hover-light-ui [variable]](#hover-light-ui-variable)
   - [button-separator [variable]](#button-separator-variable)
   - [skeleton-01 [variable]](#skeleton-01-variable)
   - [skeleton-02 [variable]](#skeleton-02-variable)
@@ -5663,6 +6616,7 @@ Define theme variables from a map of tokens
   - [brand-03 [variable]](#brand-03-variable)
   - [active-01 [variable]](#active-01-variable)
   - [hover-field [variable]](#hover-field-variable)
+  - [danger [variable]](#danger-variable)
   - [caption-01 [variable]](#caption-01-variable)
   - [label-01 [variable]](#label-01-variable)
   - [helper-text-01 [variable]](#helper-text-01-variable)
@@ -5743,6 +6697,7 @@ $carbon--theme--g10: map-merge(
     field-01: #ffffff,
     field-02: #f4f4f4,
     disabled-01: #ffffff,
+    highlight: #edf5ff,
   )
 );
 ```
@@ -5791,6 +6746,7 @@ $carbon--theme--g90: map-merge(
     inverse-support-02: #24a148,
     inverse-support-04: #0f62fe,
     overlay-01: rgba(22, 22, 22, 0.7),
+    danger-02: #ff8389,
     focus: #ffffff,
     inverse-focus-ui: #0f62fe,
     hover-primary-text: #a6c8ff,
@@ -5799,7 +6755,9 @@ $carbon--theme--g90: map-merge(
     hover-tertiary: #f4f4f4,
     active-tertiary: #c6c6c6,
     hover-ui: #4c4c4c,
+    hover-light-ui: #656565,
     active-ui: #6f6f6f,
+    active-light-ui: #8d8d8d,
     selected-ui: #525252,
     selected-light-ui: #6f6f6f,
     inverse-hover-ui: #e5e5e5,
@@ -5811,7 +6769,6 @@ $carbon--theme--g90: map-merge(
     disabled-03: #a8a8a8,
     highlight: #0043ce,
     decorative-01: #6f6f6f,
-    hover-light-ui: #6f6f6f,
     button-separator: #161616,
     skeleton-01: #353535,
     skeleton-02: #525252,
@@ -5868,6 +6825,7 @@ $carbon--theme--g100: map-merge(
     inverse-support-02: #24a148,
     inverse-support-04: #0f62fe,
     overlay-01: rgba(22, 22, 22, 0.7),
+    danger-02: #fa4d56,
     focus: #ffffff,
     inverse-focus-ui: #0f62fe,
     hover-primary-text: #a6c8ff,
@@ -5876,7 +6834,9 @@ $carbon--theme--g100: map-merge(
     hover-tertiary: #f4f4f4,
     active-tertiary: #c6c6c6,
     hover-ui: #353535,
+    hover-light-ui: #4c4c4c,
     active-ui: #525252,
+    active-light-ui: #6f6f6f,
     selected-ui: #393939,
     selected-light-ui: #525252,
     inverse-hover-ui: #e5e5e5,
@@ -5887,7 +6847,6 @@ $carbon--theme--g100: map-merge(
     disabled-02: #525252,
     highlight: #002d9c,
     decorative-01: #525252,
-    hover-light-ui: #525252,
     button-separator: #161616,
     skeleton-01: #353535,
     skeleton-02: #393939,
@@ -5956,7 +6915,9 @@ $carbon--theme--v9: map-merge(
     hover-tertiary: #5a6872,
     active-tertiary: #414f59,
     hover-ui: #eef4fc,
+    hover-light-ui: #eef4fc,
     active-ui: #dfeafa,
+    active-light-ui: #dfeafa,
     selected-ui: #eef4fc,
     selected-light-ui: #eef4fc,
     hover-selected-ui: #dfeafa,
@@ -5969,7 +6930,6 @@ $carbon--theme--v9: map-merge(
     disabled-03: #cdd1d4,
     highlight: #f4f7fb,
     decorative-01: #eef4fc,
-    hover-light-ui: #eef4fc,
     skeleton-01: rgba(61, 112, 178, 0.1),
     skeleton-02: rgba(61, 112, 178, 0.1),
     brand-01: #3d70b2,
@@ -6029,7 +6989,8 @@ $carbon--theme: (
   inverse-support-03: if(global-variable-exists('inverse-support-03'), $inverse-support-03, map-get($carbon--theme--white, 'inverse-support-03')),
   inverse-support-04: if(global-variable-exists('inverse-support-04'), $inverse-support-04, map-get($carbon--theme--white, 'inverse-support-04')),
   overlay-01: if(global-variable-exists('overlay-01'), $overlay-01, map-get($carbon--theme--white, 'overlay-01')),
-  danger: if(global-variable-exists('danger'), $danger, map-get($carbon--theme--white, 'danger')),
+  danger-01: if(global-variable-exists('danger-01'), $danger-01, map-get($carbon--theme--white, 'danger-01')),
+  danger-02: if(global-variable-exists('danger-02'), $danger-02, map-get($carbon--theme--white, 'danger-02')),
   focus: if(global-variable-exists('focus'), $focus, map-get($carbon--theme--white, 'focus')),
   inverse-focus-ui: if(global-variable-exists('inverse-focus-ui'), $inverse-focus-ui, map-get($carbon--theme--white, 'inverse-focus-ui')),
   hover-primary: if(global-variable-exists('hover-primary'), $hover-primary, map-get($carbon--theme--white, 'hover-primary')),
@@ -6040,10 +7001,12 @@ $carbon--theme: (
   hover-tertiary: if(global-variable-exists('hover-tertiary'), $hover-tertiary, map-get($carbon--theme--white, 'hover-tertiary')),
   active-tertiary: if(global-variable-exists('active-tertiary'), $active-tertiary, map-get($carbon--theme--white, 'active-tertiary')),
   hover-ui: if(global-variable-exists('hover-ui'), $hover-ui, map-get($carbon--theme--white, 'hover-ui')),
+  hover-light-ui: if(global-variable-exists('hover-light-ui'), $hover-light-ui, map-get($carbon--theme--white, 'hover-light-ui')),
+  hover-selected-ui: if(global-variable-exists('hover-selected-ui'), $hover-selected-ui, map-get($carbon--theme--white, 'hover-selected-ui')),
   active-ui: if(global-variable-exists('active-ui'), $active-ui, map-get($carbon--theme--white, 'active-ui')),
+  active-light-ui: if(global-variable-exists('active-light-ui'), $active-light-ui, map-get($carbon--theme--white, 'active-light-ui')),
   selected-ui: if(global-variable-exists('selected-ui'), $selected-ui, map-get($carbon--theme--white, 'selected-ui')),
   selected-light-ui: if(global-variable-exists('selected-light-ui'), $selected-light-ui, map-get($carbon--theme--white, 'selected-light-ui')),
-  hover-selected-ui: if(global-variable-exists('hover-selected-ui'), $hover-selected-ui, map-get($carbon--theme--white, 'hover-selected-ui')),
   inverse-hover-ui: if(global-variable-exists('inverse-hover-ui'), $inverse-hover-ui, map-get($carbon--theme--white, 'inverse-hover-ui')),
   hover-danger: if(global-variable-exists('hover-danger'), $hover-danger, map-get($carbon--theme--white, 'hover-danger')),
   active-danger: if(global-variable-exists('active-danger'), $active-danger, map-get($carbon--theme--white, 'active-danger')),
@@ -6054,7 +7017,6 @@ $carbon--theme: (
   disabled-03: if(global-variable-exists('disabled-03'), $disabled-03, map-get($carbon--theme--white, 'disabled-03')),
   highlight: if(global-variable-exists('highlight'), $highlight, map-get($carbon--theme--white, 'highlight')),
   decorative-01: if(global-variable-exists('decorative-01'), $decorative-01, map-get($carbon--theme--white, 'decorative-01')),
-  hover-light-ui: if(global-variable-exists('hover-light-ui'), $hover-light-ui, map-get($carbon--theme--white, 'hover-light-ui')),
   button-separator: if(global-variable-exists('button-separator'), $button-separator, map-get($carbon--theme--white, 'button-separator')),
   skeleton-01: if(global-variable-exists('skeleton-01'), $skeleton-01, map-get($carbon--theme--white, 'skeleton-01')),
   skeleton-02: if(global-variable-exists('skeleton-02'), $skeleton-02, map-get($carbon--theme--white, 'skeleton-02')),
@@ -6063,6 +7025,7 @@ $carbon--theme: (
   brand-03: if(global-variable-exists('brand-03'), $brand-03, map-get($carbon--theme--white, 'brand-03')),
   active-01: if(global-variable-exists('active-01'), $active-01, map-get($carbon--theme--white, 'active-01')),
   hover-field: if(global-variable-exists('hover-field'), $hover-field, map-get($carbon--theme--white, 'hover-field')),
+  danger: if(global-variable-exists('danger'), $danger, map-get($carbon--theme--white, 'danger')),
   caption-01: if(global-variable-exists('caption-01'), $caption-01, map-get($carbon--theme--white, 'caption-01')),
   label-01: if(global-variable-exists('label-01'), $label-01, map-get($carbon--theme--white, 'label-01')),
   helper-text-01: if(global-variable-exists('helper-text-01'), $helper-text-01, map-get($carbon--theme--white, 'helper-text-01')),
@@ -6133,6 +7096,7 @@ $carbon--theme: (
 - **Type**: `Map`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [carbon--default-type [mixin]](#carbon--default-type-mixin)
 
 ### ✅interactive-01 [variable]
 
@@ -6661,7 +7625,7 @@ $inverse-link: if(
 
 ### ✅field-01 [variable]
 
-Default input fields; Field color on \$ui-backgrounds
+Default input fields; Field color on $ui-backgrounds
 
 <details>
 <summary>Source code</summary>
@@ -6984,18 +7948,41 @@ $overlay-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
 
-### ✅danger [variable]
+### ✅danger-01 [variable]
 
 <details>
 <summary>Source code</summary>
 
 ```scss
-$danger: if(
+$danger-01: if(
   global-variable-exists('carbon--theme') and map-has-key(
       $carbon--theme,
-      'danger'
+      'danger-01'
     ),
-  map-get($carbon--theme, 'danger'),
+  map-get($carbon--theme, 'danger-01'),
+  #da1e28
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
+### ✅danger-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$danger-02: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'danger-02'
+    ),
+  map-get($carbon--theme, 'danger-02'),
   #da1e28
 );
 ```
@@ -7257,6 +8244,54 @@ $hover-ui: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
 
+### ✅hover-light-ui [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$hover-light-ui: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'hover-light-ui'
+    ),
+  map-get($carbon--theme, 'hover-light-ui'),
+  #e5e5e5
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
+### ✅hover-selected-ui [variable]
+
+Data table selected row hover
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$hover-selected-ui: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'hover-selected-ui'
+    ),
+  map-get($carbon--theme, 'hover-selected-ui'),
+  #cacaca
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅active-ui [variable]
 
 `$ui-01` active; `$ui-02` active
@@ -7281,6 +8316,29 @@ $active-ui: if(
 - **Type**: `{undefined}`
 - **Aliased**:
   - `active-01`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
+### ✅active-light-ui [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$active-light-ui: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'active-light-ui'
+    ),
+  map-get($carbon--theme, 'active-light-ui'),
+  #c6c6c6
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
 
@@ -7322,31 +8380,6 @@ $selected-light-ui: if(
     ),
   map-get($carbon--theme, 'selected-light-ui'),
   #e0e0e0
-);
-```
-
-</details>
-
-- **Group**: [@carbon/themes](#carbonthemes)
-- **Type**: `{undefined}`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-
-### ✅hover-selected-ui [variable]
-
-Data table selected row hover
-
-<details>
-<summary>Source code</summary>
-
-```scss
-$hover-selected-ui: if(
-  global-variable-exists('carbon--theme') and map-has-key(
-      $carbon--theme,
-      'hover-selected-ui'
-    ),
-  map-get($carbon--theme, 'hover-selected-ui'),
-  #cacaca
 );
 ```
 
@@ -7604,29 +8637,6 @@ $decorative-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
 
-### ✅hover-light-ui [variable]
-
-<details>
-<summary>Source code</summary>
-
-```scss
-$hover-light-ui: if(
-  global-variable-exists('carbon--theme') and map-has-key(
-      $carbon--theme,
-      'hover-light-ui'
-    ),
-  map-get($carbon--theme, 'hover-light-ui'),
-  #e5e5e5
-);
-```
-
-</details>
-
-- **Group**: [@carbon/themes](#carbonthemes)
-- **Type**: `{undefined}`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-
 ### ✅button-separator [variable]
 
 <details>
@@ -7824,6 +8834,29 @@ $hover-field: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
 - **Deprecated**: This may not be available in future releases
+
+### ✅danger [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$danger: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'danger'
+    ),
+  map-get($carbon--theme, 'danger'),
+  #da1e28
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅caption-01 [variable]
 
@@ -8410,6 +9443,7 @@ $expressive-heading-03: if(
       ),
       max: (
         font-size: 1.5rem,
+        line-height: 1.334,
       ),
     ),
   )
@@ -8581,7 +9615,7 @@ $expressive-paragraph-01: if(
   (
     font-size: 1.5rem,
     font-weight: 300,
-    line-height: 1.25,
+    line-height: 1.334,
     letter-spacing: 0,
     lg: (
       font-size: 1.75rem,
@@ -8628,7 +9662,7 @@ $quotation-01: if(
       lg: (
         font-size: 1.5rem,
         font-weight: 400,
-        line-height: 1.25,
+        line-height: 1.334,
         letter-spacing: 0,
       ),
       xlg: (
@@ -10261,7 +11295,13 @@ Include default type styles
   }
 
   a {
-    color: #0062ff;
+    @if global-variable-exists('carbon--theme') and
+      map-has-key($carbon--theme, 'link-01')
+    {
+      color: map-get($carbon--theme, 'link-01');
+    } @else {
+      color: #0062fe;
+    }
   }
 
   em {
@@ -10275,6 +11315,7 @@ Include default type styles
 - **Group**: [@carbon/type](#carbontype)
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
+  - [carbon--theme [variable]](#carbon--theme-variable)
 
 ### ✅carbon--font-face-sans-condensed [mixin]
 
@@ -12096,6 +13137,7 @@ $expressive-heading-03: (
     ),
     max: (
       font-size: carbon--type-scale(6),
+      line-height: 1.334,
     ),
   ),
 );
@@ -12216,7 +13258,7 @@ $expressive-heading-06: (
 $expressive-paragraph-01: (
   font-size: carbon--type-scale(6),
   font-weight: carbon--font-weight('light'),
-  line-height: 1.25,
+  line-height: 1.334,
   letter-spacing: 0,
   breakpoints: (
     lg: (
@@ -12253,7 +13295,7 @@ $quotation-01: (
     ),
     lg: (
       font-size: carbon--type-scale(6),
-      line-height: 1.25,
+      line-height: 1.334,
     ),
     xlg: (
       font-size: carbon--type-scale(7),

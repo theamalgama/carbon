@@ -9,7 +9,7 @@ import { settings } from '@theamalgama/carbon-components';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import React, { useRef } from 'react';
-import { Filename } from './';
+import Filename from './Filename';
 import { keys, matches } from '../../internal/keyboard';
 import uid from '../../tools/uniqueId';
 
@@ -38,7 +38,13 @@ function FileUploaderItem({
   return (
     <span className={classes} {...other}>
       <span className={`${prefix}--file-filename-and-thumbnail`}>
-        {thumbnail && <img className={`${prefix}--file-thumbnail`} src={thumbnail} alt={thumbnailAlt} />}
+        {thumbnail && (
+          <img
+            className={`${prefix}--file-thumbnail`}
+            src={thumbnail}
+            alt={thumbnailAlt}
+          />
+        )}
         <p className={`${prefix}--file-filename`}>{name}</p>
       </span>
       <span className={`${prefix}--file__state-container`}>

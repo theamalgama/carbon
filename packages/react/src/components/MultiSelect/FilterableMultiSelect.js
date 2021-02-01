@@ -11,7 +11,7 @@ import React from 'react';
 import Downshift from 'downshift';
 import isEqual from 'lodash.isequal';
 import { settings } from '@theamalgama/carbon-components';
-import { WarningFilled16 } from '@carbon/icons-react';
+import { WarningFilled16, WarningAltFilled16 } from '@carbon/icons-react';
 import ListBox, { PropTypes as ListBoxPropTypes } from '../ListBox';
 import Checkbox from '../Checkbox';
 import Selection from '../../internal/Selection';
@@ -62,7 +62,7 @@ export default class FilterableMultiSelect extends React.Component {
     /**
      * If invalid, what is the error?
      */
-    invalidText: PropTypes.string,
+    invalidText: PropTypes.node,
 
     /**
      * Helper function passed to downshift that allows the library to render a
@@ -93,6 +93,12 @@ export default class FilterableMultiSelect extends React.Component {
      * consuming component what kind of internal state changes are occuring.
      */
     onChange: PropTypes.func,
+
+    /**
+     * `onMenuChange` is a utility for this controlled component to communicate to a
+     * consuming component that the menu was opened(`true`)/closed(`false`).
+     */
+    onMenuChange: PropTypes.func,
 
     /**
      * Initialize the component with an open(`true`)/closed(`false`) menu.
@@ -129,6 +135,16 @@ export default class FilterableMultiSelect extends React.Component {
      * Specify title to show title on hover
      */
     useTitleInItem: PropTypes.bool,
+
+    /**
+     * Specify whether the control is currently in warning state
+     */
+    warn: PropTypes.bool,
+
+    /**
+     * Provide the text that is displayed when the control is in warning state
+     */
+    warnText: PropTypes.node,
   };
 
   static getDerivedStateFromProps({ open }, state) {
@@ -174,15 +190,17 @@ export default class FilterableMultiSelect extends React.Component {
     }
   };
 
-  handleOnToggleMenu = () => {
+  handleOnMenuChange = (isOpen) => {
     this.setState((state) => ({
-      isOpen: !state.isOpen,
+      isOpen: isOpen ?? !state.isOpen,
     }));
+    if (this.props.onMenuChange) {
+      this.props.onMenuChange(isOpen);
+    }
   };
 
   handleOnOuterClick = () => {
     this.setState({
-      isOpen: false,
       inputValue: '',
     });
   };
@@ -201,32 +219,30 @@ export default class FilterableMultiSelect extends React.Component {
       case Downshift.stateChangeTypes.keyDownArrowDown:
         this.setState({
           highlightedIndex: changes.highlightedIndex,
-          isOpen: true,
         });
+        if (!this.state.isOpen) this.handleOnMenuChange(true);
         break;
       case Downshift.stateChangeTypes.keyDownEscape:
       case Downshift.stateChangeTypes.mouseUp:
-        this.setState({ isOpen: false });
+        if (this.state.isOpen) this.handleOnMenuChange(false);
         break;
       // Opt-in to some cases where we should be toggling the menu based on
       // a given key press or mouse handler
       // Reference: https://github.com/paypal/downshift/issues/206
       case Downshift.stateChangeTypes.clickButton:
-      case Downshift.stateChangeTypes.keyDownSpaceButton:
-        this.setState(() => {
-          let nextIsOpen = changes.isOpen || false;
-          if (changes.isOpen === false) {
-            // If Downshift is trying to close the menu, but we know the input
-            // is the active element in thedocument, then keep the menu open
-            if (this.inputNode === document.activeElement) {
-              nextIsOpen = true;
-            }
+      case Downshift.stateChangeTypes.keyDownSpaceButton: {
+        let nextIsOpen = changes.isOpen || false;
+        if (changes.isOpen === false) {
+          // If Downshift is trying to close the menu, but we know the input
+          // is the active element in the document, then keep the menu open
+          if (this.inputNode === document.activeElement) {
+            nextIsOpen = true;
           }
-          return {
-            isOpen: nextIsOpen,
-          };
-        });
+        }
+        if (this.state.isOpen !== nextIsOpen)
+          this.handleOnMenuChange(nextIsOpen);
         break;
+      }
     }
   };
 
@@ -235,7 +251,7 @@ export default class FilterableMultiSelect extends React.Component {
   };
 
   handleOnInputValueChange = (inputValue, { type }) => {
-    if (type === Downshift.stateChangeTypes.changeInput)
+    if (type === Downshift.stateChangeTypes.changeInput) {
       this.setState(() => {
         if (Array.isArray(inputValue)) {
           return {
@@ -244,9 +260,11 @@ export default class FilterableMultiSelect extends React.Component {
         }
         return {
           inputValue: inputValue || '',
-          isOpen: Boolean(inputValue) || this.state.isOpen,
         };
       });
+      if (Boolean(inputValue) !== this.state.isOpen)
+        this.handleOnMenuChange(Boolean(inputValue));
+    }
   };
 
   clearInputValue = (event) => {
@@ -277,11 +295,15 @@ export default class FilterableMultiSelect extends React.Component {
       light,
       invalid,
       invalidText,
+      warn,
+      warnText,
       useTitleInItem,
       translateWithId,
       downshiftProps,
     } = this.props;
     const inline = type === 'inline';
+    const showWarning = !invalid && warn;
+
     const wrapperClasses = cx(
       `${prefix}--multi-select__wrapper`,
       `${prefix}--list-box__wrapper`,
@@ -376,6 +398,8 @@ export default class FilterableMultiSelect extends React.Component {
                   light={light}
                   invalid={invalid}
                   invalidText={invalidText}
+                  warn={warn}
+                  warnText={warnText}
                   isOpen={isOpen}
                   size={size}
                   {...getRootProps()}>
@@ -398,9 +422,9 @@ export default class FilterableMultiSelect extends React.Component {
                       aria-controls={`${id}__menu`}
                       aria-autocomplete="list"
                       ref={(el) => (this.inputNode = el)}
+                      id={`${id}-input`}
                       {...getInputProps({
                         disabled,
-                        id,
                         placeholder,
                         onKeyDown: this.handleOnInputKeyDown,
                       })}
@@ -408,6 +432,11 @@ export default class FilterableMultiSelect extends React.Component {
                     {invalid && (
                       <WarningFilled16
                         className={`${prefix}--list-box__invalid-icon`}
+                      />
+                    )}
+                    {showWarning && (
+                      <WarningAltFilled16
+                        className={`${prefix}--list-box__invalid-icon ${prefix}--list-box__invalid-icon--warning`}
                       />
                     )}
                     {inputValue && isOpen && (
@@ -423,7 +452,7 @@ export default class FilterableMultiSelect extends React.Component {
                   </ListBox.Field>
                   {isOpen && (
                     <ListBox.Menu
-                      role="group"
+                      role="listbox"
                       aria-label={ariaLabel}
                       id={`${id}-menu`}>
                       {sortItems(
@@ -478,7 +507,7 @@ export default class FilterableMultiSelect extends React.Component {
       <div className={wrapperClasses}>
         {title}
         {input}
-        {!inline && !invalid ? helper : null}
+        {!inline && !invalid && !warn ? helper : null}
       </div>
     );
   }

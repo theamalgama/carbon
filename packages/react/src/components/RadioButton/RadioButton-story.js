@@ -10,7 +10,9 @@ import { action } from '@storybook/addon-actions';
 
 import { withKnobs, boolean, select, text } from '@storybook/addon-knobs';
 import RadioButton from '../RadioButton';
+import { RadioButton as OGRadioButton } from './RadioButton';
 import RadioButtonSkeleton from '../RadioButton/RadioButton.Skeleton';
+import mdx from './RadioButton.mdx';
 
 const labelPositions = {
   'Left (left)': 'left',
@@ -34,12 +36,14 @@ const radioProps = () => ({
 export default {
   title: 'RadioButton',
   decorators: [withKnobs],
+  component: OGRadioButton,
+  subcomponents: {
+    RadioButtonSkeleton,
+  },
 
   parameters: {
-    component: RadioButton,
-
-    subcomponents: {
-      RadioButtonSkeleton,
+    docs: {
+      page: mdx,
     },
   },
 };

@@ -9,12 +9,12 @@
 
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-
 import { withKnobs, boolean, select, text } from '@storybook/addon-knobs';
 import Search from '../Search';
 import SearchSkeleton from '../Search/Search.Skeleton';
 import SearchFilterButton from '../SearchFilterButton';
 import SearchLayoutButton from '../SearchLayoutButton';
+import mdx from './Search.mdx';
 
 const sizes = {
   'Regular size (xl)': 'xl',
@@ -26,6 +26,7 @@ const props = () => ({
   className: 'some-class',
   size: select('Size (size)', sizes, 'xl'),
   light: boolean('Light variant (light)', false),
+  disabled: boolean('Disabled (disabled)', false),
   name: text('Form item name (name)', ''),
   defaultValue: text('Default value (defaultValue)', ''),
   labelText: text('Label text (labelText)', 'Search'),
@@ -35,6 +36,7 @@ const props = () => ({
   ),
   placeHolderText: text('Placeholder text (placeHolderText)', 'Search'),
   onChange: action('onChange'),
+  onKeyDown: action('onKeyDown'),
 });
 
 export default {
@@ -43,6 +45,9 @@ export default {
 
   parameters: {
     component: Search,
+    docs: {
+      page: mdx,
+    },
 
     subcomponents: {
       SearchSkeleton,

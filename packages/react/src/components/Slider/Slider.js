@@ -497,6 +497,7 @@ export default class Slider extends PureComponent {
       disabled,
       name,
       light,
+      invalid,
       ...other
     } = this.props;
 
@@ -504,6 +505,7 @@ export default class Slider extends PureComponent {
 
     const { value, left } = this.state;
 
+    const labelId = `${id}-label`;
     const labelClasses = classNames(`${prefix}--label`, {
       [`${prefix}--label--disabled`]: disabled,
     });
@@ -535,7 +537,7 @@ export default class Slider extends PureComponent {
 
     return (
       <div className={`${prefix}--form-item`}>
-        <label htmlFor={id} className={labelClasses}>
+        <label htmlFor={id} className={labelClasses} id={labelId}>
           {labelText}
         </label>
         <div className={`${prefix}--slider-container`}>
@@ -552,12 +554,14 @@ export default class Slider extends PureComponent {
             onKeyDown={this.onKeyDown}
             role="presentation"
             tabIndex={-1}
+            data-invalid={invalid || null}
             {...other}>
             <div
               className={`${prefix}--slider__thumb`}
               role="slider"
               id={id}
               tabIndex={0}
+              aria-labelledby={labelId}
               aria-valuemax={max}
               aria-valuemin={min}
               aria-valuenow={value}
@@ -591,6 +595,8 @@ export default class Slider extends PureComponent {
             max={max}
             step={step}
             onChange={this.onChange}
+            data-invalid={invalid || null}
+            aria-invalid={invalid || null}
           />
         </div>
       </div>

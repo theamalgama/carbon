@@ -10,8 +10,11 @@ import React from 'react';
 import classNames from 'classnames';
 import { settings } from '@theamalgama/carbon-components';
 import { keys, match } from '../../internal/keyboard';
+import warning from 'warning';
 
 const { prefix } = settings;
+
+let didWarnAboutDeprecation = false;
 
 const ToggleSmall = ({
   className,
@@ -25,6 +28,14 @@ const ToggleSmall = ({
   labelB,
   ...other
 }) => {
+  if (__DEV__) {
+    warning(
+      didWarnAboutDeprecation,
+      '`<ToggleSmall>` has been deprecated in favor of `<Toggle size="sm" />` and will be removed in the next major release of `carbon-components-react`'
+    );
+    didWarnAboutDeprecation = true;
+  }
+
   let input;
   const wrapperClasses = classNames(`${prefix}--form-item`, {
     [className]: className,
@@ -37,7 +48,11 @@ const ToggleSmall = ({
   } else {
     checkedProps.defaultChecked = defaultToggled;
   }
-  const ariaLabel = labelText || other['aria-label'] || other.ariaLabel || null;
+  const ariaLabel =
+    (typeof labelText === 'string' && labelText) ||
+    other['aria-label'] ||
+    other.ariaLabel ||
+    null;
 
   return (
     <div className={wrapperClasses}>
@@ -109,17 +124,17 @@ ToggleSmall.propTypes = {
   /**
    * Specify the label for the "off" position
    */
-  labelA: PropTypes.string.isRequired,
+  labelA: PropTypes.node.isRequired,
 
   /**
    * Specify the label for the "on" position
    */
-  labelB: PropTypes.string.isRequired,
+  labelB: PropTypes.node.isRequired,
 
   /**
    * The `aria-label` attribute for the toggle
    */
-  labelText: PropTypes.string,
+  labelText: PropTypes.node,
   /**
    * Provide an optional hook that is called when the control is changed
    */

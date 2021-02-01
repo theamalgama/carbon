@@ -7,8 +7,7 @@
 
 import React from 'react';
 import Toggle from '../Toggle';
-import ToggleSkeleton from '../Toggle/Toggle.Skeleton';
-import { mount, shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { settings } from '@theamalgama/carbon-components';
 
 const { prefix } = settings;
@@ -110,18 +109,25 @@ describe('Toggle', () => {
       expect(call[2].target).toBe(inputElement);
     });
   });
-});
 
-describe('ToggleSkeleton', () => {
-  describe('Renders as expected', () => {
-    const wrapper = shallow(<ToggleSkeleton />);
-    const input = wrapper.find('input');
-    const toggleLabel = wrapper.find(`.${prefix}--toggle__label`);
+  describe('ToggleSmall', () => {
+    const wrapper = mount(<Toggle id="toggle-1" size="sm" />);
 
-    it('Has the expected classes', () => {
-      expect(input.hasClass(`${prefix}--skeleton`)).toEqual(true);
-      expect(input.hasClass(`${prefix}--toggle`)).toEqual(true);
-      expect(toggleLabel.hasClass(`${prefix}--skeleton`)).toEqual(true);
+    it('Sets the `ToggleSmall` className', () => {
+      const input = wrapper.find('input');
+      expect(input.hasClass(`${prefix}--toggle-input--small`)).toEqual(true);
+    });
+
+    it('Renders a checkmark SVG', () => {
+      const svg = wrapper.find(`.${prefix}--toggle__check`);
+      expect(svg.length).toBe(1);
+    });
+
+    it('Does not render toggle text', () => {
+      const offLabel = wrapper.find(`.${prefix}--toggle__text--off`);
+      const onLabel = wrapper.find(`.${prefix}--toggle__text--on`);
+      expect(offLabel.length).toBe(0);
+      expect(onLabel.length).toBe(0);
     });
   });
 });

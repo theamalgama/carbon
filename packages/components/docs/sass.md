@@ -34,17 +34,30 @@
   - [✅exports [mixin]](#exports-mixin)
 - [@carbon/layout](#carbonlayout)
   - [✅carbon--grid-gutter [variable]](#carbon--grid-gutter-variable)
+  - [✅grid-gutter [variable]](#grid-gutter-variable)
   - [✅carbon--grid-gutter--condensed [variable]](#carbon--grid-gutter--condensed-variable)
+  - [✅grid-gutter--condensed [variable]](#grid-gutter--condensed-variable)
   - [✅carbon--grid-breakpoints [variable]](#carbon--grid-breakpoints-variable)
+  - [✅grid-breakpoints [variable]](#grid-breakpoints-variable)
   - [✅carbon--breakpoint-next [function]](#carbon--breakpoint-next-function)
+  - [✅breakpoint-next [function]](#breakpoint-next-function)
   - [✅carbon--breakpoint-prev [function]](#carbon--breakpoint-prev-function)
+  - [✅breakpoint-prev [function]](#breakpoint-prev-function)
   - [✅carbon--is-smallest-breakpoint [function]](#carbon--is-smallest-breakpoint-function)
+  - [✅is-smallest-breakpoint [function]](#is-smallest-breakpoint-function)
   - [✅carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
+  - [✅largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+  - [✅breakpoint-infix [function]](#breakpoint-infix-function)
   - [✅carbon--breakpoint-infix [function]](#carbon--breakpoint-infix-function)
+  - [✅breakpoint-up [mixin]](#breakpoint-up-mixin)
   - [✅carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+  - [✅breakpoint-down [mixin]](#breakpoint-down-mixin)
   - [✅carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
+  - [✅breakpoint-between [mixin]](#breakpoint-between-mixin)
   - [✅carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
+  - [✅largest-breakpoint [mixin]](#largest-breakpoint-mixin)
   - [✅carbon--largest-breakpoint [mixin]](#carbon--largest-breakpoint-mixin)
+  - [✅breakpoint [mixin]](#breakpoint-mixin)
   - [✅carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [✅carbon--container-01 [variable]](#carbon--container-01-variable)
   - [✅carbon--container-02 [variable]](#carbon--container-02-variable)
@@ -58,13 +71,21 @@
   - [✅container-04 [variable]](#container-04-variable)
   - [✅container-05 [variable]](#container-05-variable)
   - [✅carbon--base-font-size [variable]](#carbon--base-font-size-variable)
+  - [✅base-font-size [variable]](#base-font-size-variable)
   - [✅carbon--rem [function]](#carbon--rem-function)
+  - [✅rem [function]](#rem-function)
   - [✅carbon--em [function]](#carbon--em-function)
+  - [✅em [function]](#em-function)
   - [✅carbon--fluid-spacing-01 [variable]](#carbon--fluid-spacing-01-variable)
+  - [✅fluid-spacing-01 [variable]](#fluid-spacing-01-variable)
   - [✅carbon--fluid-spacing-02 [variable]](#carbon--fluid-spacing-02-variable)
+  - [✅fluid-spacing-02 [variable]](#fluid-spacing-02-variable)
   - [✅carbon--fluid-spacing-03 [variable]](#carbon--fluid-spacing-03-variable)
+  - [✅fluid-spacing-03 [variable]](#fluid-spacing-03-variable)
   - [✅carbon--fluid-spacing-04 [variable]](#carbon--fluid-spacing-04-variable)
+  - [✅fluid-spacing-04 [variable]](#fluid-spacing-04-variable)
   - [✅carbon--fluid-spacing [variable]](#carbon--fluid-spacing-variable)
+  - [✅fluid-spacing [variable]](#fluid-spacing-variable)
   - [✅fluid-spacing-01 [variable]](#fluid-spacing-01-variable)
   - [✅fluid-spacing-02 [variable]](#fluid-spacing-02-variable)
   - [✅fluid-spacing-03 [variable]](#fluid-spacing-03-variable)
@@ -95,18 +116,31 @@
   - [✅carbon--mini-unit-size [variable]](#carbon--mini-unit-size-variable)
   - [✅carbon--mini-units [function]](#carbon--mini-units-function)
   - [✅carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
+  - [✅spacing-01 [variable]](#spacing-01-variable)
   - [✅carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
+  - [✅spacing-02 [variable]](#spacing-02-variable)
   - [✅carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [✅spacing-03 [variable]](#spacing-03-variable)
   - [✅carbon--spacing-04 [variable]](#carbon--spacing-04-variable)
+  - [✅spacing-04 [variable]](#spacing-04-variable)
   - [✅carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
+  - [✅spacing-05 [variable]](#spacing-05-variable)
   - [✅carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
+  - [✅spacing-06 [variable]](#spacing-06-variable)
   - [✅carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
+  - [✅spacing-07 [variable]](#spacing-07-variable)
   - [✅carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
+  - [✅spacing-08 [variable]](#spacing-08-variable)
   - [✅carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
+  - [✅spacing-09 [variable]](#spacing-09-variable)
   - [✅carbon--spacing-10 [variable]](#carbon--spacing-10-variable)
+  - [✅spacing-10 [variable]](#spacing-10-variable)
   - [✅carbon--spacing-11 [variable]](#carbon--spacing-11-variable)
+  - [✅spacing-11 [variable]](#spacing-11-variable)
   - [✅carbon--spacing-12 [variable]](#carbon--spacing-12-variable)
+  - [✅spacing-12 [variable]](#spacing-12-variable)
   - [✅carbon--spacing [variable]](#carbon--spacing-variable)
+  - [✅spacing [variable]](#spacing-variable)
   - [✅spacing-01 [variable]](#spacing-01-variable)
   - [✅spacing-02 [variable]](#spacing-02-variable)
   - [✅spacing-03 [variable]](#spacing-03-variable)
@@ -120,7 +154,10 @@
   - [✅spacing-11 [variable]](#spacing-11-variable)
   - [✅spacing-12 [variable]](#spacing-12-variable)
   - [✅map-deep-get [function]](#map-deep-get-function)
+  - [✅map-deep-get [function]](#map-deep-get-function)
   - [✅carbon--key-by-index [function]](#carbon--key-by-index-function)
+  - [✅key-by-index [function]](#key-by-index-function)
+  - [✅last-map-item [function]](#last-map-item-function)
   - [✅last-map-item [function]](#last-map-item-function)
 - [@carbon/motion](#carbonmotion)
   - [✅carbon--easings [variable]](#carbon--easings-variable)
@@ -170,7 +207,8 @@
   - [✅inverse-support-03 [variable]](#inverse-support-03-variable)
   - [✅inverse-support-04 [variable]](#inverse-support-04-variable)
   - [✅overlay-01 [variable]](#overlay-01-variable)
-  - [✅danger [variable]](#danger-variable)
+  - [✅danger-01 [variable]](#danger-01-variable)
+  - [✅danger-02 [variable]](#danger-02-variable)
   - [✅focus [variable]](#focus-variable)
   - [✅inverse-focus-ui [variable]](#inverse-focus-ui-variable)
   - [✅hover-primary [variable]](#hover-primary-variable)
@@ -181,10 +219,12 @@
   - [✅hover-tertiary [variable]](#hover-tertiary-variable)
   - [✅active-tertiary [variable]](#active-tertiary-variable)
   - [✅hover-ui [variable]](#hover-ui-variable)
+  - [✅hover-light-ui [variable]](#hover-light-ui-variable)
+  - [✅hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [✅active-ui [variable]](#active-ui-variable)
+  - [✅active-light-ui [variable]](#active-light-ui-variable)
   - [✅selected-ui [variable]](#selected-ui-variable)
   - [✅selected-light-ui [variable]](#selected-light-ui-variable)
-  - [✅hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [✅inverse-hover-ui [variable]](#inverse-hover-ui-variable)
   - [✅hover-danger [variable]](#hover-danger-variable)
   - [✅active-danger [variable]](#active-danger-variable)
@@ -195,7 +235,6 @@
   - [✅disabled-03 [variable]](#disabled-03-variable)
   - [✅highlight [variable]](#highlight-variable)
   - [✅decorative-01 [variable]](#decorative-01-variable)
-  - [✅hover-light-ui [variable]](#hover-light-ui-variable)
   - [✅button-separator [variable]](#button-separator-variable)
   - [✅skeleton-01 [variable]](#skeleton-01-variable)
   - [✅skeleton-02 [variable]](#skeleton-02-variable)
@@ -204,6 +243,7 @@
   - [✅⚠️brand-03 [variable]](#brand-03-variable)
   - [✅⚠️active-01 [variable]](#active-01-variable)
   - [✅⚠️hover-field [variable]](#hover-field-variable)
+  - [✅danger [variable]](#danger-variable)
   - [✅caption-01 [variable]](#caption-01-variable)
   - [✅label-01 [variable]](#label-01-variable)
   - [✅helper-text-01 [variable]](#helper-text-01-variable)
@@ -554,12 +594,14 @@ Define color variables
   $ibm-color__magenta-30: #ffafd2 !default !global;
   $ibm-color__magenta-40: #ff7eb6 !default !global;
   $ibm-color__magenta-50: #ee5396 !default !global;
-  $ibm-color__magenta-60: #d12771 !default !global;
+  $ibm-color__magenta-60: #d02670 !default !global;
   $ibm-color__magenta-70: #9f1853 !default !global;
   $ibm-color__magenta-80: #740937 !default !global;
   $ibm-color__magenta-90: #510224 !default !global;
   $ibm-color__magenta-100: #2a0a18 !default !global;
   $ibm-color__orange-40: #ff832b !default !global;
+  $ibm-color__orange-60: #ba4e00 !default !global;
+  $ibm-color__orange-70: #8a3800 !default !global;
   $ibm-color__purple-10: #f6f2ff !default !global;
   $ibm-color__purple-20: #e8daff !default !global;
   $ibm-color__purple-30: #d4bbff !default !global;
@@ -595,7 +637,7 @@ Define color variables
   $ibm-color__warm-gray-30: #cac5c4 !default !global;
   $ibm-color__warm-gray-40: #ada8a8 !default !global;
   $ibm-color__warm-gray-50: #8f8b8b !default !global;
-  $ibm-color__warm-gray-60: #736f6f !default !global;
+  $ibm-color__warm-gray-60: #726e6e !default !global;
   $ibm-color__warm-gray-70: #565151 !default !global;
   $ibm-color__warm-gray-80: #3c3838 !default !global;
   $ibm-color__warm-gray-90: #272525 !default !global;
@@ -603,6 +645,8 @@ Define color variables
   $ibm-color__white-0: #ffffff !default !global;
   $ibm-color__yellow-20: #fdd13a !default !global;
   $ibm-color__yellow-30: #f1c21b !default !global;
+  $ibm-color__yellow-40: #d2a106 !default !global;
+  $ibm-color__yellow-50: #b28600 !default !global;
   $ibm-color-map: (
     'black': (
       100: #000000,
@@ -685,7 +729,7 @@ Define color variables
       30: #ffafd2,
       40: #ff7eb6,
       50: #ee5396,
-      60: #d12771,
+      60: #d02670,
       70: #9f1853,
       80: #740937,
       90: #510224,
@@ -693,6 +737,8 @@ Define color variables
     ),
     'orange': (
       40: #ff832b,
+      60: #ba4e00,
+      70: #8a3800,
     ),
     'purple': (
       10: #f6f2ff,
@@ -736,7 +782,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -748,7 +794,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -760,6 +806,8 @@ Define color variables
     'yellow': (
       20: #fdd13a,
       30: #f1c21b,
+      40: #d2a106,
+      50: #b28600,
     ),
   ) !default !global;
 }
@@ -835,12 +883,14 @@ Define color variables
   $carbon--magenta-30: #ffafd2 !default !global;
   $carbon--magenta-40: #ff7eb6 !default !global;
   $carbon--magenta-50: #ee5396 !default !global;
-  $carbon--magenta-60: #d12771 !default !global;
+  $carbon--magenta-60: #d02670 !default !global;
   $carbon--magenta-70: #9f1853 !default !global;
   $carbon--magenta-80: #740937 !default !global;
   $carbon--magenta-90: #510224 !default !global;
   $carbon--magenta-100: #2a0a18 !default !global;
   $carbon--orange-40: #ff832b !default !global;
+  $carbon--orange-60: #ba4e00 !default !global;
+  $carbon--orange-70: #8a3800 !default !global;
   $carbon--purple-10: #f6f2ff !default !global;
   $carbon--purple-20: #e8daff !default !global;
   $carbon--purple-30: #d4bbff !default !global;
@@ -876,7 +926,7 @@ Define color variables
   $carbon--warm-gray-30: #cac5c4 !default !global;
   $carbon--warm-gray-40: #ada8a8 !default !global;
   $carbon--warm-gray-50: #8f8b8b !default !global;
-  $carbon--warm-gray-60: #736f6f !default !global;
+  $carbon--warm-gray-60: #726e6e !default !global;
   $carbon--warm-gray-70: #565151 !default !global;
   $carbon--warm-gray-80: #3c3838 !default !global;
   $carbon--warm-gray-90: #272525 !default !global;
@@ -884,6 +934,8 @@ Define color variables
   $carbon--white-0: #ffffff !default !global;
   $carbon--yellow-20: #fdd13a !default !global;
   $carbon--yellow-30: #f1c21b !default !global;
+  $carbon--yellow-40: #d2a106 !default !global;
+  $carbon--yellow-50: #b28600 !default !global;
   $black-100: #000000 !default !global;
   $blue-10: #edf5ff !default !global;
   $blue-20: #d0e2ff !default !global;
@@ -940,12 +992,14 @@ Define color variables
   $magenta-30: #ffafd2 !default !global;
   $magenta-40: #ff7eb6 !default !global;
   $magenta-50: #ee5396 !default !global;
-  $magenta-60: #d12771 !default !global;
+  $magenta-60: #d02670 !default !global;
   $magenta-70: #9f1853 !default !global;
   $magenta-80: #740937 !default !global;
   $magenta-90: #510224 !default !global;
   $magenta-100: #2a0a18 !default !global;
   $orange-40: #ff832b !default !global;
+  $orange-60: #ba4e00 !default !global;
+  $orange-70: #8a3800 !default !global;
   $purple-10: #f6f2ff !default !global;
   $purple-20: #e8daff !default !global;
   $purple-30: #d4bbff !default !global;
@@ -981,7 +1035,7 @@ Define color variables
   $warm-gray-30: #cac5c4 !default !global;
   $warm-gray-40: #ada8a8 !default !global;
   $warm-gray-50: #8f8b8b !default !global;
-  $warm-gray-60: #736f6f !default !global;
+  $warm-gray-60: #726e6e !default !global;
   $warm-gray-70: #565151 !default !global;
   $warm-gray-80: #3c3838 !default !global;
   $warm-gray-90: #272525 !default !global;
@@ -989,6 +1043,8 @@ Define color variables
   $white-0: #ffffff !default !global;
   $yellow-20: #fdd13a !default !global;
   $yellow-30: #f1c21b !default !global;
+  $yellow-40: #d2a106 !default !global;
+  $yellow-50: #b28600 !default !global;
   $carbon--colors: (
     'black': (
       100: #000000,
@@ -1071,7 +1127,7 @@ Define color variables
       30: #ffafd2,
       40: #ff7eb6,
       50: #ee5396,
-      60: #d12771,
+      60: #d02670,
       70: #9f1853,
       80: #740937,
       90: #510224,
@@ -1079,6 +1135,8 @@ Define color variables
     ),
     'orange': (
       40: #ff832b,
+      60: #ba4e00,
+      70: #8a3800,
     ),
     'purple': (
       10: #f6f2ff,
@@ -1122,7 +1180,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -1134,7 +1192,7 @@ Define color variables
       30: #cac5c4,
       40: #ada8a8,
       50: #8f8b8b,
-      60: #736f6f,
+      60: #726e6e,
       70: #565151,
       80: #3c3838,
       90: #272525,
@@ -1146,6 +1204,8 @@ Define color variables
     'yellow': (
       20: #fdd13a,
       30: #f1c21b,
+      40: #d2a106,
+      50: #b28600,
     ),
   ) !default !global;
 }
@@ -1794,6 +1854,7 @@ Generate the CSS for a grid for the given breakpoints and gutters
   - [carbon--hang [mixin]](#carbon--hang-mixin)
   - [carbon--aspect-ratio [mixin]](#carbon--aspect-ratio-mixin)
   - [prefix [variable]](#prefix-variable)
+  - [grid-gutter [variable]](#grid-gutter-variable)
 
 ### ✅prefix [variable]
 
@@ -1978,6 +2039,24 @@ $carbon--grid-gutter: carbon--rem(32px);
 - **Used by**:
   - [carbon--make-container [mixin]](#carbon--make-container-mixin)
 
+### ✅grid-gutter [variable]
+
+Carbon gutter size in rem
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-gutter: convert.rem(32px);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--grid [mixin]](#carbon--grid-mixin)
+
 ### ✅carbon--grid-gutter--condensed [variable]
 
 Carbon condensed gutter size in rem
@@ -1987,6 +2066,22 @@ Carbon condensed gutter size in rem
 
 ```scss
 $carbon--grid-gutter--condensed: carbon--rem(1px);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+
+### ✅grid-gutter--condensed [variable]
+
+Carbon condensed gutter size in rem
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-gutter--condensed: convert.rem(1px);
 ```
 
 </details>
@@ -2034,6 +2129,46 @@ $carbon--grid-breakpoints: (
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Map`
 
+### ✅grid-breakpoints [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$grid-breakpoints: (
+  sm: (
+    columns: 4,
+    margin: 0,
+    width: convert.rem(320px),
+  ),
+  md: (
+    columns: 8,
+    margin: convert.rem(16px),
+    width: convert.rem(672px),
+  ),
+  lg: (
+    columns: 16,
+    margin: convert.rem(16px),
+    width: convert.rem(1056px),
+  ),
+  xlg: (
+    columns: 16,
+    margin: convert.rem(16px),
+    width: convert.rem(1312px),
+  ),
+  max: (
+    columns: 16,
+    margin: convert.rem(24px),
+    width: convert.rem(1584px),
+  ),
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Map`
+
 ### ✅carbon--breakpoint-next [function]
 
 Get the value of the next breakpoint, or null for the last breakpoint
@@ -2069,6 +2204,40 @@ Get the value of the next breakpoint, or null for the last breakpoint
 - **Returns**: `String`
 - **Used by**:
   - [fluid-type-size [mixin]](#fluid-type-size-mixin)
+
+### ✅breakpoint-next [function]
+
+Get the value of the next breakpoint, or null for the last breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-next(
+  $name,
+  $breakpoints: $grid-breakpoints,
+  $breakpoint-names: map-keys($breakpoints)
+) {
+  $n: list.index($breakpoint-names, $name);
+  @if $n != null and $n < list.length($breakpoint-names) {
+    @return list.nth($breakpoint-names, $n + 1);
+  }
+  @return null;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name                | Description                                                                                                     | Type     | Default value            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
+| `$name`             | The name of the brekapoint                                                                                      | `String` | —                        |
+| `$breakpoints`      | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints`      |
+| `$breakpoint-names` | A list of names from the `$breakpoints` map                                                                     | `List`   | `map-keys($breakpoints)` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
 
 ### ✅carbon--breakpoint-prev [function]
 
@@ -2106,6 +2275,40 @@ Get the value of the previous breakpoint, or null for the first breakpoint
 - **Used by**:
   - [carbon--make-container [mixin]](#carbon--make-container-mixin)
 
+### ✅breakpoint-prev [function]
+
+Get the value of the previous breakpoint, or null for the first breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-prev(
+  $name,
+  $breakpoints: $grid-breakpoints,
+  $breakpoint-names: map-keys($breakpoints)
+) {
+  $n: list.index($breakpoint-names, $name);
+  @if $n != null and $n > 1 {
+    @return list.nth($breakpoint-names, $n - 1);
+  }
+  @return null;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name                | Description                                                                                                     | Type     | Default value            |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
+| `$name`             | The name of the brekapoint                                                                                      | `String` | —                        |
+| `$breakpoints`      | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints`      |
+| `$breakpoint-names` | A list of names from the `$breakpoints` map                                                                     | `List`   | `map-keys($breakpoints)` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+
 ### ✅carbon--is-smallest-breakpoint [function]
 
 Check to see if the given breakpoint name
@@ -2135,6 +2338,33 @@ Check to see if the given breakpoint name
 - **Returns**: `Bool`
 - **Used by**:
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+
+### ✅is-smallest-breakpoint [function]
+
+Check to see if the given breakpoint name
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function is-smallest-breakpoint($name, $breakpoints: $grid-breakpoints) {
+  @return list.index(map.keys($breakpoints), $name) == 1;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                                                                                     | Type     | Default value       |
+| -------------- | --------------------------------------------------------------------------------------------------------------- | -------- | ------------------- |
+| `$name`        | The name of the brekapoint                                                                                      | `String` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name of the breakpoint and the value is the values for the breakpoint | `Map`    | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Bool`
+- **Used by**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
 
 ### ✅carbon--largest-breakpoint-name [function]
 
@@ -2167,6 +2397,60 @@ Returns the largest breakpoint name
 - **Used by**:
   - [carbon--largest-breakpoint [mixin]](#carbon--largest-breakpoint-mixin)
 
+### ✅largest-breakpoint-name [function]
+
+Returns the largest breakpoint name
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function largest-breakpoint-name($breakpoints: $grid-breakpoints) {
+  $total-breakpoints: list.length($breakpoints);
+  @return key-by-index($breakpoints, $total-breakpoints);
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type  | Default value       |
+| -------------- | ---------------------------------------------- | ----- | ------------------- |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map` | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+- **Requires**:
+  - [key-by-index [function]](#key-by-index-function)
+- **Used by**:
+  - [largest-breakpoint [mixin]](#largest-breakpoint-mixin)
+
+### ✅breakpoint-infix [function]
+
+Get the infix for a given breakpoint in a list of breakpoints. Usesful for
+generate the size part in a selector, for example: `.prefix--col-sm-2`.
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function breakpoint-infix($name) {
+  @return '-#{$name}';
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name    | Description                | Type     | Default value |
+| ------- | -------------------------- | -------- | ------------- |
+| `$name` | The name of the breakpoint | `String` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String`
+
 ### ✅carbon--breakpoint-infix [function]
 
 Get the infix for a given breakpoint in a list of breakpoints. Usesful for
@@ -2193,6 +2477,51 @@ generate the size part in a selector, for example: `.prefix--col-sm-2`.
 - **Returns**: `String`
 - **Used by**:
   - [carbon--make-grid-columns [mixin]](#carbon--make-grid-columns-mixin)
+
+### ✅breakpoint-up [mixin]
+
+Generate a media query from the width of the given breakpoint to infinity
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-up($name, $breakpoints: $grid-breakpoints) {
+  @if meta.type-of($name) == 'number' {
+    @media (min-width: $name) {
+      @content;
+    }
+  } @else if map.has-key($breakpoints, $name) {
+    $breakpoint: map.get($breakpoints, $name);
+    $width: map.get($breakpoint, width);
+    @if is-smallest-breakpoint($name, $breakpoints) {
+      @content;
+    } @else {
+      @media (min-width: $width) {
+        @content;
+      }
+    }
+  } @else {
+    @error 'Unable to find a breakpoint with name `#{$name}`. Expected one of: (#{map.keys($breakpoints)})';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [is-smallest-breakpoint [function]](#is-smallest-breakpoint-function)
+- **Used by**:
+  - [breakpoint-between [mixin]](#breakpoint-between-mixin)
+  - [breakpoint [mixin]](#breakpoint-mixin)
 
 ### ✅carbon--breakpoint-up [mixin]
 
@@ -2240,6 +2569,49 @@ Generate a media query from the width of the given breakpoint to infinity
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [accordion [mixin]](#accordion-mixin)
 
+### ✅breakpoint-down [mixin]
+
+Generate a media query for the maximum width of the given styles
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-down($name, $breakpoints: $grid-breakpoints) {
+  @if meta.type-of($name) == 'number' {
+    @media (max-width: $name) {
+      @content;
+    }
+  } @else if map.has-key($breakpoints, $name) {
+    // We borrow this logic from bootstrap for specifying the value of the
+    // max-width. The maximum width is calculated by finding the breakpoint and
+    // subtracting .02 from its value. This value is used instead of .01 to
+    // avoid rounding issues in Safari
+    // https://github.com/twbs/bootstrap/blob/c5b1919deaf5393fcca9e9b9d7ce9c338160d99d/scss/mixins/_breakpoints.scss#L34-L46
+    $breakpoint: map.get($breakpoints, $name);
+    $width: map.get($breakpoint, width) - 0.02;
+    @media (max-width: $width) {
+      @content;
+    }
+  } @else {
+    @error 'Unable to find a breakpoint with name `#{$name}`. Expected one of: (#{map.keys($breakpoints)})';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Used by**:
+  - [breakpoint-between [mixin]](#breakpoint-between-mixin)
+
 ### ✅carbon--breakpoint-down [mixin]
 
 Generate a media query for the maximum width of the given styles
@@ -2284,6 +2656,55 @@ Generate a media query for the maximum width of the given styles
   - [carbon--breakpoint-between [mixin]](#carbon--breakpoint-between-mixin)
   - [pagination [mixin]](#pagination-mixin)
   - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
+
+### ✅breakpoint-between [mixin]
+
+Generate a media query for the range between the lower and upper breakpoints
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+  $is-number-lower: meta.type-of($lower) == 'number';
+  $is-number-upper: meta.type-of($upper) == 'number';
+  $min: if($is-number-lower, $lower, map.get($breakpoints, $lower));
+  $max: if($is-number-upper, $upper, map.get($breakpoints, $upper));
+
+  @if $min and $max {
+    $min-width: if(not $is-number-lower and $min, map.get($min, width), $min);
+    $max-width: if(not $is-number-upper and $max, map.get($max, width), $max);
+    @media (min-width: $min-width) and (max-width: $max-width) {
+      @content;
+    }
+  } @else if $min != null and $max == null {
+    @include breakpoint-up($lower) {
+      @content;
+    }
+  } @else if $min == null and $max != null {
+    @include breakpoint-down($upper) {
+      @content;
+    }
+  } @else {
+    @error 'Unable to find a breakpoint to satisfy: (#{$lower},#{$upper}). Expected both to be one of (#{map.keys($breakpoints)}).';
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$lower`       | —                                              | `String \| Number` | —                   |
+| `$upper`       | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
+  - [breakpoint-down [mixin]](#breakpoint-down-mixin)
 
 ### ✅carbon--breakpoint-between [mixin]
 
@@ -2338,6 +2759,34 @@ Generate a media query for the range between the lower and upper breakpoints
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
   - [carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
 
+### ✅largest-breakpoint [mixin]
+
+Generate media query for the largest breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin largest-breakpoint($breakpoints: $grid-breakpoints) {
+  @include breakpoint(largest-breakpoint-name()) {
+    @content;
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type  | Default value       |
+| -------------- | ---------------------------------------------- | ----- | ------------------- |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map` | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint [mixin]](#breakpoint-mixin)
+  - [largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+
 ### ✅carbon--largest-breakpoint [mixin]
 
 Generate media query for the largest breakpoint
@@ -2367,6 +2816,36 @@ Generate media query for the largest breakpoint
   - [carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
 - **Used by**:
   - [carbon--grid [mixin]](#carbon--grid-mixin)
+
+### ✅breakpoint [mixin]
+
+Generate a media query for a given breakpoint
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@mixin breakpoint($name, $breakpoints: $grid-breakpoints) {
+  @include breakpoint-up($name, $breakpoints) {
+    @content;
+  }
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name           | Description                                    | Type               | Default value       |
+| -------------- | ---------------------------------------------- | ------------------ | ------------------- |
+| `$name`        | —                                              | `String \| Number` | —                   |
+| `$breakpoints` | A map of breakpoints where the key is the name | `Map`              | `$grid-breakpoints` |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Requires**:
+  - [breakpoint-up [mixin]](#breakpoint-up-mixin)
+- **Used by**:
+  - [largest-breakpoint [mixin]](#largest-breakpoint-mixin)
 
 ### ✅carbon--breakpoint [mixin]
 
@@ -2407,6 +2886,7 @@ Generate a media query for a given breakpoint
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [pagination [mixin]](#pagination-mixin)
   - [unstable_pagination [mixin]](#unstable_pagination-mixin)
+  - [tabs [mixin]](#tabs-mixin)
   - [carbon-header [mixin]](#carbon-header-mixin)
 
 ### ✅carbon--container-01 [variable]
@@ -2613,6 +3093,25 @@ $carbon--base-font-size: 16px;
   - [carbon--rem [function]](#carbon--rem-function)
   - [carbon--em [function]](#carbon--em-function)
 
+### ✅base-font-size [variable]
+
+Default font size
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$base-font-size: 16px;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [rem [function]](#rem-function)
+  - [em [function]](#em-function)
+
 ### ✅carbon--rem [function]
 
 Convert a given px unit to a rem unit
@@ -2647,6 +3146,86 @@ Convert a given px unit to a rem unit
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [toggle [mixin]](#toggle-mixin)
 
+### ✅rem [function]
+
+Convert a given px unit to a rem unit
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function rem($px) {
+  @if unit($px) != 'px' {
+    // TODO: update to @error in v11
+    @warn "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $base-font-size) * 1rem;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name  | Description         | Type     | Default value |
+| ----- | ------------------- | -------- | ------------- |
+| `$px` | Number with px unit | `Number` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Number` Number with rem unit
+- **Requires**:
+  - [base-font-size [variable]](#base-font-size-variable)
+- **Used by**:
+  - [accordion [mixin]](#accordion-mixin)
+  - [breadcrumb [mixin]](#breadcrumb-mixin)
+  - [button [mixin]](#button-mixin)
+  - [button-base [mixin]](#button-base-mixin)
+  - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [bx--snippet [mixin]](#bx--snippet-mixin)
+  - [content-switcher [mixin]](#content-switcher-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
+  - [data-table-sort [mixin]](#data-table-sort-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
+  - [dropdown [mixin]](#dropdown-mixin)
+  - [file-uploader [mixin]](#file-uploader-mixin)
+  - [form [mixin]](#form-mixin)
+  - [inline-loading [mixin]](#inline-loading-mixin)
+  - [lists [mixin]](#lists-mixin)
+  - [listbox [mixin]](#listbox-mixin)
+  - [loading [mixin]](#loading-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
+  - [inline-notifications [mixin]](#inline-notifications-mixin)
+  - [toast-notifications [mixin]](#toast-notifications-mixin)
+  - [number-input [mixin]](#number-input-mixin)
+  - [overflow-menu [mixin]](#overflow-menu-mixin)
+  - [pagination [mixin]](#pagination-mixin)
+  - [unstable_pagination [mixin]](#unstable_pagination-mixin)
+  - [progress-indicator [mixin]](#progress-indicator-mixin)
+  - [radio-button [mixin]](#radio-button-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [slider [mixin]](#slider-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [tags [mixin]](#tags-mixin)
+  - [text-area [mixin]](#text-area-mixin)
+  - [text-input [mixin]](#text-input-mixin)
+  - [time-picker [mixin]](#time-picker-mixin)
+  - [toggle [mixin]](#toggle-mixin)
+  - [toolbar [mixin]](#toolbar-mixin)
+  - [tooltip--icon [mixin]](#tooltip--icon-mixin)
+  - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
+  - [tooltip [mixin]](#tooltip-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-header [mixin]](#carbon-header-mixin)
+  - [carbon-navigation [mixin]](#carbon-navigation-mixin)
+  - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
+
 ### ✅carbon--em [function]
 
 Convert a given px unit to a em unit
@@ -2678,6 +3257,37 @@ Convert a given px unit to a em unit
 - **Requires**:
   - [carbon--base-font-size [variable]](#carbon--base-font-size-variable)
 
+### ✅em [function]
+
+Convert a given px unit to a em unit
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function em($px) {
+  @if unit($px) != 'px' {
+    // TODO: update to @error in v11
+    @warn "Expected argument $px to be of type `px`, instead received: `#{unit($px)}`";
+  }
+
+  @return ($px / $base-font-size) * 1em;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name  | Description         | Type     | Default value |
+| ----- | ------------------- | -------- | ------------- |
+| `$px` | Number with px unit | `Number` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `Number` Number with em unit
+- **Requires**:
+  - [base-font-size [variable]](#base-font-size-variable)
+
 ### ✅carbon--fluid-spacing-01 [variable]
 
 <details>
@@ -2693,6 +3303,22 @@ $carbon--fluid-spacing-01: 0;
 - **Type**: `Number`
 - **Aliased**:
   - `fluid-spacing-01`
+
+### ✅fluid-spacing-01 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-01: 0;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--fluid-spacing-02 [variable]
 
@@ -2710,6 +3336,22 @@ $carbon--fluid-spacing-02: 2vw;
 - **Aliased**:
   - `fluid-spacing-02`
 
+### ✅fluid-spacing-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-02: 2vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--fluid-spacing-03 [variable]
 
 <details>
@@ -2725,6 +3367,22 @@ $carbon--fluid-spacing-03: 5vw;
 - **Type**: `Number`
 - **Aliased**:
   - `fluid-spacing-03`
+
+### ✅fluid-spacing-03 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-03: 5vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--fluid-spacing-04 [variable]
 
@@ -2742,6 +3400,22 @@ $carbon--fluid-spacing-04: 10vw;
 - **Aliased**:
   - `fluid-spacing-04`
 
+### ✅fluid-spacing-04 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing-04: 10vw;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--fluid-spacing [variable]
 
 <details>
@@ -2753,6 +3427,25 @@ $carbon--fluid-spacing: (
   $carbon--fluid-spacing-02,
   $carbon--fluid-spacing-03,
   $carbon--fluid-spacing-04
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `List`
+
+### ✅fluid-spacing [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$fluid-spacing: (
+  $fluid-spacing-01,
+  $fluid-spacing-02,
+  $fluid-spacing-03,
+  $fluid-spacing-04
 );
 ```
 
@@ -2775,8 +3468,6 @@ $fluid-spacing-01: $carbon--fluid-spacing-01;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-01`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-02 [variable]
 
@@ -2792,8 +3483,6 @@ $fluid-spacing-02: $carbon--fluid-spacing-02;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-02`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-03 [variable]
 
@@ -2809,8 +3498,6 @@ $fluid-spacing-03: $carbon--fluid-spacing-03;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-03`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅fluid-spacing-04 [variable]
 
@@ -2826,8 +3513,6 @@ $fluid-spacing-04: $carbon--fluid-spacing-04;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--fluid-spacing-04`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--icon-size-01 [variable]
 
@@ -3344,7 +4029,6 @@ Get the value of the corresponding number of units
   - [carbon--mini-unit-size [variable]](#carbon--mini-unit-size-variable)
 - **Used by**:
   - [listbox [mixin]](#listbox-mixin)
-  - [multiselect [mixin]](#multiselect-mixin)
   - [unstable_pagination [mixin]](#unstable_pagination-mixin)
   - [radio-button [mixin]](#radio-button-mixin)
   - [select [mixin]](#select-mixin)
@@ -3370,6 +4054,23 @@ $carbon--spacing-01: 0.125rem;
   - [search [mixin]](#search-mixin)
   - [time-picker [mixin]](#time-picker-mixin)
 
+### ✅spacing-01 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-01: 0.125rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+
 ### ✅carbon--spacing-02 [variable]
 
 <details>
@@ -3387,11 +4088,32 @@ $carbon--spacing-02: 0.25rem;
   - `spacing-02`
 - **Used by**:
   - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [file-uploader [mixin]](#file-uploader-mixin)
   - [form [mixin]](#form-mixin)
+  - [lists [mixin]](#lists-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [pseudo-underline [mixin]](#pseudo-underline-mixin)
   - [tags [mixin]](#tags-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
+
+### ✅spacing-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-02: 0.25rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [tags [mixin]](#tags-mixin)
 
 ### ✅carbon--spacing-03 [variable]
 
@@ -3412,11 +4134,11 @@ $carbon--spacing-03: 0.5rem;
   - [accordion [mixin]](#accordion-mixin)
   - [breadcrumb [mixin]](#breadcrumb-mixin)
   - [button [mixin]](#button-mixin)
+  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [form [mixin]](#form-mixin)
   - [listbox [mixin]](#listbox-mixin)
-  - [multiselect [mixin]](#multiselect-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
@@ -3425,9 +4147,38 @@ $carbon--spacing-03: 0.5rem;
   - [padding-th [mixin]](#padding-th-mixin)
   - [tabs [mixin]](#tabs-mixin)
   - [tags [mixin]](#tags-mixin)
+  - [tile [mixin]](#tile-mixin)
   - [toggle [mixin]](#toggle-mixin)
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
+
+### ✅spacing-03 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-03: 0.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [accordion [mixin]](#accordion-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-sort [mixin]](#data-table-sort-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
+  - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [tooltip [mixin]](#tooltip-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅carbon--spacing-04 [variable]
 
@@ -3449,6 +4200,24 @@ $carbon--spacing-04: 0.75rem;
   - [lists [mixin]](#lists-mixin)
   - [text-area [mixin]](#text-area-mixin)
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
+
+### ✅spacing-04 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-04: 0.75rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [tabs [mixin]](#tabs-mixin)
 
 ### ✅carbon--spacing-05 [variable]
 
@@ -3495,6 +4264,36 @@ $carbon--spacing-05: 1rem;
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
 
+### ✅spacing-05 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-05: 1rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [accordion [mixin]](#accordion-mixin)
+  - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
+  - [pagination [mixin]](#pagination-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
+
 ### ✅carbon--spacing-06 [variable]
 
 <details>
@@ -3513,11 +4312,28 @@ $carbon--spacing-06: 1.5rem;
 - **Used by**:
   - [accordion [mixin]](#accordion-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
-  - [lists [mixin]](#lists-mixin)
   - [listbox [mixin]](#listbox-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [padding-td [mixin]](#padding-td-mixin)
+
+### ✅spacing-06 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-06: 1.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
 
 ### ✅carbon--spacing-07 [variable]
 
@@ -3542,6 +4358,27 @@ $carbon--spacing-07: 2rem;
   - [number-input [mixin]](#number-input-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
+
+### ✅spacing-07 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-07: 2rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅carbon--spacing-08 [variable]
 
@@ -3568,6 +4405,25 @@ $carbon--spacing-08: 2.5rem;
   - [text-area [mixin]](#text-area-mixin)
   - [text-input [mixin]](#text-input-mixin)
 
+### ✅spacing-08 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-08: 2.5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [dropdown [mixin]](#dropdown-mixin)
+  - [search [mixin]](#search-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+
 ### ✅carbon--spacing-09 [variable]
 
 <details>
@@ -3585,6 +4441,7 @@ $carbon--spacing-09: 3rem;
   - `spacing-09`
 - **Used by**:
   - [accordion [mixin]](#accordion-mixin)
+  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [listbox [mixin]](#listbox-mixin)
@@ -3593,6 +4450,28 @@ $carbon--spacing-09: 3rem;
   - [pagination [mixin]](#pagination-mixin)
   - [tabs [mixin]](#tabs-mixin)
   - [tile [mixin]](#tile-mixin)
+
+### ✅spacing-09 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-09: 3rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [modal [mixin]](#modal-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
+  - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
 
 ### ✅carbon--spacing-10 [variable]
 
@@ -3610,6 +4489,22 @@ $carbon--spacing-10: 4rem;
 - **Aliased**:
   - `spacing-10`
 
+### ✅spacing-10 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-10: 4rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-11 [variable]
 
 <details>
@@ -3626,6 +4521,22 @@ $carbon--spacing-11: 5rem;
 - **Aliased**:
   - `spacing-11`
 
+### ✅spacing-11 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-11: 5rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
 ### ✅carbon--spacing-12 [variable]
 
 <details>
@@ -3641,6 +4552,22 @@ $carbon--spacing-12: 6rem;
 - **Type**: `Number`
 - **Aliased**:
   - `spacing-12`
+
+### ✅spacing-12 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing-12: 6rem;
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `Number`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅carbon--spacing [variable]
 
@@ -3669,6 +4596,33 @@ $carbon--spacing: (
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `List`
 
+### ✅spacing [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$spacing: (
+  $spacing-01,
+  $spacing-02,
+  $spacing-03,
+  $spacing-04,
+  $spacing-05,
+  $spacing-06,
+  $spacing-07,
+  $spacing-08,
+  $spacing-09,
+  $spacing-10,
+  $spacing-11,
+  $spacing-12
+);
+```
+
+</details>
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Type**: `List`
+
 ### ✅spacing-01 [variable]
 
 <details>
@@ -3683,9 +4637,6 @@ $spacing-01: $carbon--spacing-01;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-01`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
 
 ### ✅spacing-02 [variable]
 
@@ -3701,9 +4652,6 @@ $spacing-02: $carbon--spacing-02;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-02`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [modal [mixin]](#modal-mixin)
 
 ### ✅spacing-03 [variable]
 
@@ -3719,19 +4667,6 @@ $spacing-03: $carbon--spacing-03;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-03`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [accordion [mixin]](#accordion-mixin)
-  - [snippet [mixin]](#snippet-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [data-table-sort [mixin]](#data-table-sort-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [select [mixin]](#select-mixin)
-  - [tabs [mixin]](#tabs-mixin)
-  - [tooltip [mixin]](#tooltip-mixin)
-  - [treeview [mixin]](#treeview-mixin)
-  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅spacing-04 [variable]
 
@@ -3747,10 +4682,6 @@ $spacing-04: $carbon--spacing-04;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-04`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [tabs [mixin]](#tabs-mixin)
 
 ### ✅spacing-05 [variable]
 
@@ -3766,21 +4697,6 @@ $spacing-05: $carbon--spacing-05;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-05`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [accordion [mixin]](#accordion-mixin)
-  - [checkbox [mixin]](#checkbox-mixin)
-  - [snippet [mixin]](#snippet-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [pagination [mixin]](#pagination-mixin)
-  - [search [mixin]](#search-mixin)
-  - [select [mixin]](#select-mixin)
-  - [tabs [mixin]](#tabs-mixin)
-  - [treeview [mixin]](#treeview-mixin)
-  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅spacing-06 [variable]
 
@@ -3796,10 +4712,6 @@ $spacing-06: $carbon--spacing-06;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-06`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
 
 ### ✅spacing-07 [variable]
 
@@ -3815,13 +4727,6 @@ $spacing-07: $carbon--spacing-07;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-07`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [search [mixin]](#search-mixin)
-  - [select [mixin]](#select-mixin)
-  - [treeview [mixin]](#treeview-mixin)
-  - [carbon-switcher [mixin]](#carbon-switcher-mixin)
 
 ### ✅spacing-08 [variable]
 
@@ -3837,11 +4742,6 @@ $spacing-08: $carbon--spacing-08;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-08`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [dropdown [mixin]](#dropdown-mixin)
-  - [search [mixin]](#search-mixin)
-  - [treeview [mixin]](#treeview-mixin)
 
 ### ✅spacing-09 [variable]
 
@@ -3857,13 +4757,6 @@ $spacing-09: $carbon--spacing-09;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-09`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [modal [mixin]](#modal-mixin)
-  - [search [mixin]](#search-mixin)
-  - [select [mixin]](#select-mixin)
-  - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
 
 ### ✅spacing-10 [variable]
 
@@ -3879,8 +4772,6 @@ $spacing-10: $carbon--spacing-10;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-10`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-11 [variable]
 
@@ -3896,8 +4787,6 @@ $spacing-11: $carbon--spacing-11;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-11`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅spacing-12 [variable]
 
@@ -3913,8 +4802,34 @@ $spacing-12: $carbon--spacing-12;
 - **Group**: [@carbon/layout](#carbonlayout)
 - **Type**: `Number`
 - **Alias**: `carbon--spacing-12`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
+
+### ✅map-deep-get [function]
+
+Map deep get
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function map-deep-get($map, $keys) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name    | Description | Type      | Default value |
+| ------- | ----------- | --------- | ------------- |
+| `$map`  | Map         | `Map`     | —             |
+| `$keys` | Key chain   | `Arglist` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `*` Desired value
 
 ### ✅map-deep-get [function]
 
@@ -3973,6 +4888,34 @@ Provide a map and index, and get back the relevant key value
   - [carbon--largest-breakpoint-name [function]](#carbon--largest-breakpoint-name-function)
   - [last-map-item [function]](#last-map-item-function)
 
+### ✅key-by-index [function]
+
+Provide a map and index, and get back the relevant key value
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function key-by-index($map, $index) {
+  $keys: map-keys($map);
+  @return nth($keys, $index);
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name     | Description | Type      | Default value |
+| -------- | ----------- | --------- | ------------- |
+| `$map`   | Map         | `Map`     | —             |
+| `$index` | Key chain   | `Integer` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `String` Desired value
+- **Used by**:
+  - [largest-breakpoint-name [function]](#largest-breakpoint-name-function)
+
 ### ✅last-map-item [function]
 
 Pass in a map, and get the last one in the list back
@@ -4001,6 +4944,33 @@ Pass in a map, and get the last one in the list back
   - [carbon--key-by-index [function]](#carbon--key-by-index-function)
 - **Used by**:
   - [carbon--set-largest-breakpoint [mixin]](#carbon--set-largest-breakpoint-mixin)
+
+### ✅last-map-item [function]
+
+Pass in a map, and get the last one in the list back
+
+<details>
+<summary>Source code</summary>
+
+```scss
+@function last-map-item($map) {
+  $total-length: length($map);
+  @return map-get($map, carbon--key-by-index($map, $total-length));
+}
+```
+
+</details>
+
+- **Parameters**:
+
+| Name   | Description | Type  | Default value |
+| ------ | ----------- | ----- | ------------- |
+| `$map` | Map         | `Map` | —             |
+
+- **Group**: [@carbon/layout](#carbonlayout)
+- **Returns**: `*` Desired value
+- **Requires**:
+  - [carbon--key-by-index [function]](#carbon--key-by-index-function)
 
 ## @carbon/motion
 
@@ -4210,7 +5180,8 @@ Define theme variables from a map of tokens
   $inverse-support-03: map-get($theme, 'inverse-support-03') !global;
   $inverse-support-04: map-get($theme, 'inverse-support-04') !global;
   $overlay-01: map-get($theme, 'overlay-01') !global;
-  $danger: map-get($theme, 'danger') !global;
+  $danger-01: map-get($theme, 'danger-01') !global;
+  $danger-02: map-get($theme, 'danger-02') !global;
   $focus: map-get($theme, 'focus') !global;
   $inverse-focus-ui: map-get($theme, 'inverse-focus-ui') !global;
   $hover-primary: map-get($theme, 'hover-primary') !global;
@@ -4221,10 +5192,12 @@ Define theme variables from a map of tokens
   $hover-tertiary: map-get($theme, 'hover-tertiary') !global;
   $active-tertiary: map-get($theme, 'active-tertiary') !global;
   $hover-ui: map-get($theme, 'hover-ui') !global;
+  $hover-light-ui: map-get($theme, 'hover-light-ui') !global;
+  $hover-selected-ui: map-get($theme, 'hover-selected-ui') !global;
   $active-ui: map-get($theme, 'active-ui') !global;
+  $active-light-ui: map-get($theme, 'active-light-ui') !global;
   $selected-ui: map-get($theme, 'selected-ui') !global;
   $selected-light-ui: map-get($theme, 'selected-light-ui') !global;
-  $hover-selected-ui: map-get($theme, 'hover-selected-ui') !global;
   $inverse-hover-ui: map-get($theme, 'inverse-hover-ui') !global;
   $hover-danger: map-get($theme, 'hover-danger') !global;
   $active-danger: map-get($theme, 'active-danger') !global;
@@ -4235,7 +5208,6 @@ Define theme variables from a map of tokens
   $disabled-03: map-get($theme, 'disabled-03') !global;
   $highlight: map-get($theme, 'highlight') !global;
   $decorative-01: map-get($theme, 'decorative-01') !global;
-  $hover-light-ui: map-get($theme, 'hover-light-ui') !global;
   $button-separator: map-get($theme, 'button-separator') !global;
   $skeleton-01: map-get($theme, 'skeleton-01') !global;
   $skeleton-02: map-get($theme, 'skeleton-02') !global;
@@ -4244,6 +5216,7 @@ Define theme variables from a map of tokens
   $brand-03: map-get($theme, 'brand-03') !global;
   $active-01: map-get($theme, 'active-01') !global;
   $hover-field: map-get($theme, 'hover-field') !global;
+  $danger: map-get($theme, 'danger') !global;
   $caption-01: map-get($theme, 'caption-01') !global;
   $label-01: map-get($theme, 'label-01') !global;
   $helper-text-01: map-get($theme, 'helper-text-01') !global;
@@ -4445,9 +5418,13 @@ Define theme variables from a map of tokens
       --#{$custom-property-prefix}-overlay-01,
       map-get($theme, 'overlay-01')
     ) !global;
-    $danger: var(
-      --#{$custom-property-prefix}-danger,
-      map-get($theme, 'danger')
+    $danger-01: var(
+      --#{$custom-property-prefix}-danger-01,
+      map-get($theme, 'danger-01')
+    ) !global;
+    $danger-02: var(
+      --#{$custom-property-prefix}-danger-02,
+      map-get($theme, 'danger-02')
     ) !global;
     $focus: var(
       --#{$custom-property-prefix}-focus,
@@ -4489,9 +5466,21 @@ Define theme variables from a map of tokens
       --#{$custom-property-prefix}-hover-ui,
       map-get($theme, 'hover-ui')
     ) !global;
+    $hover-light-ui: var(
+      --#{$custom-property-prefix}-hover-light-ui,
+      map-get($theme, 'hover-light-ui')
+    ) !global;
+    $hover-selected-ui: var(
+      --#{$custom-property-prefix}-hover-selected-ui,
+      map-get($theme, 'hover-selected-ui')
+    ) !global;
     $active-ui: var(
       --#{$custom-property-prefix}-active-ui,
       map-get($theme, 'active-ui')
+    ) !global;
+    $active-light-ui: var(
+      --#{$custom-property-prefix}-active-light-ui,
+      map-get($theme, 'active-light-ui')
     ) !global;
     $selected-ui: var(
       --#{$custom-property-prefix}-selected-ui,
@@ -4500,10 +5489,6 @@ Define theme variables from a map of tokens
     $selected-light-ui: var(
       --#{$custom-property-prefix}-selected-light-ui,
       map-get($theme, 'selected-light-ui')
-    ) !global;
-    $hover-selected-ui: var(
-      --#{$custom-property-prefix}-hover-selected-ui,
-      map-get($theme, 'hover-selected-ui')
     ) !global;
     $inverse-hover-ui: var(
       --#{$custom-property-prefix}-inverse-hover-ui,
@@ -4545,10 +5530,6 @@ Define theme variables from a map of tokens
       --#{$custom-property-prefix}-decorative-01,
       map-get($theme, 'decorative-01')
     ) !global;
-    $hover-light-ui: var(
-      --#{$custom-property-prefix}-hover-light-ui,
-      map-get($theme, 'hover-light-ui')
-    ) !global;
     $button-separator: var(
       --#{$custom-property-prefix}-button-separator,
       map-get($theme, 'button-separator')
@@ -4580,6 +5561,10 @@ Define theme variables from a map of tokens
     $hover-field: var(
       --#{$custom-property-prefix}-hover-field,
       map-get($theme, 'hover-field')
+    ) !global;
+    $danger: var(
+      --#{$custom-property-prefix}-danger,
+      map-get($theme, 'danger')
     ) !global;
     $spacing-01: var(
       --#{$custom-property-prefix}-spacing-01,
@@ -4976,8 +5961,14 @@ Define theme variables from a map of tokens
       @include custom-property('overlay-01', map-get($theme, 'overlay-01'));
     }
 
-    @if should-emit($theme, $parent-carbon-theme, 'danger', $emit-difference) {
-      @include custom-property('danger', map-get($theme, 'danger'));
+    @if should-emit($theme, $parent-carbon-theme, 'danger-01', $emit-difference)
+    {
+      @include custom-property('danger-01', map-get($theme, 'danger-01'));
+    }
+
+    @if should-emit($theme, $parent-carbon-theme, 'danger-02', $emit-difference)
+    {
+      @include custom-property('danger-02', map-get($theme, 'danger-02'));
     }
 
     @if should-emit($theme, $parent-carbon-theme, 'focus', $emit-difference) {
@@ -5093,9 +6084,48 @@ Define theme variables from a map of tokens
       @include custom-property('hover-ui', map-get($theme, 'hover-ui'));
     }
 
+    @if should-emit(
+      $theme,
+      $parent-carbon-theme,
+      'hover-light-ui',
+      $emit-difference
+    )
+    {
+      @include custom-property(
+        'hover-light-ui',
+        map-get($theme, 'hover-light-ui')
+      );
+    }
+
+    @if should-emit(
+      $theme,
+      $parent-carbon-theme,
+      'hover-selected-ui',
+      $emit-difference
+    )
+    {
+      @include custom-property(
+        'hover-selected-ui',
+        map-get($theme, 'hover-selected-ui')
+      );
+    }
+
     @if should-emit($theme, $parent-carbon-theme, 'active-ui', $emit-difference)
     {
       @include custom-property('active-ui', map-get($theme, 'active-ui'));
+    }
+
+    @if should-emit(
+      $theme,
+      $parent-carbon-theme,
+      'active-light-ui',
+      $emit-difference
+    )
+    {
+      @include custom-property(
+        'active-light-ui',
+        map-get($theme, 'active-light-ui')
+      );
     }
 
     @if should-emit(
@@ -5118,19 +6148,6 @@ Define theme variables from a map of tokens
       @include custom-property(
         'selected-light-ui',
         map-get($theme, 'selected-light-ui')
-      );
-    }
-
-    @if should-emit(
-      $theme,
-      $parent-carbon-theme,
-      'hover-selected-ui',
-      $emit-difference
-    )
-    {
-      @include custom-property(
-        'hover-selected-ui',
-        map-get($theme, 'hover-selected-ui')
       );
     }
 
@@ -5236,19 +6253,6 @@ Define theme variables from a map of tokens
     @if should-emit(
       $theme,
       $parent-carbon-theme,
-      'hover-light-ui',
-      $emit-difference
-    )
-    {
-      @include custom-property(
-        'hover-light-ui',
-        map-get($theme, 'hover-light-ui')
-      );
-    }
-
-    @if should-emit(
-      $theme,
-      $parent-carbon-theme,
       'button-separator',
       $emit-difference
     )
@@ -5307,6 +6311,10 @@ Define theme variables from a map of tokens
     )
     {
       @include custom-property('hover-field', map-get($theme, 'hover-field'));
+    }
+
+    @if should-emit($theme, $parent-carbon-theme, 'danger', $emit-difference) {
+      @include custom-property('danger', map-get($theme, 'danger'));
     }
 
     @if should-emit(
@@ -6016,7 +7024,8 @@ Define theme variables from a map of tokens
   - [inverse-support-03 [variable]](#inverse-support-03-variable)
   - [inverse-support-04 [variable]](#inverse-support-04-variable)
   - [overlay-01 [variable]](#overlay-01-variable)
-  - [danger [variable]](#danger-variable)
+  - [danger-01 [variable]](#danger-01-variable)
+  - [danger-02 [variable]](#danger-02-variable)
   - [focus [variable]](#focus-variable)
   - [inverse-focus-ui [variable]](#inverse-focus-ui-variable)
   - [hover-primary [variable]](#hover-primary-variable)
@@ -6027,10 +7036,12 @@ Define theme variables from a map of tokens
   - [hover-tertiary [variable]](#hover-tertiary-variable)
   - [active-tertiary [variable]](#active-tertiary-variable)
   - [hover-ui [variable]](#hover-ui-variable)
+  - [hover-light-ui [variable]](#hover-light-ui-variable)
+  - [hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [active-ui [variable]](#active-ui-variable)
+  - [active-light-ui [variable]](#active-light-ui-variable)
   - [selected-ui [variable]](#selected-ui-variable)
   - [selected-light-ui [variable]](#selected-light-ui-variable)
-  - [hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [inverse-hover-ui [variable]](#inverse-hover-ui-variable)
   - [hover-danger [variable]](#hover-danger-variable)
   - [active-danger [variable]](#active-danger-variable)
@@ -6041,7 +7052,6 @@ Define theme variables from a map of tokens
   - [disabled-03 [variable]](#disabled-03-variable)
   - [highlight [variable]](#highlight-variable)
   - [decorative-01 [variable]](#decorative-01-variable)
-  - [hover-light-ui [variable]](#hover-light-ui-variable)
   - [button-separator [variable]](#button-separator-variable)
   - [skeleton-01 [variable]](#skeleton-01-variable)
   - [skeleton-02 [variable]](#skeleton-02-variable)
@@ -6050,6 +7060,7 @@ Define theme variables from a map of tokens
   - [brand-03 [variable]](#brand-03-variable)
   - [active-01 [variable]](#active-01-variable)
   - [hover-field [variable]](#hover-field-variable)
+  - [danger [variable]](#danger-variable)
   - [caption-01 [variable]](#caption-01-variable)
   - [label-01 [variable]](#label-01-variable)
   - [helper-text-01 [variable]](#helper-text-01-variable)
@@ -6130,6 +7141,7 @@ $carbon--theme--g10: map-merge(
     field-01: #ffffff,
     field-02: #f4f4f4,
     disabled-01: #ffffff,
+    highlight: #edf5ff,
   )
 );
 ```
@@ -6178,6 +7190,7 @@ $carbon--theme--g90: map-merge(
     inverse-support-02: #24a148,
     inverse-support-04: #0f62fe,
     overlay-01: rgba(22, 22, 22, 0.7),
+    danger-02: #ff8389,
     focus: #ffffff,
     inverse-focus-ui: #0f62fe,
     hover-primary-text: #a6c8ff,
@@ -6186,7 +7199,9 @@ $carbon--theme--g90: map-merge(
     hover-tertiary: #f4f4f4,
     active-tertiary: #c6c6c6,
     hover-ui: #4c4c4c,
+    hover-light-ui: #656565,
     active-ui: #6f6f6f,
+    active-light-ui: #8d8d8d,
     selected-ui: #525252,
     selected-light-ui: #6f6f6f,
     inverse-hover-ui: #e5e5e5,
@@ -6198,7 +7213,6 @@ $carbon--theme--g90: map-merge(
     disabled-03: #a8a8a8,
     highlight: #0043ce,
     decorative-01: #6f6f6f,
-    hover-light-ui: #6f6f6f,
     button-separator: #161616,
     skeleton-01: #353535,
     skeleton-02: #525252,
@@ -6255,6 +7269,7 @@ $carbon--theme--g100: map-merge(
     inverse-support-02: #24a148,
     inverse-support-04: #0f62fe,
     overlay-01: rgba(22, 22, 22, 0.7),
+    danger-02: #fa4d56,
     focus: #ffffff,
     inverse-focus-ui: #0f62fe,
     hover-primary-text: #a6c8ff,
@@ -6263,7 +7278,9 @@ $carbon--theme--g100: map-merge(
     hover-tertiary: #f4f4f4,
     active-tertiary: #c6c6c6,
     hover-ui: #353535,
+    hover-light-ui: #4c4c4c,
     active-ui: #525252,
+    active-light-ui: #6f6f6f,
     selected-ui: #393939,
     selected-light-ui: #525252,
     inverse-hover-ui: #e5e5e5,
@@ -6274,7 +7291,6 @@ $carbon--theme--g100: map-merge(
     disabled-02: #525252,
     highlight: #002d9c,
     decorative-01: #525252,
-    hover-light-ui: #525252,
     button-separator: #161616,
     skeleton-01: #353535,
     skeleton-02: #393939,
@@ -6343,7 +7359,9 @@ $carbon--theme--v9: map-merge(
     hover-tertiary: #5a6872,
     active-tertiary: #414f59,
     hover-ui: #eef4fc,
+    hover-light-ui: #eef4fc,
     active-ui: #dfeafa,
+    active-light-ui: #dfeafa,
     selected-ui: #eef4fc,
     selected-light-ui: #eef4fc,
     hover-selected-ui: #dfeafa,
@@ -6356,7 +7374,6 @@ $carbon--theme--v9: map-merge(
     disabled-03: #cdd1d4,
     highlight: #f4f7fb,
     decorative-01: #eef4fc,
-    hover-light-ui: #eef4fc,
     skeleton-01: rgba(61, 112, 178, 0.1),
     skeleton-02: rgba(61, 112, 178, 0.1),
     brand-01: #3d70b2,
@@ -6416,7 +7433,8 @@ $carbon--theme: (
   inverse-support-03: if(global-variable-exists('inverse-support-03'), $inverse-support-03, map-get($carbon--theme--white, 'inverse-support-03')),
   inverse-support-04: if(global-variable-exists('inverse-support-04'), $inverse-support-04, map-get($carbon--theme--white, 'inverse-support-04')),
   overlay-01: if(global-variable-exists('overlay-01'), $overlay-01, map-get($carbon--theme--white, 'overlay-01')),
-  danger: if(global-variable-exists('danger'), $danger, map-get($carbon--theme--white, 'danger')),
+  danger-01: if(global-variable-exists('danger-01'), $danger-01, map-get($carbon--theme--white, 'danger-01')),
+  danger-02: if(global-variable-exists('danger-02'), $danger-02, map-get($carbon--theme--white, 'danger-02')),
   focus: if(global-variable-exists('focus'), $focus, map-get($carbon--theme--white, 'focus')),
   inverse-focus-ui: if(global-variable-exists('inverse-focus-ui'), $inverse-focus-ui, map-get($carbon--theme--white, 'inverse-focus-ui')),
   hover-primary: if(global-variable-exists('hover-primary'), $hover-primary, map-get($carbon--theme--white, 'hover-primary')),
@@ -6427,10 +7445,12 @@ $carbon--theme: (
   hover-tertiary: if(global-variable-exists('hover-tertiary'), $hover-tertiary, map-get($carbon--theme--white, 'hover-tertiary')),
   active-tertiary: if(global-variable-exists('active-tertiary'), $active-tertiary, map-get($carbon--theme--white, 'active-tertiary')),
   hover-ui: if(global-variable-exists('hover-ui'), $hover-ui, map-get($carbon--theme--white, 'hover-ui')),
+  hover-light-ui: if(global-variable-exists('hover-light-ui'), $hover-light-ui, map-get($carbon--theme--white, 'hover-light-ui')),
+  hover-selected-ui: if(global-variable-exists('hover-selected-ui'), $hover-selected-ui, map-get($carbon--theme--white, 'hover-selected-ui')),
   active-ui: if(global-variable-exists('active-ui'), $active-ui, map-get($carbon--theme--white, 'active-ui')),
+  active-light-ui: if(global-variable-exists('active-light-ui'), $active-light-ui, map-get($carbon--theme--white, 'active-light-ui')),
   selected-ui: if(global-variable-exists('selected-ui'), $selected-ui, map-get($carbon--theme--white, 'selected-ui')),
   selected-light-ui: if(global-variable-exists('selected-light-ui'), $selected-light-ui, map-get($carbon--theme--white, 'selected-light-ui')),
-  hover-selected-ui: if(global-variable-exists('hover-selected-ui'), $hover-selected-ui, map-get($carbon--theme--white, 'hover-selected-ui')),
   inverse-hover-ui: if(global-variable-exists('inverse-hover-ui'), $inverse-hover-ui, map-get($carbon--theme--white, 'inverse-hover-ui')),
   hover-danger: if(global-variable-exists('hover-danger'), $hover-danger, map-get($carbon--theme--white, 'hover-danger')),
   active-danger: if(global-variable-exists('active-danger'), $active-danger, map-get($carbon--theme--white, 'active-danger')),
@@ -6441,7 +7461,6 @@ $carbon--theme: (
   disabled-03: if(global-variable-exists('disabled-03'), $disabled-03, map-get($carbon--theme--white, 'disabled-03')),
   highlight: if(global-variable-exists('highlight'), $highlight, map-get($carbon--theme--white, 'highlight')),
   decorative-01: if(global-variable-exists('decorative-01'), $decorative-01, map-get($carbon--theme--white, 'decorative-01')),
-  hover-light-ui: if(global-variable-exists('hover-light-ui'), $hover-light-ui, map-get($carbon--theme--white, 'hover-light-ui')),
   button-separator: if(global-variable-exists('button-separator'), $button-separator, map-get($carbon--theme--white, 'button-separator')),
   skeleton-01: if(global-variable-exists('skeleton-01'), $skeleton-01, map-get($carbon--theme--white, 'skeleton-01')),
   skeleton-02: if(global-variable-exists('skeleton-02'), $skeleton-02, map-get($carbon--theme--white, 'skeleton-02')),
@@ -6450,6 +7469,7 @@ $carbon--theme: (
   brand-03: if(global-variable-exists('brand-03'), $brand-03, map-get($carbon--theme--white, 'brand-03')),
   active-01: if(global-variable-exists('active-01'), $active-01, map-get($carbon--theme--white, 'active-01')),
   hover-field: if(global-variable-exists('hover-field'), $hover-field, map-get($carbon--theme--white, 'hover-field')),
+  danger: if(global-variable-exists('danger'), $danger, map-get($carbon--theme--white, 'danger')),
   caption-01: if(global-variable-exists('caption-01'), $caption-01, map-get($carbon--theme--white, 'caption-01')),
   label-01: if(global-variable-exists('label-01'), $label-01, map-get($carbon--theme--white, 'label-01')),
   helper-text-01: if(global-variable-exists('helper-text-01'), $helper-text-01, map-get($carbon--theme--white, 'helper-text-01')),
@@ -6520,6 +7540,7 @@ $carbon--theme: (
 - **Type**: `Map`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [carbon--default-type [mixin]](#carbon--default-type-mixin)
 
 ### ✅interactive-01 [variable]
 
@@ -6668,6 +7689,7 @@ $ui-background: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [button-theme [mixin]](#button-theme-mixin)
   - [tabs [mixin]](#tabs-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
 
@@ -6695,7 +7717,6 @@ $ui-01: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
   - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
   - [data-table-core [mixin]](#data-table-core-mixin)
@@ -6737,8 +7758,6 @@ $ui-02: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [button-theme [mixin]](#button-theme-mixin)
-  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
   - [number-input [mixin]](#number-input-mixin)
   - [tile [mixin]](#tile-mixin)
@@ -6786,7 +7805,6 @@ $ui-03: if(
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [slider [mixin]](#slider-mixin)
   - [tabs [mixin]](#tabs-mixin)
-  - [tags [mixin]](#tags-mixin)
   - [text-input [mixin]](#text-input-mixin)
   - [toolbar [mixin]](#toolbar-mixin)
 
@@ -6814,7 +7832,6 @@ $ui-04: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [button-theme [mixin]](#button-theme-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
@@ -6852,7 +7869,6 @@ $ui-05: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [accordion [mixin]](#accordion-mixin)
-  - [checkbox [mixin]](#checkbox-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
   - [data-table-expandable [mixin]](#data-table-expandable-mixin)
   - [data-table-sort [mixin]](#data-table-sort-mixin)
@@ -6863,6 +7879,7 @@ $ui-05: if(
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [select [mixin]](#select-mixin)
   - [slider [mixin]](#slider-mixin)
+  - [tabs [mixin]](#tabs-mixin)
   - [tile [mixin]](#tile-mixin)
 
 ### ✅text-01 [variable]
@@ -7035,9 +8052,6 @@ $text-05: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [date-picker [mixin]](#date-picker-mixin)
-  - [search [mixin]](#search-mixin)
-  - [time-picker [mixin]](#time-picker-mixin)
 
 ### ✅text-error [variable]
 
@@ -7090,6 +8104,7 @@ $icon-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [button [mixin]](#button-mixin)
+  - [checkbox [mixin]](#checkbox-mixin)
   - [snippet [mixin]](#snippet-mixin)
   - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
@@ -7101,6 +8116,7 @@ $icon-01: if(
   - [radio-button [mixin]](#radio-button-mixin)
   - [search [mixin]](#search-mixin)
   - [tabs [mixin]](#tabs-mixin)
+  - [text-input [mixin]](#text-input-mixin)
   - [treeview [mixin]](#treeview-mixin)
 
 ### ✅icon-02 [variable]
@@ -7222,7 +8238,7 @@ $inverse-link: if(
 
 ### ✅field-01 [variable]
 
-Default input fields; Field color on \$ui-backgrounds
+Default input fields; Field color on $ui-backgrounds
 
 <details>
 <summary>Source code</summary>
@@ -7245,14 +8261,17 @@ $field-01: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [snippet [mixin]](#snippet-mixin)
+  - [bx--snippet [mixin]](#bx--snippet-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [listbox [mixin]](#listbox-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
   - [number-input [mixin]](#number-input-mixin)
   - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [search [mixin]](#search-mixin)
   - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
   - [text-area [mixin]](#text-area-mixin)
   - [text-input [mixin]](#text-input-mixin)
 
@@ -7280,6 +8299,7 @@ $field-02: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [snippet [mixin]](#snippet-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
   - [listbox [mixin]](#listbox-mixin)
@@ -7288,6 +8308,7 @@ $field-02: if(
   - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [search [mixin]](#search-mixin)
   - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
   - [text-area [mixin]](#text-area-mixin)
   - [text-input [mixin]](#text-input-mixin)
   - [time-picker [mixin]](#time-picker-mixin)
@@ -7385,6 +8406,7 @@ $support-01: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
   - [file-uploader [mixin]](#file-uploader-mixin)
   - [inline-loading [mixin]](#inline-loading-mixin)
@@ -7392,7 +8414,6 @@ $support-01: if(
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
   - [number-input [mixin]](#number-input-mixin)
-  - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [progress-indicator [mixin]](#progress-indicator-mixin)
   - [select [mixin]](#select-mixin)
   - [text-area [mixin]](#text-area-mixin)
@@ -7451,8 +8472,11 @@ $support-03: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
+  - [listbox [mixin]](#listbox-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
+  - [number-input [mixin]](#number-input-mixin)
   - [text-input [mixin]](#text-input-mixin)
 
 ### ✅support-04 [variable]
@@ -7619,18 +8643,43 @@ $overlay-01: if(
   - [modal [mixin]](#modal-mixin)
   - [carbon-side-nav [mixin]](#carbon-side-nav-mixin)
 
-### ✅danger [variable]
+### ✅danger-01 [variable]
 
 <details>
 <summary>Source code</summary>
 
 ```scss
-$danger: if(
+$danger-01: if(
   global-variable-exists('carbon--theme') and map-has-key(
       $carbon--theme,
-      'danger'
+      'danger-01'
     ),
-  map-get($carbon--theme, 'danger'),
+  map-get($carbon--theme, 'danger-01'),
+  #da1e28
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [button [mixin]](#button-mixin)
+  - [overflow-menu [mixin]](#overflow-menu-mixin)
+
+### ✅danger-02 [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$danger-02: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'danger-02'
+    ),
+  map-get($carbon--theme, 'danger-02'),
   #da1e28
 );
 ```
@@ -7705,6 +8754,7 @@ $inverse-focus-ui: if(
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [inline-notifications [mixin]](#inline-notifications-mixin)
   - [toast-notifications [mixin]](#toast-notifications-mixin)
+  - [tags [mixin]](#tags-mixin)
   - [tooltip [mixin]](#tooltip-mixin)
 
 ### ✅hover-primary [variable]
@@ -7784,6 +8834,7 @@ $hover-primary-text: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [breadcrumb [mixin]](#breadcrumb-mixin)
   - [button [mixin]](#button-mixin)
   - [link [mixin]](#link-mixin)
 
@@ -7928,13 +8979,69 @@ $hover-ui: if(
   - [dropdown [mixin]](#dropdown-mixin)
   - [listbox [mixin]](#listbox-mixin)
   - [modal [mixin]](#modal-mixin)
+  - [multiselect [mixin]](#multiselect-mixin)
   - [number-input [mixin]](#number-input-mixin)
   - [overflow-menu [mixin]](#overflow-menu-mixin)
   - [pagination [mixin]](#pagination-mixin)
   - [unstable_pagination [mixin]](#unstable_pagination-mixin)
   - [select [mixin]](#select-mixin)
+  - [tabs [mixin]](#tabs-mixin)
   - [tile [mixin]](#tile-mixin)
   - [time-picker [mixin]](#time-picker-mixin)
+  - [treeview [mixin]](#treeview-mixin)
+
+### ✅hover-light-ui [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$hover-light-ui: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'hover-light-ui'
+    ),
+  map-get($carbon--theme, 'hover-light-ui'),
+  #e5e5e5
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [snippet [mixin]](#snippet-mixin)
+  - [content-switcher [mixin]](#content-switcher-mixin)
+
+### ✅hover-selected-ui [variable]
+
+Data table selected row hover
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$hover-selected-ui: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'hover-selected-ui'
+    ),
+  map-get($carbon--theme, 'hover-selected-ui'),
+  #cacaca
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [data-table-core [mixin]](#data-table-core-mixin)
+  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
+  - [tabs [mixin]](#tabs-mixin)
   - [treeview [mixin]](#treeview-mixin)
 
 ### ✅active-ui [variable]
@@ -7966,6 +9073,30 @@ $active-ui: if(
   - [button [mixin]](#button-mixin)
   - [data-table-core [mixin]](#data-table-core-mixin)
   - [data-table-expandable [mixin]](#data-table-expandable-mixin)
+
+### ✅active-light-ui [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$active-light-ui: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'active-light-ui'
+    ),
+  map-get($carbon--theme, 'active-light-ui'),
+  #c6c6c6
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [snippet [mixin]](#snippet-mixin)
 
 ### ✅selected-ui [variable]
 
@@ -8021,35 +9152,6 @@ $selected-light-ui: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [listbox [mixin]](#listbox-mixin)
-
-### ✅hover-selected-ui [variable]
-
-Data table selected row hover
-
-<details>
-<summary>Source code</summary>
-
-```scss
-$hover-selected-ui: if(
-  global-variable-exists('carbon--theme') and map-has-key(
-      $carbon--theme,
-      'hover-selected-ui'
-    ),
-  map-get($carbon--theme, 'hover-selected-ui'),
-  #cacaca
-);
-```
-
-</details>
-
-- **Group**: [@carbon/themes](#carbonthemes)
-- **Type**: `{undefined}`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
-  - [data-table-expandable [mixin]](#data-table-expandable-mixin)
-  - [tabs [mixin]](#tabs-mixin)
-  - [treeview [mixin]](#treeview-mixin)
 
 ### ✅inverse-hover-ui [variable]
 
@@ -8203,10 +9305,18 @@ $disabled-01: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [accordion [mixin]](#accordion-mixin)
+  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
-  - [file-uploader [mixin]](#file-uploader-mixin)
+  - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
+  - [date-picker [mixin]](#date-picker-mixin)
+  - [listbox [mixin]](#listbox-mixin)
+  - [number-input [mixin]](#number-input-mixin)
+  - [search [mixin]](#search-mixin)
+  - [select [mixin]](#select-mixin)
   - [slider [mixin]](#slider-mixin)
   - [tags [mixin]](#tags-mixin)
+  - [text-area [mixin]](#text-area-mixin)
   - [text-input [mixin]](#text-input-mixin)
   - [toggle [mixin]](#toggle-mixin)
   - [treeview [mixin]](#treeview-mixin)
@@ -8236,10 +9346,10 @@ $disabled-02: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [button [mixin]](#button-mixin)
+  - [accordion [mixin]](#accordion-mixin)
   - [button-base [mixin]](#button-base-mixin)
-  - [button-theme [mixin]](#button-theme-mixin)
   - [checkbox [mixin]](#checkbox-mixin)
+  - [snippet [mixin]](#snippet-mixin)
   - [content-switcher [mixin]](#content-switcher-mixin)
   - [date-picker [mixin]](#date-picker-mixin)
   - [dropdown [mixin]](#dropdown-mixin)
@@ -8342,30 +9452,6 @@ $decorative-01: if(
   - [listbox [mixin]](#listbox-mixin)
   - [overflow-menu [mixin]](#overflow-menu-mixin)
 
-### ✅hover-light-ui [variable]
-
-<details>
-<summary>Source code</summary>
-
-```scss
-$hover-light-ui: if(
-  global-variable-exists('carbon--theme') and map-has-key(
-      $carbon--theme,
-      'hover-light-ui'
-    ),
-  map-get($carbon--theme, 'hover-light-ui'),
-  #e5e5e5
-);
-```
-
-</details>
-
-- **Group**: [@carbon/themes](#carbonthemes)
-- **Type**: `{undefined}`
-- **Used by**:
-  - [carbon--theme [mixin]](#carbon--theme-mixin)
-  - [content-switcher [mixin]](#content-switcher-mixin)
-
 ### ✅button-separator [variable]
 
 <details>
@@ -8414,6 +9500,7 @@ $skeleton-01: if(
 - **Type**: `{undefined}`
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
+  - [tags [mixin]](#tags-mixin)
 
 ### ✅skeleton-02 [variable]
 
@@ -8565,10 +9652,32 @@ $hover-field: if(
 - **Used by**:
   - [carbon--theme [mixin]](#carbon--theme-mixin)
   - [data-table-v2-action [mixin]](#data-table-v2-action-mixin)
-  - [data-table-core [mixin]](#data-table-core-mixin)
   - [data-table-expandable [mixin]](#data-table-expandable-mixin)
   - [search [mixin]](#search-mixin)
 - **Deprecated**: This may not be available in future releases
+
+### ✅danger [variable]
+
+<details>
+<summary>Source code</summary>
+
+```scss
+$danger: if(
+  global-variable-exists('carbon--theme') and map-has-key(
+      $carbon--theme,
+      'danger'
+    ),
+  map-get($carbon--theme, 'danger'),
+  #da1e28
+);
+```
+
+</details>
+
+- **Group**: [@carbon/themes](#carbonthemes)
+- **Type**: `{undefined}`
+- **Used by**:
+  - [carbon--theme [mixin]](#carbon--theme-mixin)
 
 ### ✅caption-01 [variable]
 
@@ -9155,6 +10264,7 @@ $expressive-heading-03: if(
       ),
       max: (
         font-size: 1.5rem,
+        line-height: 1.334,
       ),
     ),
   )
@@ -9326,7 +10436,7 @@ $expressive-paragraph-01: if(
   (
     font-size: 1.5rem,
     font-weight: 300,
-    line-height: 1.25,
+    line-height: 1.334,
     letter-spacing: 0,
     lg: (
       font-size: 1.75rem,
@@ -9373,7 +10483,7 @@ $quotation-01: if(
       lg: (
         font-size: 1.5rem,
         font-weight: 400,
-        line-height: 1.25,
+        line-height: 1.334,
         letter-spacing: 0,
       ),
       xlg: (
@@ -11010,7 +12120,13 @@ Include default type styles
   }
 
   a {
-    color: #0062ff;
+    @if global-variable-exists('carbon--theme') and
+      map-has-key($carbon--theme, 'link-01')
+    {
+      color: map-get($carbon--theme, 'link-01');
+    } @else {
+      color: #0062fe;
+    }
   }
 
   em {
@@ -11024,6 +12140,7 @@ Include default type styles
 - **Group**: [@carbon/type](#carbontype)
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
+  - [carbon--theme [variable]](#carbon--theme-variable)
 
 ### ✅carbon--font-face-sans-condensed [mixin]
 
@@ -12845,6 +13962,7 @@ $expressive-heading-03: (
     ),
     max: (
       font-size: carbon--type-scale(6),
+      line-height: 1.334,
     ),
   ),
 );
@@ -12965,7 +14083,7 @@ $expressive-heading-06: (
 $expressive-paragraph-01: (
   font-size: carbon--type-scale(6),
   font-weight: carbon--font-weight('light'),
-  line-height: 1.25,
+  line-height: 1.334,
   letter-spacing: 0,
   breakpoints: (
     lg: (
@@ -13002,7 +14120,7 @@ $quotation-01: (
     ),
     lg: (
       font-size: carbon--type-scale(6),
-      line-height: 1.25,
+      line-height: 1.334,
     ),
     xlg: (
       font-size: carbon--type-scale(7),
@@ -13631,6 +14749,39 @@ Accordion styles
     }
   }
 
+  // Size styles
+  .#{$prefix}--accordion--xl .#{$prefix}--accordion__heading {
+    min-height: rem(48px);
+  }
+
+  .#{$prefix}--accordion--sm .#{$prefix}--accordion__heading {
+    min-height: rem(32px);
+    padding: rem(5px) 0;
+  }
+
+  // Disabled styles
+  .#{$prefix}--accordion__heading[disabled] {
+    color: $disabled-02;
+    cursor: not-allowed;
+  }
+
+  .#{$prefix}--accordion__heading[disabled] .#{$prefix}--accordion__arrow {
+    fill: $disabled-02;
+  }
+
+  .#{$prefix}--accordion__heading[disabled]:hover::before {
+    background-color: transparent;
+  }
+
+  .#{$prefix}--accordion__item--disabled,
+  .#{$prefix}--accordion__item--disabled + .#{$prefix}--accordion__item {
+    border-top: 1px solid $disabled-01;
+  }
+
+  li.#{$prefix}--accordion__item--disabled:last-of-type {
+    border-bottom: 1px solid $disabled-01;
+  }
+
   .#{$prefix}--accordion__arrow {
     @include focus-outline('reset');
     // Without flex basis and flex shrink being set here, our icon width can go
@@ -13643,6 +14794,13 @@ Accordion styles
     transform: rotate(90deg);
     transition: all $duration--fast-02 motion(standard, productive);
     fill: $ui-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--accordion__title {
@@ -13718,6 +14876,13 @@ Accordion styles
       /* rtl:ignore */
       transform: rotate(-90deg);
       fill: $ui-05;
+
+      // Windows, Firefox HCM Fix
+      @media screen and (-ms-high-contrast: active),
+        screen and (prefers-contrast) {
+        // `ButtonText` is a CSS2 system color to help improve colors in HCM
+        fill: ButtonText;
+      }
     }
   }
 
@@ -13770,10 +14935,13 @@ Accordion styles
 - **Group**: [accordion](#accordion)
 - **Requires**:
   - [carbon--breakpoint-up [mixin]](#carbon--breakpoint-up-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [text-01 [variable]](#text-01-variable)
   - [hover-ui [variable]](#hover-ui-variable)
+  - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [ui-05 [variable]](#ui-05-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
@@ -13814,6 +14982,10 @@ Breadcrumb styles
 
   .#{$prefix}--breadcrumb-item .#{$prefix}--link:visited {
     color: $link-01;
+
+    &:hover {
+      color: $hover-primary-text;
+    }
   }
 
   .#{$prefix}--breadcrumb-item::after {
@@ -13862,9 +15034,11 @@ Breadcrumb styles
 - **Group**: [breadcrumb](#breadcrumb)
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [link-01 [variable]](#link-01-variable)
+  - [hover-primary-text [variable]](#hover-primary-text-variable)
   - [text-01 [variable]](#text-01-variable)
 
 ## button
@@ -13878,57 +15052,6 @@ Button styles
 
 ```scss
 @mixin button() {
-  // button set styles
-  .#{$prefix}--btn-set {
-    display: flex;
-  }
-
-  .#{$prefix}--btn-set--stacked {
-    flex-direction: column;
-  }
-
-  .#{$prefix}--btn-set .#{$prefix}--btn {
-    width: 100%;
-    // 196px from design kit
-    max-width: rem(196px);
-
-    &:not(:focus) {
-      box-shadow: rem(-1px) 0 0 0 $button-separator;
-    }
-
-    &:first-of-type:not(:focus) {
-      box-shadow: inherit;
-    }
-  }
-
-  .#{$prefix}--btn-set .#{$prefix}--btn:focus + .#{$prefix}--btn {
-    box-shadow: inherit;
-  }
-
-  .#{$prefix}--btn-set--stacked .#{$prefix}--btn:not(:focus) {
-    box-shadow: 0 rem(-1px) 0 0 $button-separator;
-  }
-
-  .#{$prefix}--btn-set--stacked .#{$prefix}--btn:first-of-type:not(:focus) {
-    box-shadow: inherit;
-  }
-
-  .#{$prefix}--btn-set .#{$prefix}--btn.#{$prefix}--btn--disabled {
-    box-shadow: rem(-1px) 0 0 0 $disabled-03;
-
-    &:first-of-type {
-      box-shadow: none;
-    }
-  }
-
-  .#{$prefix}--btn-set--stacked .#{$prefix}--btn.#{$prefix}--btn--disabled {
-    box-shadow: 0 rem(-1px) 0 0 $disabled-03;
-
-    &:first-of-type {
-      box-shadow: none;
-    }
-  }
-
   .#{$prefix}--btn {
     @include button-base;
   }
@@ -13990,6 +15113,8 @@ Button styles
     }
 
     &:active {
+      color: $inverse-01;
+      background-color: $active-tertiary;
       border-color: transparent;
     }
 
@@ -13999,7 +15124,7 @@ Button styles
     &.#{$prefix}--btn--disabled,
     &.#{$prefix}--btn--disabled:hover,
     &.#{$prefix}--btn--disabled:focus {
-      color: $disabled;
+      color: $disabled-03;
       background: transparent;
       outline: none;
     }
@@ -14037,7 +15162,7 @@ Button styles
     &.#{$prefix}--btn--disabled,
     &.#{$prefix}--btn--disabled:hover,
     &.#{$prefix}--btn--disabled:focus {
-      color: $disabled;
+      color: $disabled-03;
       background: transparent;
       border-color: transparent;
       outline: none;
@@ -14060,23 +15185,42 @@ Button styles
     &:focus svg {
       fill: currentColor;
     }
-  }
 
-  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost:focus svg {
-    fill: $icon-01;
-  }
-
-  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost:hover svg {
-    fill: $icon-01;
+    &.#{$prefix}--btn--disabled.#{$prefix}--tooltip--a11y::before,
+    &.#{$prefix}--btn--disabled.#{$prefix}--tooltip--a11y::after,
+    &.#{$prefix}--btn--disabled .#{$prefix}--assistive-text {
+      margin: -1px;
+      overflow: hidden;
+      opacity: 0;
+      clip: rect(0, 0, 0, 0);
+    }
   }
 
   .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger:focus {
     border-color: $focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 3px solid transparent;
+      outline-offset: -3px;
+    }
+  }
+
+  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger:active:not([disabled]) {
+    border-color: transparent;
   }
 
   .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger:focus
     svg {
     outline-color: transparent;
+  }
+
+  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger[disabled]:hover,
+  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger[disabled]:focus,
+  .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--tooltip__trigger[disabled]:active {
+    cursor: not-allowed;
+    fill: $disabled-03;
   }
 
   .#{$prefix}--btn--icon-only--top {
@@ -14096,7 +15240,8 @@ Button styles
       position: static;
     }
 
-    &.#{$prefix}--btn--ghost .#{$prefix}--btn__icon {
+    &.#{$prefix}--btn--ghost .#{$prefix}--btn__icon,
+    &.#{$prefix}--btn--danger--ghost .#{$prefix}--btn__icon {
       margin: 0;
     }
   }
@@ -14109,12 +15254,19 @@ Button styles
     .#{$prefix}--btn__icon,
   .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost:hover
     .#{$prefix}--btn__icon {
-    fill: $icon-01;
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      path {
+        fill: ButtonText;
+      }
+    }
   }
 
   .#{$prefix}--btn--ghost.#{$prefix}--btn--icon-only
     .#{$prefix}--btn__icon
-    path,
+    path:not([data-icon-path]),
   .#{$prefix}--btn--ghost.#{$prefix}--btn--icon-only .#{$prefix}--btn__icon {
     fill: $icon-01;
   }
@@ -14126,7 +15278,16 @@ Button styles
     .#{$prefix}--btn__icon,
   .#{$prefix}--btn.#{$prefix}--btn--icon-only.#{$prefix}--btn--ghost[disabled]:hover
     .#{$prefix}--btn__icon {
-    fill: $disabled-02;
+    fill: $disabled-03;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `GrayText` is a CSS2 system color to help improve colors in HCM
+      path {
+        fill: GrayText;
+      }
+    }
   }
 
   .#{$prefix}--btn--ghost.#{$prefix}--btn--icon-only[disabled] {
@@ -14145,7 +15306,7 @@ Button styles
 
   .#{$prefix}--btn--danger {
     @include button-theme(
-      $danger,
+      $danger-01,
       transparent,
       $text-04,
       $hover-danger,
@@ -14156,11 +15317,107 @@ Button styles
     &:hover {
       color: $text-04;
     }
+
+    // TODO: deprecate single dash tertiary
+    &-tertiary,
+    &--tertiary {
+      @include button-theme(
+        transparent,
+        $danger-02,
+        $danger-02,
+        $hover-danger,
+        currentColor,
+        $active-danger
+      );
+
+      &:hover {
+        color: $text-04;
+        border-color: $hover-danger;
+      }
+
+      &:focus {
+        color: $text-04;
+        background-color: $danger-01;
+      }
+
+      &:active {
+        color: $text-04;
+        border-color: $active-danger;
+      }
+
+      &:disabled,
+      &:hover:disabled,
+      &:focus:disabled,
+      &.#{$prefix}--btn--disabled,
+      &.#{$prefix}--btn--disabled:hover,
+      &.#{$prefix}--btn--disabled:focus {
+        color: $disabled-03;
+        background: transparent;
+        outline: none;
+      }
+    }
+
+    // TODO: deprecate single dash ghost
+    &-ghost,
+    &--ghost {
+      @include button-theme(
+        transparent,
+        transparent,
+        $danger-02,
+        $hover-danger,
+        currentColor,
+        $active-danger
+      );
+
+      padding: $button-padding-ghost;
+
+      .#{$prefix}--btn__icon {
+        position: static;
+        margin-left: $carbon--spacing-03;
+      }
+
+      &:hover,
+      &:active {
+        color: $text-04;
+      }
+
+      &:disabled,
+      &:hover:disabled,
+      &:focus:disabled,
+      &.#{$prefix}--btn--disabled,
+      &.#{$prefix}--btn--disabled:hover,
+      &.#{$prefix}--btn--disabled:focus {
+        color: $disabled;
+        background: transparent;
+        border-color: transparent;
+        outline: none;
+      }
+
+      &.#{$prefix}--btn--sm {
+        padding: $button-padding-ghost-sm;
+      }
+
+      &.#{$prefix}--btn--field {
+        padding: $button-padding-ghost-field;
+      }
+    }
   }
 
   .#{$prefix}--btn--sm {
     min-height: rem(32px);
     padding: $button-padding-sm;
+  }
+
+  .#{$prefix}--btn--xl:not(.#{$prefix}--btn--icon-only) {
+    @include button-padding-large;
+
+    min-height: rem(80px);
+  }
+
+  .#{$prefix}--btn--lg:not(.#{$prefix}--btn--icon-only) {
+    @include button-padding-large;
+
+    min-height: rem(64px);
   }
 
   .#{$prefix}--btn--field {
@@ -14174,6 +15431,57 @@ Button styles
 
     width: rem(150px);
   }
+
+  // button set styles
+  .#{$prefix}--btn-set {
+    display: flex;
+  }
+
+  .#{$prefix}--btn-set--stacked {
+    flex-direction: column;
+  }
+
+  .#{$prefix}--btn-set .#{$prefix}--btn {
+    width: 100%;
+    // 196px from design kit
+    max-width: rem(196px);
+
+    &:not(:focus) {
+      box-shadow: rem(-1px) 0 0 0 $button-separator;
+    }
+
+    &:first-of-type:not(:focus) {
+      box-shadow: inherit;
+    }
+  }
+
+  .#{$prefix}--btn-set .#{$prefix}--btn:focus + .#{$prefix}--btn {
+    box-shadow: inherit;
+  }
+
+  .#{$prefix}--btn-set--stacked .#{$prefix}--btn:not(:focus) {
+    box-shadow: 0 rem(-1px) 0 0 $button-separator;
+  }
+
+  .#{$prefix}--btn-set--stacked .#{$prefix}--btn:first-of-type:not(:focus) {
+    box-shadow: inherit;
+  }
+
+  .#{$prefix}--btn-set .#{$prefix}--btn.#{$prefix}--btn--disabled {
+    box-shadow: rem(-1px) 0 0 0 $disabled-03;
+
+    &:first-of-type {
+      box-shadow: none;
+    }
+  }
+
+  .#{$prefix}--btn-set--stacked .#{$prefix}--btn.#{$prefix}--btn--disabled {
+    box-shadow: 0 rem(-1px) 0 0 $disabled-03;
+
+    &:first-of-type {
+      box-shadow: none;
+    }
+  }
 }
 ```
 
@@ -14183,9 +15491,8 @@ Button styles
 - **Requires**:
   - [button-base [mixin]](#button-base-mixin)
   - [button-theme [mixin]](#button-theme-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
-  - [button-separator [variable]](#button-separator-variable)
-  - [disabled-03 [variable]](#disabled-03-variable)
   - [interactive-01 [variable]](#interactive-01-variable)
   - [text-04 [variable]](#text-04-variable)
   - [hover-primary [variable]](#hover-primary-variable)
@@ -14197,17 +15504,19 @@ Button styles
   - [hover-tertiary [variable]](#hover-tertiary-variable)
   - [active-tertiary [variable]](#active-tertiary-variable)
   - [inverse-01 [variable]](#inverse-01-variable)
+  - [disabled-03 [variable]](#disabled-03-variable)
   - [link-01 [variable]](#link-01-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [active-ui [variable]](#active-ui-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [hover-primary-text [variable]](#hover-primary-text-variable)
-  - [icon-01 [variable]](#icon-01-variable)
   - [focus [variable]](#focus-variable)
-  - [disabled-02 [variable]](#disabled-02-variable)
-  - [danger [variable]](#danger-variable)
+  - [icon-01 [variable]](#icon-01-variable)
+  - [danger-01 [variable]](#danger-01-variable)
   - [hover-danger [variable]](#hover-danger-variable)
   - [active-danger [variable]](#active-danger-variable)
+  - [danger-02 [variable]](#danger-02-variable)
+  - [button-separator [variable]](#button-separator-variable)
 
 ### ❌button-base [mixin]
 
@@ -14237,7 +15546,10 @@ Button base styles
   border-radius: $button-border-radius;
   outline: none;
   cursor: pointer;
-  transition: all $duration--fast-01 motion(entrance, productive);
+  transition: background $duration--fast-01 motion(entrance, productive), box-shadow
+      $duration--fast-01 motion(entrance, productive),
+    border-color $duration--fast-01 motion(entrance, productive), outline
+      $duration--fast-01 motion(entrance, productive);
 
   &:disabled,
   &:hover:disabled,
@@ -14266,6 +15578,7 @@ Button base styles
 
 - **Group**: [button](#button)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [disabled-03 [variable]](#disabled-03-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
@@ -14294,18 +15607,14 @@ Button variant styles
   &:focus {
     border-color: $focus;
     box-shadow: inset 0 0 0 $button-outline-width $focus, inset 0 0 0
-        $button-border-width $ui-02;
-  }
+        $button-border-width $ui-background;
 
-  &:disabled:hover,
-  &:disabled:focus,
-  &:hover.#{$prefix}--btn--disabled,
-  &:focus.#{$prefix}--btn--disabled {
-    color: $ui-04;
-    text-decoration: none;
-    background-color: $disabled-02;
-    border-color: $disabled-02;
-    box-shadow: none;
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 3px solid transparent;
+      outline-offset: -3px;
+    }
   }
 
   &:active {
@@ -14313,7 +15622,7 @@ Button variant styles
   }
 
   .#{$prefix}--btn__icon,
-  .#{$prefix}--btn__icon path {
+  .#{$prefix}--btn__icon path:not([data-icon-path]) {
     fill: $icon-color;
   }
 }
@@ -14324,10 +15633,8 @@ Button variant styles
 - **Group**: [button](#button)
 - **Requires**:
   - [focus [variable]](#focus-variable)
-  - [ui-02 [variable]](#ui-02-variable)
+  - [ui-background [variable]](#ui-background-variable)
   - [prefix [variable]](#prefix-variable)
-  - [ui-04 [variable]](#ui-04-variable)
-  - [disabled-02 [variable]](#disabled-02-variable)
 - **Used by**:
   - [button [mixin]](#button-mixin)
 
@@ -14379,8 +15686,8 @@ Checkbox styles
     position: relative;
     display: flex;
     min-height: rem(24px);
+    padding-top: rem(3px);
     padding-left: rem(20px);
-    line-height: 1.5rem;
     cursor: pointer;
     user-select: none;
   }
@@ -14415,7 +15722,7 @@ Checkbox styles
 
     // Checkboxes with a background color look visually off against a parent container.
     background-color: transparent;
-    border: 1px solid $ui-05;
+    border: 1px solid $icon-01;
     border-radius: 1px;
     content: '';
   }
@@ -14427,12 +15734,12 @@ Checkbox styles
     left: rem(6px);
     width: rem(9px);
     height: rem(5px);
-    margin-top: rem(-3px);
+    margin-top: rem(-3px) /* rtl: 0rem  */;
     background: none;
     border-bottom: 2px solid $inverse-01;
     border-left: 2px solid $inverse-01;
-    transform: scale(0) rotate(-45deg);
-    transform-origin: bottom right;
+    transform: scale(0) rotate(-45deg) /* rtl: scale(0) rotate(45deg) */;
+    transform-origin: bottom right /* rtl: center */;
     content: '';
   }
 
@@ -14445,15 +15752,15 @@ Checkbox styles
   .#{$prefix}--checkbox:indeterminate + .#{$prefix}--checkbox-label::before,
   .#{$prefix}--checkbox-label[data-contained-checkbox-state='true']::before,
   .#{$prefix}--checkbox-label[data-contained-checkbox-state='mixed']::before {
-    background-color: $ui-05;
-    border-color: $ui-05;
+    background-color: $icon-01;
+    border-color: $icon-01;
     border-width: 1px;
   }
 
   // Display the check
   .#{$prefix}--checkbox:checked + .#{$prefix}--checkbox-label::after,
   .#{$prefix}--checkbox-label[data-contained-checkbox-state='true']::after {
-    transform: scale(1) rotate(-45deg);
+    transform: scale(1) rotate(-45deg) /* rtl: scale(-1,1) rotate(45deg) */;
   }
 
   // Indeterminate symbol
@@ -14479,8 +15786,8 @@ Checkbox styles
   // Indeterminate
   .#{$prefix}--checkbox:indeterminate:focus + .#{$prefix}--checkbox-label::before,
   .#{$prefix}--checkbox-label[data-contained-checkbox-state='mixed'].#{$prefix}--checkbox-label__focus::before {
-    // Must use box-shadow for appearance of multiple borders with rounded corners.
-    box-shadow: 0 0 0 2px $inverse-01, 0 0 0 4px $focus;
+    outline: 2px solid $focus;
+    outline-offset: 1px;
   }
 
   //----------------------------------------------
@@ -14526,10 +15833,11 @@ Checkbox styles
 
 - **Group**: [checkbox](#checkbox)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
-  - [ui-05 [variable]](#ui-05-variable)
+  - [icon-01 [variable]](#icon-01-variable)
   - [inverse-01 [variable]](#inverse-01-variable)
   - [focus [variable]](#focus-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
@@ -14550,6 +15858,27 @@ Code snippet styles
     @include reset;
   }
 
+  .#{$prefix}--snippet--disabled,
+  .#{$prefix}--snippet--disabled
+    .#{$prefix}--btn.#{$prefix}--snippet-btn--expand {
+    color: $disabled-02;
+    background-color: $disabled-01;
+  }
+
+  .#{$prefix}--snippet--disabled .#{$prefix}--snippet-btn--expand:hover,
+  .#{$prefix}--snippet--disabled .#{$prefix}--copy-btn:hover {
+    color: $disabled-02;
+    background-color: $disabled-01;
+    cursor: not-allowed;
+  }
+
+  .#{$prefix}--snippet--disabled .#{$prefix}--snippet__icon,
+  .#{$prefix}--snippet--disabled
+    .#{$prefix}--snippet-btn--expand
+    .#{$prefix}--icon-chevron--down {
+    fill: $disabled-02;
+  }
+
   .#{$prefix}--snippet code {
     @include type-style('code-01');
   }
@@ -14562,7 +15891,7 @@ Code snippet styles
     display: inline;
     padding: 0;
     color: $text-01;
-    background-color: $ui-01;
+    background-color: $field-01;
     border: 2px solid transparent;
     border-radius: 4px;
     cursor: pointer;
@@ -14578,6 +15907,11 @@ Code snippet styles
     &:focus {
       border: 2px solid $focus;
       outline: none;
+
+      // Firefox HCM fix
+      @media screen and (prefers-contrast) {
+        border-style: dotted;
+      }
     }
 
     &::before {
@@ -14625,19 +15959,31 @@ Code snippet styles
     display: inline-block;
 
     &:hover {
-      background-color: $ui-01;
+      background-color: $field-01;
       cursor: auto;
     }
+  }
+
+  .#{$prefix}--snippet--light.#{$prefix}--snippet--inline.#{$prefix}--snippet--no-copy:hover {
+    background-color: $field-02;
+    cursor: auto;
   }
 
   // Single Line Snippet
   .#{$prefix}--snippet--single {
     @include bx--snippet;
 
-    min-width: rem(320px);
+    display: flex;
+    align-items: center;
     max-width: rem(760px);
     height: $carbon--spacing-08;
     padding-right: $carbon--spacing-08;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   .#{$prefix}--snippet--single.#{$prefix}--snippet--no-copy {
@@ -14655,7 +16001,6 @@ Code snippet styles
     height: 100%;
     padding-left: $carbon--spacing-05;
     overflow-x: auto;
-    border-right: solid $carbon--spacing-05 transparent;
 
     &:focus {
       @include focus-outline('outline');
@@ -14669,29 +16014,25 @@ Code snippet styles
     white-space: nowrap;
   }
 
-  .#{$prefix}--snippet--single::after {
-    position: absolute;
-    top: 0;
-    right: rem(56px);
-    width: rem(16px);
-    height: 100%;
-    // Safari interprets `transparent` differently, so make color token value transparent instead:
-    background-image: linear-gradient(to right, rgba($ui-01, 0), $ui-01);
-    content: '';
-  }
-
   // Multi Line Snippet
   .#{$prefix}--snippet--multi {
     @include bx--snippet;
 
-    min-width: rem(320px);
+    display: flex;
     max-width: 100%;
     padding: $carbon--spacing-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   //closed snippet container
   .#{$prefix}--snippet--multi .#{$prefix}--snippet-container {
     position: relative;
+    order: 1;
     min-height: rem(56px);
     max-height: rem(238px);
     overflow: hidden;
@@ -14706,11 +16047,16 @@ Code snippet styles
     transition: max-height $duration--moderate-01 motion(standard, productive);
   }
 
+  .#{$prefix}--snippet--multi.#{$prefix}--snippet--wraptext pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
   // closed pre
   .#{$prefix}--snippet--multi .#{$prefix}--snippet-container pre {
     padding-right: $carbon--spacing-08;
     padding-bottom: rem(24px);
-    overflow-x: scroll;
+    overflow-x: auto;
   }
 
   .#{$prefix}--snippet--multi.#{$prefix}--snippet--no-copy
@@ -14733,7 +16079,7 @@ Code snippet styles
     width: rem(16px);
     height: 100%;
     // Safari interprets `transparent` differently, so make color token value transparent instead:
-    background-image: linear-gradient(to right, rgba($ui-01, 0), $ui-01);
+    background-image: linear-gradient(to right, rgba($field-01, 0), $field-01);
     content: '';
   }
 
@@ -14747,6 +16093,13 @@ Code snippet styles
     height: rem(16px);
     transition: all $duration--fast-01 motion(standard, productive);
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--snippet-button {
@@ -14762,7 +16115,7 @@ Code snippet styles
     height: $carbon--spacing-08;
     padding: 0;
     overflow: visible;
-    background-color: $ui-01;
+    background-color: $field-01;
     border: none;
     outline: none;
     cursor: pointer;
@@ -14821,24 +16174,23 @@ Code snippet styles
   }
 
   // Show more / less button
-  button.#{$prefix}--btn.#{$prefix}--snippet-btn--expand {
+  .#{$prefix}--snippet-btn--expand {
     @include type-style('body-short-01');
     @include carbon--font-family('sans');
 
     position: absolute;
-    right: $spacing-03;
-    bottom: $spacing-03;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
     display: inline-flex;
     align-items: center;
-    padding: $spacing-03;
-    padding-left: $carbon--spacing-05;
+    padding: $spacing-03 $spacing-05;
     color: $text-01;
     background-color: $field-01;
     border: 0;
   }
 
-  button.#{$prefix}--btn.#{$prefix}--snippet-btn--expand
-    .#{$prefix}--snippet-btn--text {
+  .#{$prefix}--snippet-btn--expand .#{$prefix}--snippet-btn--text {
     position: relative;
     top: rem(-1px);
   }
@@ -14848,14 +16200,13 @@ Code snippet styles
   }
 
   .#{$prefix}--snippet-btn--expand .#{$prefix}--icon-chevron--down {
-    margin-bottom: rem(1px);
     margin-left: $spacing-03;
     transform: rotate(0deg);
     transition: $duration--moderate-01 motion(standard, productive);
     fill: $text-01;
   }
 
-  button.#{$prefix}--btn.#{$prefix}--snippet-btn--expand:hover {
+  .#{$prefix}--snippet-btn--expand:hover {
     color: $text-01;
     background: $hover-ui;
   }
@@ -14878,29 +16229,35 @@ Code snippet styles
   }
 
   // Light version
-  .#{$prefix}--snippet.#{$prefix}--snippet--light,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light .#{$prefix}--snippet-button,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light
-    .#{$prefix}--snippet-btn--expand,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light .#{$prefix}--copy-btn {
-    background-color: $ui-02;
+  .#{$prefix}--snippet--light,
+  .#{$prefix}--snippet--light .#{$prefix}--snippet-button,
+  .#{$prefix}--snippet--light .#{$prefix}--btn.#{$prefix}--snippet-btn--expand,
+  .#{$prefix}--snippet--light .#{$prefix}--copy-btn {
+    background-color: $field-02;
   }
 
-  .#{$prefix}--snippet.#{$prefix}--snippet--light.#{$prefix}--snippet--inline:hover,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light
-    .#{$prefix}--snippet-button:hover,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light
-    .#{$prefix}--snippet-btn--expand:hover,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light .#{$prefix}--copy-btn:hover {
-    background-color: $hover-ui-light;
+  .#{$prefix}--snippet--light.#{$prefix}--snippet--inline:hover,
+  .#{$prefix}--snippet--light .#{$prefix}--snippet-button:hover,
+  .#{$prefix}--snippet--light
+    .#{$prefix}--btn.#{$prefix}--snippet-btn--expand:hover,
+  .#{$prefix}--snippet--light .#{$prefix}--copy-btn:hover {
+    background-color: $hover-light-ui;
   }
 
-  .#{$prefix}--snippet.#{$prefix}--snippet--light.#{$prefix}--snippet--single::after,
-  .#{$prefix}--snippet.#{$prefix}--snippet--light.#{$prefix}--snippet--multi
+  .#{$prefix}--snippet--light.#{$prefix}--snippet--inline:active,
+  .#{$prefix}--snippet--light .#{$prefix}--snippet-button:active,
+  .#{$prefix}--snippet--light
+    .#{$prefix}--btn.#{$prefix}--snippet-btn--expand:active,
+  .#{$prefix}--snippet--light .#{$prefix}--copy-btn:active {
+    background-color: $active-light-ui;
+  }
+
+  .#{$prefix}--snippet--light.#{$prefix}--snippet--single::after,
+  .#{$prefix}--snippet--light.#{$prefix}--snippet--multi
     .#{$prefix}--snippet-container
     pre::after {
     // Safari interprets `transparent` differently, so make color token value transparent instead:
-    background-image: linear-gradient(to right, rgba($ui-02, 0), $ui-02);
+    background-image: linear-gradient(to right, rgba($field-02, 0), $field-02);
   }
 
   // Skeleton State
@@ -14939,6 +16296,14 @@ Code snippet styles
     }
   }
 
+  .#{$prefix}--snippet--multi .#{$prefix}--copy-btn {
+    top: $carbon--spacing-03;
+    right: $carbon--spacing-03;
+    z-index: 10;
+    width: $carbon--spacing-07;
+    height: $carbon--spacing-07;
+  }
+
   .#{$prefix}--snippet--multi
     .#{$prefix}--snippet-button
     .#{$prefix}--btn--copy__feedback {
@@ -14952,6 +16317,80 @@ Code snippet styles
     top: calc(100% - #{rem(4px)});
     right: auto;
     left: 50%;
+  }
+
+  // overflow indicator
+  .#{$prefix}--snippet__overflow-indicator--left,
+  .#{$prefix}--snippet__overflow-indicator--right {
+    z-index: 1;
+    flex: 1 0 auto;
+    width: $carbon--spacing-05;
+  }
+
+  .#{$prefix}--snippet__overflow-indicator--left {
+    order: 0;
+    margin-right: -$carbon--spacing-05;
+    background-image: linear-gradient(to left, transparent, $field-01);
+  }
+
+  .#{$prefix}--snippet__overflow-indicator--right {
+    order: 2;
+    margin-left: -$carbon--spacing-05;
+    background-image: linear-gradient(to right, transparent, $field-01);
+  }
+
+  .#{$prefix}--snippet--single .#{$prefix}--snippet__overflow-indicator--right,
+  .#{$prefix}--snippet--single .#{$prefix}--snippet__overflow-indicator--left {
+    position: absolute;
+    width: $carbon--spacing-07;
+    height: calc(100% - #{$carbon--spacing-02});
+  }
+
+  .#{$prefix}--snippet--single .#{$prefix}--snippet__overflow-indicator--right {
+    right: $carbon--spacing-08;
+  }
+
+  .#{$prefix}--snippet--single
+    .#{$prefix}--snippet-container:focus
+    ~ .#{$prefix}--snippet__overflow-indicator--right {
+    right: calc(#{$carbon--spacing-08} + #{rem(2px)});
+  }
+
+  .#{$prefix}--snippet--single
+    .#{$prefix}--snippet-container:focus
+    + .#{$prefix}--snippet__overflow-indicator--left {
+    left: rem(2px);
+  }
+
+  .#{$prefix}--snippet--light .#{$prefix}--snippet__overflow-indicator--left {
+    background-image: linear-gradient(to left, transparent, $field-02);
+  }
+
+  .#{$prefix}--snippet--light .#{$prefix}--snippet__overflow-indicator--right {
+    background-image: linear-gradient(to right, transparent, $field-02);
+  }
+
+  // Safari-only media query
+  // since fades won't appear correctly with CSS custom properties
+  // see: tabs, code snippet, and modal overflow indicators
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+      .#{$prefix}--snippet__overflow-indicator--left {
+        background-image: linear-gradient(
+          to left,
+          rgba($field-01, 0),
+          $field-01
+        );
+      }
+
+      .#{$prefix}--snippet__overflow-indicator--right {
+        background-image: linear-gradient(
+          to right,
+          rgba($field-01, 0),
+          $field-01
+        );
+      }
+    }
   }
 
   #{$prefix}--snippet--multi.#{$prefix}--skeleton {
@@ -14996,20 +16435,26 @@ Code snippet styles
 - **Requires**:
   - [bx--snippet [mixin]](#bx--snippet-mixin)
   - [carbon--font-family [mixin]](#carbon--font-family-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
+  - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [text-01 [variable]](#text-01-variable)
-  - [ui-01 [variable]](#ui-01-variable)
+  - [field-01 [variable]](#field-01-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [focus [variable]](#focus-variable)
   - [spacing-03 [variable]](#spacing-03-variable)
+  - [field-02 [variable]](#field-02-variable)
   - [carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
   - [icon-01 [variable]](#icon-01-variable)
   - [carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
   - [hover-ui [variable]](#hover-ui-variable)
-  - [field-01 [variable]](#field-01-variable)
-  - [ui-02 [variable]](#ui-02-variable)
+  - [hover-light-ui [variable]](#hover-light-ui-variable)
+  - [active-light-ui [variable]](#active-light-ui-variable)
+  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
 
 ### ❌bx--snippet [mixin]
 
@@ -15025,13 +16470,16 @@ Code snippet base styles
   position: relative;
   width: 100%;
   max-width: rem(600px);
-  background: $snippet-background-color;
+  background-color: $field-01;
 }
 ```
 
 </details>
 
 - **Group**: [code-snippet](#code-snippet)
+- **Requires**:
+  - [rem [function]](#rem-function)
+  - [field-01 [variable]](#field-01-variable)
 - **Used by**:
   - [snippet [mixin]](#snippet-mixin)
 
@@ -15058,7 +16506,11 @@ Combo box styles
   .#{$prefix}--combo-box .#{$prefix}--list-box__field,
   .#{$prefix}--combo-box.#{$prefix}--list-box[data-invalid]
     .#{$prefix}--list-box__field,
+  .#{$prefix}--combo-box.#{$prefix}--list-box--warning
+    .#{$prefix}--list-box__field,
   .#{$prefix}--combo-box.#{$prefix}--list-box--disabled.#{$prefix}--list-box[data-invalid]
+    .#{$prefix}--list-box__field,
+  .#{$prefix}--combo-box.#{$prefix}--list-box--disabled.#{$prefix}--list-box--warning
     .#{$prefix}--list-box__field {
     padding: 0;
   }
@@ -15090,6 +16542,14 @@ Content switcher styles
     height: rem(40px);
   }
 
+  .#{$prefix}--content-switcher--sm {
+    height: rem(32px);
+  }
+
+  .#{$prefix}--content-switcher--xl {
+    height: rem(48px);
+  }
+
   .#{$prefix}--content-switcher--disabled {
     cursor: not-allowed;
   }
@@ -15116,7 +16576,8 @@ Content switcher styles
 
     &:focus {
       z-index: 3;
-      box-shadow: inset 0 0 0 2px $focus;
+      border-color: $focus;
+      box-shadow: inset 0 0 0 2px $focus, inset 0 0 0 3px $ui-01;
     }
 
     &:hover {
@@ -15251,6 +16712,7 @@ Content switcher styles
 
 - **Group**: [content-switcher](#content-switcher)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
@@ -15351,6 +16813,14 @@ Data table action styles
   }
 
   .#{$prefix}--toolbar-search-container-expandable
+    .#{$prefix}--search--disabled
+    .#{$prefix}--search-magnifier {
+    background: $disabled-01;
+    cursor: not-allowed;
+    transition: background-color none;
+  }
+
+  .#{$prefix}--toolbar-search-container-expandable
     .#{$prefix}--search
     .#{$prefix}--search-magnifier:focus {
     @include focus-outline('outline');
@@ -15360,6 +16830,18 @@ Data table action styles
     .#{$prefix}--search
     .#{$prefix}--search-magnifier:hover {
     background: $hover-field;
+  }
+
+  .#{$prefix}--toolbar-action.#{$prefix}--toolbar-search-container-disabled {
+    cursor: not-allowed;
+  }
+
+  .#{$prefix}--toolbar-search-container-expandable
+    .#{$prefix}--search--disabled
+    .#{$prefix}--search-magnifier:hover {
+    background: $disabled-01;
+    cursor: not-allowed;
+    transition: background-color none;
   }
 
   .#{$prefix}--toolbar-search-container-expandable
@@ -15845,6 +17327,10 @@ Data table action styles
     }
   }
 
+  .#{$prefix}--search--disabled .#{$prefix}--search-magnifier:hover {
+    background: transparent;
+  }
+
   //-------------------------------------------------
   // SMALL BATCH ACTIONS
   //-------------------------------------------------
@@ -15885,10 +17371,12 @@ Data table action styles
 
 - **Group**: [data-table](#data-table)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [layout-04 [variable]](#layout-04-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [hover-field [variable]](#hover-field-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [focus [variable]](#focus-variable)
@@ -15978,15 +17466,15 @@ Data table core styles
   }
 
   .#{$prefix}--data-table tbody tr:hover {
-    background: $hover-field;
+    background: $hover-ui;
   }
 
   .#{$prefix}--data-table tbody tr:hover td,
   .#{$prefix}--data-table tbody tr:hover th {
     color: $text-01;
-    background: $hover-field;
-    border-top: 1px solid $hover-field;
-    border-bottom: 1px solid $hover-field;
+    background: $hover-ui;
+    border-top: 1px solid $hover-ui;
+    border-bottom: 1px solid $hover-ui;
   }
 
   .#{$prefix}--data-table th,
@@ -15995,12 +17483,9 @@ Data table core styles
     vertical-align: middle;
   }
 
-  .#{$prefix}--data-table td {
+  .#{$prefix}--data-table th {
     padding-right: $spacing-05;
     padding-left: $spacing-05;
-  }
-
-  .#{$prefix}--data-table th {
     color: $text-01;
     background-color: $ui-03;
   }
@@ -16012,8 +17497,6 @@ Data table core styles
   }
 
   .#{$prefix}--data-table .#{$prefix}--table-header-label {
-    padding-right: $spacing-05;
-    padding-left: $spacing-05;
     text-align: left;
   }
 
@@ -16109,7 +17592,7 @@ Data table core styles
   .#{$prefix}--data-table--selected .#{$prefix}--overflow-menu,
   .#{$prefix}--data-table--selected .#{$prefix}--overflow-menu__trigger {
     &:hover {
-      background-color: $hover-field;
+      background-color: $hover-ui;
     }
   }
 
@@ -16134,14 +17617,14 @@ Data table core styles
 
   .#{$prefix}--data-table--zebra
     tbody
-    tr:not(.#{$prefix}--parent-row):nth-child(even)
+    tr:not(.#{$prefix}--parent-row):nth-child(odd)
     td {
     border-bottom: 1px solid $ui-01;
   }
 
   .#{$prefix}--data-table--zebra
     tbody
-    tr:not(.#{$prefix}--parent-row):nth-child(odd)
+    tr:not(.#{$prefix}--parent-row):nth-child(even)
     td {
     background-color: $data-table-zebra-color;
     border-top: 1px solid $data-table-zebra-color;
@@ -16152,9 +17635,9 @@ Data table core styles
     tbody
     tr:not(.#{$prefix}--parent-row):hover
     td {
-    background-color: $hover-field;
-    border-top: 1px solid $hover-field;
-    border-bottom: 1px solid $hover-field;
+    background-color: $hover-ui;
+    border-top: 1px solid $hover-ui;
+    border-bottom: 1px solid $hover-ui;
   }
 
   //----------------------------------------------------------------------------
@@ -16180,22 +17663,40 @@ Data table core styles
   .#{$prefix}--data-table thead th.#{$prefix}--table-expand,
   .#{$prefix}--data-table tbody td.#{$prefix}--table-expand {
     min-width: 0;
-    // spacing between checkbox / chevron and next cell should be 16px / 1rem
-    // adjacent cell has 16px / 1rem padding-left though, hence the removal of padding-right here
-    padding-right: 0;
-    padding-left: $spacing-05;
   }
 
   .#{$prefix}--data-table thead th.#{$prefix}--table-column-checkbox,
   .#{$prefix}--data-table tbody td.#{$prefix}--table-column-checkbox {
     // 16px padding left + 20px checkbox width
-    width: rem(36px);
+    width: rem(16px);
+    // spacing between checkbox / chevron and next cell should be 16px / 1rem
+    // adjacent cell has 16px / 1rem padding-left though, hence the removal of padding-right here
+    padding-right: $spacing-05;
+    padding-left: $spacing-05;
   }
 
   .#{$prefix}--data-table thead th.#{$prefix}--table-expand,
   .#{$prefix}--data-table tbody td.#{$prefix}--table-expand {
-    // 16px padding left + 16px checkbox width
+    width: rem(48px);
+    height: rem(48px);
+  }
+
+  .#{$prefix}--data-table--compact thead th.#{$prefix}--table-expand,
+  .#{$prefix}--data-table--compact tbody td.#{$prefix}--table-expand {
+    width: rem(24px);
+    height: rem(24px);
+  }
+
+  .#{$prefix}--data-table--short thead th.#{$prefix}--table-expand,
+  .#{$prefix}--data-table--short tbody td.#{$prefix}--table-expand {
     width: rem(32px);
+    height: rem(32px);
+  }
+
+  .#{$prefix}--data-table--tall thead th.#{$prefix}--table-expand,
+  .#{$prefix}--data-table--tall tbody td.#{$prefix}--table-expand {
+    width: rem(64px);
+    height: rem(64px);
   }
 
   .#{$prefix}--data-table--tall .#{$prefix}--table-column-checkbox {
@@ -16633,6 +18134,7 @@ Data table core styles
 - **Group**: [data-table](#data-table)
 - **Requires**:
   - [text-overflow [mixin]](#text-overflow-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [spacing-01 [variable]](#spacing-01-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
@@ -16642,13 +18144,12 @@ Data table core styles
   - [text-02 [variable]](#text-02-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [layout-04 [variable]](#layout-04-variable)
-  - [hover-field [variable]](#hover-field-variable)
+  - [hover-ui [variable]](#hover-ui-variable)
   - [spacing-04 [variable]](#spacing-04-variable)
   - [spacing-03 [variable]](#spacing-03-variable)
   - [hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [selected-ui [variable]](#selected-ui-variable)
   - [active-ui [variable]](#active-ui-variable)
-  - [hover-ui [variable]](#hover-ui-variable)
 
 ### ❌data-table-expandable [mixin]
 
@@ -16709,9 +18210,11 @@ Data table expandable styles
   }
 
   tr.#{$prefix}--parent-row.#{$prefix}--expandable-row + tr[data-child-row] td {
+    padding-left: $carbon--spacing-09;
     border-bottom: 1px solid $ui-03;
     transition: padding-bottom $duration--fast-02 motion(standard, productive), transform
-        $duration--fast-02 motion(standard, productive);
+        $duration--fast-02 motion(standard, productive),
+      background-color $duration--fast-02 motion(standard, productive);
   }
 
   tr.#{$prefix}--parent-row.#{$prefix}--expandable-row
@@ -16805,20 +18308,26 @@ Data table expandable styles
   // Expand icon column
   //----------------------------------------------------------------------------
   .#{$prefix}--data-table td.#{$prefix}--table-expand {
-    width: 2.5rem;
-    min-width: 2.5rem;
     border-bottom: 1px solid $ui-03;
   }
 
-  .#{$prefix}--data-table td.#{$prefix}--table-expand,
-  th.#{$prefix}--table-expand {
-    padding: 0 $spacing-05;
+  .#{$prefix}--data-table th.#{$prefix}--table-expand + th,
+  .#{$prefix}--data-table td.#{$prefix}--table-expand + td {
+    padding-left: 0;
   }
 
-  .#{$prefix}--data-table--tall td.#{$prefix}--table-expand,
-  .#{$prefix}--data-table--tall th.#{$prefix}--table-expand {
-    padding-top: rem(16px);
-    padding-bottom: rem(16px);
+  .#{$prefix}--data-table
+    th.#{$prefix}--table-expand
+    + .#{$prefix}--table-column-checkbox,
+  .#{$prefix}--data-table
+    td.#{$prefix}--table-expand
+    + .#{$prefix}--table-column-checkbox {
+    padding-right: 0;
+  }
+
+  .#{$prefix}--data-table td.#{$prefix}--table-expand,
+  .#{$prefix}--data-table th.#{$prefix}--table-expand {
+    padding: 0;
   }
 
   .#{$prefix}--data-table
@@ -16835,22 +18344,44 @@ Data table expandable styles
   .#{$prefix}--table-expand__button {
     @include button-reset('false');
 
-    height: rem(16px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    // Account for the border in `.bx--table-expand`
+    height: calc(100% + 1px);
     vertical-align: inherit;
   }
 
   .#{$prefix}--table-expand__button:focus {
-    outline: 1px solid transparent;
+    outline: none;
+    box-shadow: inset 0 0 0 2px $focus;
   }
 
   .#{$prefix}--table-expand__button:focus .#{$prefix}--table-expand__svg {
-    box-shadow: inset 0 0 0 1px $focus;
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   .#{$prefix}--table-expand__svg {
     transform: rotate(90deg);
     transition: transform $duration--moderate-01 motion(standard, productive);
     fill: $ui-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
+  }
+
+  .#{$prefix}--data-table--tall .#{$prefix}--table-expand__button {
+    padding-top: rem(16px);
+    padding-bottom: rem(24px);
   }
 
   // fix expanded parent separating border length
@@ -17018,10 +18549,12 @@ Data table expandable styles
 
 - **Group**: [data-table](#data-table)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
   - [hover-ui [variable]](#hover-ui-variable)
+  - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
   - [text-01 [variable]](#text-01-variable)
   - [focus [variable]](#focus-variable)
   - [ui-05 [variable]](#ui-05-variable)
@@ -17201,6 +18734,16 @@ Data table sort styles
     fill: $ui-05;
   }
 
+  // Windows, Firefox HCM Fix
+  .#{$prefix}--table-sort__icon,
+  .#{$prefix}--table-sort__icon-unsorted {
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
+  }
+
   //----------------------------------------------------------------------------
   // Compact, Short, Tall Sortable
   //----------------------------------------------------------------------------
@@ -17237,6 +18780,7 @@ Data table sort styles
 
 - **Group**: [data-table](#data-table)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [layout-04 [variable]](#layout-04-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -17281,9 +18825,19 @@ Date picker styles
     align-items: center;
   }
 
-  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple {
-    .#{$prefix}--date-picker__input {
-      width: rem(120px);
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple
+    .#{$prefix}--date-picker__input,
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple .#{$prefix}--label {
+    width: rem(120px);
+  }
+
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple
+    .#{$prefix}--date-picker-input__wrapper--invalid,
+  .#{$prefix}--date-picker.#{$prefix}--date-picker--simple
+    .#{$prefix}--date-picker-input__wrapper--warn {
+    .#{$prefix}--date-picker__input,
+    ~ .#{$prefix}--form-requirement {
+      width: rem(152px);
     }
   }
 
@@ -17305,7 +18859,6 @@ Date picker styles
 
     position: relative;
     display: block;
-    min-width: rem(144px);
     height: rem(40px);
     padding: 0 $carbon--spacing-05;
     color: $text-01;
@@ -17321,7 +18874,7 @@ Date picker styles
 
     &:disabled {
       color: $disabled-02;
-      background-color: $disabled-background-color;
+      background-color: $disabled-01;
       border-bottom: 1px solid transparent;
       cursor: not-allowed;
     }
@@ -17335,8 +18888,7 @@ Date picker styles
     }
 
     &::placeholder {
-      color: $text-05;
-      opacity: 1;
+      @include placeholder-colors;
     }
   }
 
@@ -17358,6 +18910,31 @@ Date picker styles
     transform: translateY(-50%);
     cursor: pointer;
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
+  }
+
+  .#{$prefix}--date-picker__icon--invalid,
+  .#{$prefix}--date-picker__icon--warn {
+    cursor: auto;
+  }
+
+  .#{$prefix}--date-picker__icon--warn {
+    fill: $support-03;
+  }
+
+  .#{$prefix}--date-picker__icon--warn path:first-of-type {
+    opacity: 1;
+    fill: $carbon__black-100;
+  }
+
+  .#{$prefix}--date-picker__icon--invalid {
+    fill: $support-01;
   }
 
   .#{$prefix}--date-picker__icon ~ .#{$prefix}--date-picker__input {
@@ -17404,6 +18981,7 @@ Date picker styles
 
 - **Group**: [date-picker](#date-picker)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [field-02 [variable]](#field-02-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
@@ -17411,8 +18989,10 @@ Date picker styles
   - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
-  - [text-05 [variable]](#text-05-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [icon-01 [variable]](#icon-01-variable)
+  - [support-03 [variable]](#support-03-variable)
+  - [support-01 [variable]](#support-01-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
 
 ## dropdown
@@ -17475,6 +19055,12 @@ Dropdown styles
 
     padding: 0 rem(48px) 0 rem(16px);
     text-align: left;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      border: 1px solid transparent;
+    }
   }
 
   .#{$prefix}--dropdown--xl {
@@ -17748,7 +19334,6 @@ Dropdown styles
 
   .#{$prefix}--dropdown--disabled {
     border-bottom-color: transparent;
-    cursor: not-allowed;
 
     &:hover {
       background-color: $field-01;
@@ -17773,6 +19358,11 @@ Dropdown styles
     &.#{$prefix}--dropdown--light:hover {
       background-color: $field-02;
     }
+  }
+
+  .#{$prefix}--dropdown--disabled .#{$prefix}--list-box__field,
+  .#{$prefix}--dropdown--disabled .#{$prefix}--list-box__menu-icon {
+    cursor: not-allowed;
   }
 
   .#{$prefix}--dropdown--auto-width {
@@ -17877,6 +19467,7 @@ Dropdown styles
 
 - **Group**: [dropdown](#dropdown)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
@@ -17924,6 +19515,10 @@ File uploader styles
 
     margin-bottom: $carbon--spacing-03;
     color: $text-01;
+  }
+
+  .#{$prefix}--file--label--disabled {
+    color: $disabled-02;
   }
 
   .#{$prefix}--file-input {
@@ -17986,7 +19581,7 @@ File uploader styles
   }
 
   .#{$prefix}--file-browse-btn--disabled .#{$prefix}--file__drop-container {
-    border: 1px dashed $disabled-01;
+    border: 1px dashed $disabled-02;
   }
 
   .#{$prefix}--label-description {
@@ -17995,6 +19590,10 @@ File uploader styles
 
     margin-bottom: $carbon--spacing-05;
     color: $text-02;
+  }
+
+  .#{$prefix}--label-description--disabled {
+    color: $disabled-02;
   }
 
   // For backwards compatibility
@@ -18014,8 +19613,8 @@ File uploader styles
   .#{$prefix}--file__selected-file {
     display: grid;
     grid-auto-rows: auto;
-    grid-gap: $carbon--spacing-05;
     grid-template-columns: 1fr auto;
+    gap: rem(12px) $carbon--spacing-05;
     align-items: center;
     max-width: rem(320px);
     min-height: $carbon--spacing-09;
@@ -18028,15 +19627,10 @@ File uploader styles
     }
 
     .#{$prefix}--form-requirement {
+      display: block;
       grid-column: 1 / -1;
       max-height: none;
       margin: 0;
-    }
-
-    .#{$prefix}--loading {
-      width: rem(32px);
-      height: rem(32px);
-      margin-right: -$carbon--spacing-03;
     }
 
     .#{$prefix}--inline-loading__animation .#{$prefix}--loading {
@@ -18052,6 +19646,12 @@ File uploader styles
       white-space: nowrap;
       text-overflow: ellipsis;
     }
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 2px solid transparent;
+    }
   }
 
   .#{$prefix}--file-thumbnail {
@@ -18060,6 +19660,7 @@ File uploader styles
   }
 
   .#{$prefix}--file__selected-file--field {
+    gap: $carbon--spacing-03 $carbon--spacing-05;
     min-height: rem(40px);
 
     .#{$prefix}--file-thumbnail {
@@ -18069,6 +19670,7 @@ File uploader styles
   }
 
   .#{$prefix}--file__selected-file--sm {
+    gap: $carbon--spacing-02 $carbon--spacing-05;
     min-height: rem(32px);
 
     .#{$prefix}--file-thumbnail {
@@ -18084,19 +19686,36 @@ File uploader styles
     max-width: rem(320px);
     margin-bottom: $carbon--spacing-03;
     background-color: $field-01;
-
     outline-width: 1px;
   }
 
   .#{$prefix}--file__selected-file--invalid {
     @include focus-outline('invalid');
 
-    padding: $carbon--spacing-05 0;
+    padding: rem(12px) 0;
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--sm {
+    padding: $carbon--spacing-02 0;
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--field {
+    padding: $carbon--spacing-03 0;
   }
 
   .#{$prefix}--file__selected-file--invalid .#{$prefix}--form-requirement {
     padding-top: $carbon--spacing-05;
     border-top: 1px solid $ui-03;
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--sm
+    .#{$prefix}--form-requirement {
+    padding-top: rem(7px);
+  }
+
+  .#{$prefix}--file__selected-file--invalid.#{$prefix}--file__selected-file--field
+    .#{$prefix}--form-requirement {
+    padding-top: rem(11px);
   }
 
   .#{$prefix}--file__selected-file--invalid
@@ -18106,6 +19725,11 @@ File uploader styles
     @include type-style('label-01');
 
     padding: 0 $carbon--spacing-05;
+  }
+
+  .#{$prefix}--file__selected-file--invalid
+    .#{$prefix}--form-requirement__title {
+    color: $text-error;
   }
 
   .#{$prefix}--file__selected-file--invalid
@@ -18134,6 +19758,7 @@ File uploader styles
 
   .#{$prefix}--file__state-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     min-width: 1.5rem;
     padding-right: $carbon--spacing-05;
@@ -18161,14 +19786,15 @@ File uploader styles
   .#{$prefix}--file__state-container .#{$prefix}--file-invalid {
     width: $carbon--spacing-05;
     height: $carbon--spacing-05;
-    margin-right: $carbon--spacing-03;
     fill: $support-01;
   }
 
   .#{$prefix}--file__state-container .#{$prefix}--file-close {
     display: flex;
-    width: $carbon--spacing-05;
-    height: $carbon--spacing-05;
+    align-items: center;
+    justify-content: center;
+    width: $carbon--spacing-06;
+    height: $carbon--spacing-06;
     padding: 0;
     background-color: transparent;
     border: none;
@@ -18176,12 +19802,19 @@ File uploader styles
     fill: $icon-01;
 
     &:focus {
-      @include focus-outline('border');
+      @include focus-outline('outline');
     }
   }
 
   .#{$prefix}--file__state-container .#{$prefix}--file-close svg path {
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--file__state-container .#{$prefix}--inline-loading__animation {
@@ -18210,19 +19843,20 @@ File uploader styles
 
 - **Group**: [file-uploader](#file-uploader)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [support-01 [variable]](#support-01-variable)
   - [text-01 [variable]](#text-01-variable)
+  - [disabled-02 [variable]](#disabled-02-variable)
   - [link-01 [variable]](#link-01-variable)
   - [interactive-03 [variable]](#interactive-03-variable)
-  - [disabled-02 [variable]](#disabled-02-variable)
-  - [disabled-01 [variable]](#disabled-01-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-02 [variable]](#text-02-variable)
   - [carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
   - [field-01 [variable]](#field-01-variable)
+  - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [ui-03 [variable]](#ui-03-variable)
   - [text-error [variable]](#text-error-variable)
   - [ui-05 [variable]](#ui-05-variable)
@@ -18305,14 +19939,19 @@ Form styles
 
   input[data-invalid],
   .#{$prefix}--number[data-invalid] .#{$prefix}--number__input-wrapper,
+  .#{$prefix}--number__input-wrapper--warning,
   .#{$prefix}--date-picker-input__wrapper,
+  .#{$prefix}--date-picker-input__wrapper--warn,
+  .#{$prefix}--date-picker-input__wrapper--invalid,
   .#{$prefix}--time-picker--invalid,
   .#{$prefix}--text-input__field-wrapper[data-invalid],
-  .#{$prefix}--text-input--warn,
+  .#{$prefix}--text-input__field-wrapper--warning,
+  .#{$prefix}--text-input__field-wrapper--warning > .#{$prefix}--text-input,
   .#{$prefix}--text-area__wrapper[data-invalid],
   .#{$prefix}--select-input__wrapper[data-invalid],
   .#{$prefix}--time-picker[data-invalid],
-  .#{$prefix}--list-box[data-invalid] {
+  .#{$prefix}--list-box[data-invalid],
+  .#{$prefix}--list-box--warning {
     ~ .#{$prefix}--form-requirement {
       display: block;
       max-height: rem(200px);
@@ -18324,6 +19963,7 @@ Form styles
   input[data-invalid],
   .#{$prefix}--number[data-invalid] .#{$prefix}--number__input-wrapper,
   .#{$prefix}--date-picker-input__wrapper,
+  .#{$prefix}--date-picker-input__wrapper--invalid,
   .#{$prefix}--time-picker--invalid,
   .#{$prefix}--text-input__field-wrapper[data-invalid],
   .#{$prefix}--text-area__wrapper[data-invalid],
@@ -18337,7 +19977,7 @@ Form styles
 
   //Fluid Form
   .#{$prefix}--form--fluid .#{$prefix}--text-input__field-wrapper[data-invalid],
-  .#{$prefix}--form--fluid .#{$prefix}--text-input__field-wrapper[data-warn] {
+  .#{$prefix}--form--fluid .#{$prefix}--text-input__field-wrapper--warning {
     display: block;
   }
 
@@ -18396,6 +20036,7 @@ Form styles
 
 - **Group**: [form](#form)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--font-family [function]](#carbon--font-family-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
@@ -18508,6 +20149,7 @@ Inline loading styles
 
 - **Group**: [inline-loading](#inline-loading)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [loading--small\_\_gap [variable]](#loading--small__gap-variable)
   - [text-02 [variable]](#text-02-variable)
@@ -18583,10 +20225,6 @@ Link styles
   .#{$prefix}--link.#{$prefix}--link--inline {
     text-decoration: underline;
 
-    &:hover {
-      color: $hover-primary-text;
-    }
-
     &:focus,
     &:visited {
       text-decoration: none;
@@ -18595,6 +20233,14 @@ Link styles
 
   .#{$prefix}--link--disabled.#{$prefix}--link--inline {
     text-decoration: underline;
+  }
+
+  .#{$prefix}--link--sm {
+    @include type-style('helper-text-01');
+  }
+
+  .#{$prefix}--link--lg {
+    @include type-style('body-short-02');
   }
 }
 ```
@@ -18623,11 +20269,16 @@ List styles
 @mixin lists() {
   .#{$prefix}--list--nested,
   .#{$prefix}--list--unordered,
-  .#{$prefix}--list--ordered {
+  .#{$prefix}--list--ordered,
+  .#{$prefix}--list--ordered--native {
     @include reset;
     @include type-style('body-short-01');
 
     list-style: none;
+  }
+
+  .#{$prefix}--list--ordered--native {
+    list-style: decimal;
   }
 
   .#{$prefix}--list__item {
@@ -18635,7 +20286,11 @@ List styles
   }
 
   .#{$prefix}--list--nested {
-    margin-left: $carbon--spacing-06;
+    margin-left: rem(32px);
+  }
+
+  .#{$prefix}--list--nested .#{$prefix}--list__item {
+    padding-left: $carbon--spacing-02;
   }
 
   .#{$prefix}--list--ordered:not(.#{$prefix}--list--nested) {
@@ -18655,7 +20310,8 @@ List styles
     counter-increment: item;
   }
 
-  .#{$prefix}--list--ordered.#{$prefix}--list--nested {
+  .#{$prefix}--list--ordered.#{$prefix}--list--nested,
+  .#{$prefix}--list--ordered--native.#{$prefix}--list--nested {
     list-style-type: lower-latin;
   }
 
@@ -18684,9 +20340,10 @@ List styles
 
 - **Group**: [list](#list)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
-  - [carbon--spacing-06 [variable]](#carbon--spacing-06-variable)
+  - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [carbon--spacing-04 [variable]](#carbon--spacing-04-variable)
 
@@ -18840,7 +20497,19 @@ List box styles
     fill: $support-01;
   }
 
-  .#{$prefix}--list-box[data-invalid] .#{$prefix}--list-box__field {
+  .#{$prefix}--list-box__invalid-icon--warning {
+    fill: $support-03;
+  }
+
+  .#{$prefix}--list-box__invalid-icon--warning
+    path[data-icon-path='inner-path'] {
+    opacity: 1;
+    fill: $carbon__black-100;
+  }
+
+  .#{$prefix}--list-box[data-invalid] .#{$prefix}--list-box__field,
+  .#{$prefix}--list-box.#{$prefix}--list-box--warning
+    .#{$prefix}--list-box__field {
     padding-right: carbon--mini-units(8);
     border-bottom: 0;
   }
@@ -18891,6 +20560,13 @@ List box styles
 
   .#{$prefix}--list-box--disabled .#{$prefix}--list-box__menu-icon > svg {
     fill: $disabled-02;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `GrayText` is a CSS2 system color to help improve colors in HCM
+      fill: GrayText;
+    }
   }
 
   .#{$prefix}--list-box--disabled,
@@ -18997,10 +20673,21 @@ List box styles
     vertical-align: top;
     outline: none;
     cursor: pointer;
+
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border: 1px solid ButtonText;
+    }
   }
 
   .#{$prefix}--list-box__field:focus {
     @include focus-outline('outline');
+
+    // Firefox HCM fix
+    @media screen and (prefers-contrast) {
+      border-style: dotted;
+    }
   }
 
   .#{$prefix}--list-box__field[disabled] {
@@ -19016,12 +20703,19 @@ List box styles
   // invalid && populated input field
   .#{$prefix}--list-box[data-invalid]
     .#{$prefix}--list-box__field
+    .#{$prefix}--text-input,
+  .#{$prefix}--list-box--warning
+    .#{$prefix}--list-box__field
     .#{$prefix}--text-input {
     // to account for clear input button outline
     padding-right: rem(98px);
   }
 
   .#{$prefix}--list-box[data-invalid]
+    .#{$prefix}--list-box__field
+    .#{$prefix}--text-input
+    + .#{$prefix}--list-box__invalid-icon,
+  .#{$prefix}--list-box--warning
     .#{$prefix}--list-box__field
     .#{$prefix}--text-input
     + .#{$prefix}--list-box__invalid-icon {
@@ -19037,11 +20731,18 @@ List box styles
   // invalid && empty input field
   .#{$prefix}--list-box[data-invalid]
     .#{$prefix}--list-box__field
+    .#{$prefix}--text-input--empty,
+  .#{$prefix}--list-box--warning
+    .#{$prefix}--list-box__field
     .#{$prefix}--text-input--empty {
     padding-right: carbon--mini-units(9);
   }
 
   .#{$prefix}--list-box[data-invalid]
+    .#{$prefix}--list-box__field
+    .#{$prefix}--text-input--empty
+    + .#{$prefix}--list-box__invalid-icon,
+  .#{$prefix}--list-box--warning
     .#{$prefix}--list-box__field
     .#{$prefix}--text-input--empty
     + .#{$prefix}--list-box__invalid-icon {
@@ -19075,6 +20776,13 @@ List box styles
   .#{$prefix}--list-box__menu-icon > svg {
     height: 100%;
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--list-box__menu-icon--open {
@@ -19099,11 +20807,22 @@ List box styles
 
     &:focus {
       @include focus-outline('outline');
+
+      &:hover {
+        @include focus-outline('outline');
+      }
     }
   }
 
   .#{$prefix}--list-box__selection > svg {
     fill: $icon-02;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--list-box--disabled .#{$prefix}--list-box__selection:focus {
@@ -19130,6 +20849,12 @@ List box styles
     background-color: $inverse-02;
     border-radius: rem(12px);
     transform: none;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      border: 1px solid transparent;
+    }
   }
 
   .#{$prefix}--list-box__selection--multi > svg {
@@ -19143,19 +20868,34 @@ List box styles
       background-color: $hover-secondary;
       border-radius: 50%;
     }
-  }
 
-  .#{$prefix}--list-box--disabled
-    .#{$prefix}--list-box__selection--multi
-    > svg {
-    fill: $disabled-02;
-
-    &:hover {
-      background-color: initial;
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
     }
   }
 
-  .#{$prefix}--list-box__selection--multi:focus,
+  .#{$prefix}--list-box--disabled .#{$prefix}--list-box__selection--multi {
+    @include tag-theme($disabled-02, $disabled-01);
+
+    > svg {
+      fill: $disabled-01;
+
+      &:hover {
+        background-color: initial;
+      }
+    }
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `GrayText` is a CSS2 system color to help improve colors in HCM
+      fill: GrayText;
+    }
+  }
+
   .#{$prefix}--list-box__selection--multi:hover {
     outline: none;
   }
@@ -19293,6 +21033,13 @@ List box styles
       margin: 0;
       padding: rem(11px) rem(16px);
       border-color: transparent;
+
+      // Windows, Firefox HCM Fix
+      @media screen and (-ms-high-contrast: active),
+        screen and (prefers-contrast) {
+        outline: 3px solid transparent;
+        outline-offset: -3px;
+      }
     }
 
     &:hover {
@@ -19335,6 +21082,13 @@ List box styles
     color: $text-01;
     background-color: $hover-ui;
     border-color: transparent;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 3px solid transparent;
+      outline-offset: -3px;
+    }
   }
 
   .#{$prefix}--list-box__menu-item--highlighted
@@ -19443,6 +21197,8 @@ List box styles
 
 - **Group**: [list-box](#list-box)
 - **Requires**:
+  - [tag-theme [mixin]](#tag-theme-mixin)
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [list-box-width [variable]](#list-box-width-variable)
@@ -19454,6 +21210,7 @@ List box styles
   - [field-02 [variable]](#field-02-variable)
   - [carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
   - [support-01 [variable]](#support-01-variable)
+  - [support-03 [variable]](#support-03-variable)
   - [decorative-01 [variable]](#decorative-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
@@ -19465,6 +21222,7 @@ List box styles
   - [inverse-01 [variable]](#inverse-01-variable)
   - [inverse-02 [variable]](#inverse-02-variable)
   - [hover-secondary [variable]](#hover-secondary-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [text-02 [variable]](#text-02-variable)
   - [selected-ui [variable]](#selected-ui-variable)
@@ -19496,7 +21254,7 @@ Loading styles
   }
 
   .#{$prefix}--loading__svg circle {
-    stroke-width: 8;
+    stroke-width: 10;
     stroke-linecap: butt;
     stroke-dasharray: 240;
   }
@@ -19515,10 +21273,11 @@ Loading styles
   }
 
   .#{$prefix}--loading--small {
-    width: 2rem;
-    height: 2rem;
+    width: rem(16px);
+    height: rem(16px);
+
     circle {
-      stroke-width: 12;
+      stroke-width: 16;
     }
   }
 
@@ -19528,7 +21287,7 @@ Loading styles
 
   .#{$prefix}--loading__background {
     stroke: $ui-03;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: -22;
   }
 
   .#{$prefix}--loading-overlay {
@@ -19557,6 +21316,7 @@ Loading styles
 - **Requires**:
   - [animation\_\_loading--spin [mixin]](#animation__loading--spin-mixin)
   - [animation\_\_loading--stop [mixin]](#animation__loading--stop-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [loading\_\_size [variable]](#loading__size-variable)
   - [interactive-04 [variable]](#interactive-04-variable)
@@ -19628,7 +21388,7 @@ Loading styles
 <summary>Source code</summary>
 
 ```scss
-$loading__gap: 40;
+$loading__gap: 16;
 ```
 
 </details>
@@ -19644,7 +21404,7 @@ $loading__gap: 40;
 <summary>Source code</summary>
 
 ```scss
-$loading--small__gap: 99;
+$loading--small__gap: 110;
 ```
 
 </details>
@@ -19661,7 +21421,7 @@ $loading--small__gap: 99;
 <summary>Source code</summary>
 
 ```scss
-$loading__size: 10.5rem;
+$loading__size: 5.5rem;
 ```
 
 </details>
@@ -19922,10 +21682,6 @@ Modal styles
     &:focus {
       @include focus-outline('outline');
     }
-
-    > * {
-      @include type-style('body-long-01');
-    }
   }
 
   // Required so overflow-indicator disappears at end of content
@@ -19982,6 +21738,14 @@ Modal styles
     }
   }
 
+  .#{$prefix}--modal-footer button.#{$prefix}--btn:focus {
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      border: none;
+      outline-style: dotted;
+    }
+  }
+
   .#{$prefix}--modal-close {
     position: absolute;
     top: 0;
@@ -20002,6 +21766,11 @@ Modal styles
     &:focus {
       border-color: $focus;
       outline: none;
+
+      // Firefox HCM Fix
+      @media screen and (prefers-contrast) {
+        border-style: dotted;
+      }
     }
   }
 
@@ -20013,6 +21782,13 @@ Modal styles
     width: rem(20px);
     height: rem(20px);
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--body--with-modal-open {
@@ -20030,6 +21806,7 @@ Modal styles
 - **Group**: [modal](#modal)
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [overlay-01 [variable]](#overlay-01-variable)
   - [field-02 [variable]](#field-02-variable)
@@ -20095,21 +21872,30 @@ Multi select styles
     color: $text-01;
   }
 
+  .#{$prefix}--multi-select--filterable .#{$prefix}--text-input {
+    padding-left: $spacing-03;
+  }
+
+  .#{$prefix}--multi-select--filterable:hover .#{$prefix}--text-input {
+    background-color: $hover-ui;
+  }
+
+  .#{$prefix}--multi-select--filterable.#{$prefix}--list-box--disabled:hover
+    .#{$prefix}--text-input {
+    background-color: $field-01;
+  }
+
   .#{$prefix}--multi-select--filterable {
     .#{$prefix}--list-box__selection--multi {
-      position: absolute;
-      right: auto;
-      left: $carbon--spacing-03;
+      margin: 0 0 0 $spacing-05;
     }
   }
 
-  .#{$prefix}--multi-select--selected .#{$prefix}--text-input {
-    // this value will need to change based on the number of digits in
-    // the number of items selected
-    //
-    // i.e. the input field needs adjusted padding to account for the width of
-    // the number in <ListBox.Selection>
-    padding-left: carbon--mini-units(7);
+  .#{$prefix}--multi-select--filterable.#{$prefix}--multi-select--inline,
+  .#{$prefix}--multi-select--filterable.#{$prefix}--multi-select--inline
+    .#{$prefix}--text-input {
+    background-color: transparent;
+    border-bottom: 0;
   }
 }
 ```
@@ -20118,10 +21904,13 @@ Multi select styles
 
 - **Group**: [multi-select](#multi-select)
 - **Requires**:
-  - [carbon--mini-units [function]](#carbon--mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
-  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [spacing-03 [variable]](#spacing-03-variable)
+  - [hover-ui [variable]](#hover-ui-variable)
+  - [field-01 [variable]](#field-01-variable)
+  - [spacing-05 [variable]](#spacing-05-variable)
 
 ## notification
 
@@ -20160,6 +21949,12 @@ Inline notification styles
 
     @include carbon--breakpoint(max) {
       max-width: rem(832px);
+    }
+
+    // Firefox HCM fix
+    @media screen and (prefers-contrast) {
+      outline-width: 1px;
+      outline-style: solid;
     }
   }
 
@@ -20342,6 +22137,12 @@ Inline notification styles
     outline: 2px solid $inverse-focus-ui;
     outline-offset: -2px;
     box-shadow: none;
+
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      border-style: dotted;
+      outline-style: dotted;
+    }
   }
 
   .#{$prefix}--inline-notification--low-contrast
@@ -20378,6 +22179,11 @@ Inline notification styles
     &:focus {
       outline: 2px solid $inverse-focus-ui;
       outline-offset: -2px;
+
+      // Firefox HCM fix
+      @media screen and (prefers-contrast) {
+        outline-style: dotted;
+      }
     }
 
     .#{$prefix}--inline-notification__close-icon {
@@ -20422,6 +22228,7 @@ Inline notification styles
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [notification--experimental [mixin]](#notification--experimental-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [inverse-01 [variable]](#inverse-01-variable)
@@ -20536,6 +22343,12 @@ Toast notification styles
 
     @include carbon--breakpoint(max) {
       width: rem(352px);
+    }
+
+    // Firefox HCM fix
+    @media screen and (prefers-contrast) {
+      outline-width: 1px;
+      outline-style: solid;
     }
   }
 
@@ -20652,6 +22465,11 @@ Toast notification styles
     &:focus {
       outline: 2px solid $inverse-focus-ui;
       outline-offset: -2px;
+
+      // Firefox HCM fix
+      @media screen and (prefers-contrast) {
+        outline-style: dotted;
+      }
     }
 
     .#{$prefix}--toast-notification__close-icon {
@@ -20714,6 +22532,7 @@ Toast notification styles
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [notification--experimental [mixin]](#notification--experimental-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
@@ -20802,7 +22621,7 @@ Number input styles
   .#{$prefix}--number input[type='number']:disabled,
   .#{$prefix}--number--readonly input[type='number'] {
     color: $disabled;
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
     border-bottom-color: transparent;
     cursor: not-allowed;
   }
@@ -20825,6 +22644,13 @@ Number input styles
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      outline: 1px solid transparent;
+      outline-offset: -1px;
+    }
   }
 
   .#{$prefix}--number__control-btn {
@@ -20877,6 +22703,15 @@ Number input styles
     position: absolute;
     right: 2rem;
     fill: $support-01;
+  }
+
+  .#{$prefix}--number__invalid--warning {
+    fill: $support-03;
+  }
+
+  .#{$prefix}--number__invalid--warning path:first-of-type {
+    opacity: 1;
+    fill: $carbon__black-100;
   }
 
   .#{$prefix}--number--light input[type='number'] {
@@ -21010,6 +22845,7 @@ Number input styles
 
 - **Group**: [number-input](#number-input)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--font-family [function]](#carbon--font-family-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-07 [variable]](#carbon--spacing-07-variable)
@@ -21017,8 +22853,10 @@ Number input styles
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [icon-01 [variable]](#icon-01-variable)
   - [support-01 [variable]](#support-01-variable)
+  - [support-03 [variable]](#support-03-variable)
   - [field-02 [variable]](#field-02-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [hover-ui [variable]](#hover-ui-variable)
@@ -21046,8 +22884,8 @@ Overflow menu styles
     display: flex;
     align-items: center;
     justify-content: center;
-    width: rem(32px);
-    height: rem(32px);
+    width: rem(40px);
+    height: rem(40px);
     cursor: pointer;
     transition: outline $duration--fast-02 motion(entrance, productive), background-color
         $duration--fast-02 motion(entrance, productive);
@@ -21059,6 +22897,16 @@ Overflow menu styles
     &:hover {
       background-color: $hover-ui;
     }
+  }
+
+  .#{$prefix}--overflow-menu--sm {
+    width: rem(32px);
+    height: rem(32px);
+  }
+
+  .#{$prefix}--overflow-menu--xl {
+    width: rem(48px);
+    height: rem(48px);
   }
 
   // Overwrite Icon Tooltip focus styles
@@ -21089,6 +22937,13 @@ Overflow menu styles
     width: rem(16px);
     height: rem(16px);
     fill: $icon-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--overflow-menu-options {
@@ -21133,14 +22988,14 @@ Overflow menu styles
   .#{$prefix}--overflow-menu-options[data-floating-menu-direction='bottom']::after {
     top: rem(-3px);
     left: 0;
-    width: rem(32px);
+    width: rem(40px);
     height: rem(3px);
   }
 
   .#{$prefix}--overflow-menu-options[data-floating-menu-direction='top']::after {
     bottom: rem(-8px);
     left: 0;
-    width: rem(32px);
+    width: rem(40px);
     height: rem(8px);
   }
 
@@ -21148,14 +23003,36 @@ Overflow menu styles
     top: 0;
     right: rem(-6px);
     width: rem(6px);
-    height: rem(32px);
+    height: rem(40px);
   }
 
   .#{$prefix}--overflow-menu-options[data-floating-menu-direction='right']::after {
     top: 0;
     left: rem(-6px);
     width: rem(6px);
-    height: rem(32px);
+    height: rem(40px);
+  }
+
+  .#{$prefix}--overflow-menu-options--sm.#{$prefix}--overflow-menu-options {
+    &[data-floating-menu-direction='bottom']::after,
+    &[data-floating-menu-direction='top']::after {
+      width: rem(32px);
+    }
+    &[data-floating-menu-direction='left']::after,
+    &[data-floating-menu-direction='right']::after {
+      height: rem(32px);
+    }
+  }
+
+  .#{$prefix}--overflow-menu-options--xl.#{$prefix}--overflow-menu-options {
+    &[data-floating-menu-direction='bottom']::after,
+    &[data-floating-menu-direction='top']::after {
+      width: rem(48px);
+    }
+    &[data-floating-menu-direction='left']::after,
+    &[data-floating-menu-direction='right']::after {
+      height: rem(48px);
+    }
   }
 
   .#{$prefix}--overflow-menu--flip.#{$prefix}--overflow-menu-options[data-floating-menu-direction='top']::after,
@@ -21188,6 +23065,16 @@ Overflow menu styles
     padding: 0;
     background-color: transparent;
     transition: background-color $duration--fast-02 motion(entrance, productive);
+  }
+
+  .#{$prefix}--overflow-menu-options--sm
+    .#{$prefix}--overflow-menu-options__option {
+    height: rem(32px);
+  }
+
+  .#{$prefix}--overflow-menu-options--xl
+    .#{$prefix}--overflow-menu-options__option {
+    height: rem(48px);
   }
 
   .#{$prefix}--overflow-menu--divider {
@@ -21271,10 +23158,10 @@ Overflow menu styles
   .#{$prefix}--overflow-menu-options__option--danger
     .#{$prefix}--overflow-menu-options__btn:focus {
     color: $text-04;
-    background-color: $support-01;
+    background-color: $danger-01;
 
     svg {
-      fill: $text-04;
+      fill: currentColor;
     }
   }
 
@@ -21317,6 +23204,7 @@ Overflow menu styles
 
 - **Group**: [overflow-menu](#overflow-menu)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [field-01 [variable]](#field-01-variable)
@@ -21329,7 +23217,7 @@ Overflow menu styles
   - [text-01 [variable]](#text-01-variable)
   - [icon-02 [variable]](#icon-02-variable)
   - [text-04 [variable]](#text-04-variable)
-  - [support-01 [variable]](#support-01-variable)
+  - [danger-01 [variable]](#danger-01-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
 
@@ -21364,6 +23252,10 @@ Pagination styles
 
     @include carbon--breakpoint('md') {
       overflow: initial;
+
+      .#{$prefix}--pagination__control-buttons {
+        display: flex;
+      }
     }
 
     // mobile friendly pagination
@@ -21373,9 +23265,12 @@ Pagination styles
         display: none;
       }
 
-      .#{$prefix}--pagination__items-count,
-      .#{$prefix}--pagination__control-buttons {
+      .#{$prefix}--pagination__items-count {
         display: initial;
+      }
+
+      .#{$prefix}--pagination__control-buttons {
+        display: flex;
       }
     }
   }
@@ -21447,7 +23342,11 @@ Pagination styles
   }
 
   .#{$prefix}--pagination__left {
-    padding: 0 $carbon--spacing-05;
+    padding: 0 $carbon--spacing-05 0 0;
+
+    @include carbon--breakpoint('md') {
+      padding: 0 $carbon--spacing-05;
+    }
   }
 
   .#{$prefix}--pagination__text {
@@ -21479,6 +23378,13 @@ Pagination styles
     transition: outline $duration--fast-02 motion(standard, productive), background-color
         $duration--fast-02 motion(standard, productive);
     fill: $ui-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border: 1px solid transparent;
+    }
   }
 
   .#{$prefix}--pagination__button:focus,
@@ -21523,6 +23429,7 @@ Pagination styles
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [carbon--breakpoint-down [mixin]](#carbon--breakpoint-down-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-01 [variable]](#ui-01-variable)
   - [ui-03 [variable]](#ui-03-variable)
@@ -21708,6 +23615,7 @@ Unstable pagination styles
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [ui-01 [variable]](#ui-01-variable)
@@ -22248,6 +24156,7 @@ Progress indicator styles
 
 - **Group**: [progress-indicator](#progress-indicator)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
@@ -22325,7 +24234,7 @@ Radio button styles
     flex-shrink: 0;
     width: rem(18px);
     height: rem(18px);
-    margin-right: $carbon--spacing-03;
+    margin: 2px $carbon--spacing-03 2px $carbon--spacing-03;
     background-color: transparent;
     border: $radio-border-width solid $icon-01;
     border-radius: 50%;
@@ -22352,7 +24261,13 @@ Radio button styles
       // Allow the selected button to be seen in Windows HCM for IE/Edge
       @media screen and (-ms-high-contrast: active) {
         // Utilize a system color variable to accomodate any user HCM theme
-        background-color: windowText;
+        background-color: WindowText;
+      }
+
+      // Firefox only HCM solution
+      @media screen and (prefers-contrast) {
+        // Utilize a system color variable to accomodate any user HCM theme
+        border: 2px solid WindowText;
       }
     }
   }
@@ -22440,6 +24355,7 @@ Radio button styles
 
 - **Group**: [radio-button](#radio-button)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
@@ -22491,8 +24407,7 @@ Search styles
     }
 
     &::placeholder {
-      color: $text-05;
-      font-weight: 400;
+      @include placeholder-colors;
     }
 
     &::-ms-clear {
@@ -22502,18 +24417,13 @@ Search styles
 
   .#{$prefix}--search-input[disabled] {
     color: $disabled;
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
     border-bottom: 1px solid transparent;
     cursor: not-allowed;
 
     &::placeholder {
       color: $disabled;
-      font-weight: 400;
     }
-  }
-
-  .#{$prefix}--search-input[disabled] ~ .#{$prefix}--search-magnifier {
-    fill: $disabled;
   }
 
   .#{$prefix}--search--light .#{$prefix}--search-input {
@@ -22558,6 +24468,13 @@ Search styles
     transform: translateY(-50%);
     pointer-events: none;
     fill: $icon-02;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--search-close {
@@ -22602,6 +24519,12 @@ Search styles
 
   .#{$prefix}--search-close svg {
     fill: inherit;
+
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--search-close,
@@ -22636,6 +24559,24 @@ Search styles
 
       background-color: $selected-ui;
     }
+  }
+
+  .#{$prefix}--search--disabled .#{$prefix}--search-close {
+    outline: none;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: transparent;
+      border-bottom-color: transparent;
+    }
+
+    &:hover::before {
+      background-color: transparent;
+    }
+  }
+
+  .#{$prefix}--search--disabled svg {
+    fill: $disabled;
   }
 
   .#{$prefix}--search-close:focus,
@@ -22696,12 +24637,13 @@ Search styles
 
 - **Group**: [search](#search)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
   - [text-01 [variable]](#text-01-variable)
   - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
-  - [text-05 [variable]](#text-05-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [field-02 [variable]](#field-02-variable)
   - [spacing-07 [variable]](#spacing-07-variable)
   - [spacing-08 [variable]](#spacing-08-variable)
@@ -22732,12 +24674,14 @@ Select styles
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
   }
 
   .#{$prefix}--select-input__wrapper {
     position: relative;
     display: flex;
     align-items: center;
+    width: 100%;
   }
 
   .#{$prefix}--select-input {
@@ -22745,10 +24689,7 @@ Select styles
     @include focus-outline('reset');
 
     display: block;
-    width: rem(224px);
-    min-width: rem(128px);
-    max-width: rem(448px);
-
+    width: 100%;
     height: rem(40px);
     padding: 0 $spacing-09 0 $spacing-05;
     color: $text-01;
@@ -22757,6 +24698,8 @@ Select styles
     border-bottom: 1px solid $ui-04;
     border-radius: 0;
     cursor: pointer;
+    // reset disabled <select> opacity
+    opacity: 1;
 
     // Do not transition on background-color (see: https://github.com/carbon-design-system/carbon/issues/4464)
     transition: outline $duration--fast-01 motion(standard, productive);
@@ -22791,8 +24734,8 @@ Select styles
     &:disabled,
     &:hover:disabled {
       color: $disabled-02;
-      background-color: $disabled-background-color;
-      border-bottom-color: $disabled-background-color;
+      background-color: $disabled-01;
+      border-bottom-color: $disabled-01;
       cursor: not-allowed;
     }
   }
@@ -22830,7 +24773,7 @@ Select styles
     &:disabled,
     &:hover:disabled {
       color: $disabled-02;
-      background-color: $disabled-background-color;
+      background-color: $field-02;
       cursor: not-allowed;
     }
   }
@@ -22842,6 +24785,15 @@ Select styles
     height: 100%;
     pointer-events: none;
     fill: $ui-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      path {
+        fill: ButtonText;
+      }
+    }
   }
 
   .#{$prefix}--select-input__wrapper[data-invalid]
@@ -22856,11 +24808,6 @@ Select styles
   .#{$prefix}--select-option {
     // For the options to show in IE11
     color: $text-01;
-  }
-
-  .#{$prefix}--select-option[disabled] {
-    cursor: not-allowed;
-    opacity: 0.5;
   }
 
   // Override some Firefox user-agent styles
@@ -22900,6 +24847,7 @@ Select styles
   }
 
   .#{$prefix}--select--inline .#{$prefix}--select-input {
+    width: auto;
     padding-right: $spacing-07;
     padding-left: $carbon--spacing-03;
     color: $text-01;
@@ -22909,7 +24857,7 @@ Select styles
 
   .#{$prefix}--select--inline .#{$prefix}--select-input[disabled],
   .#{$prefix}--select--inline .#{$prefix}--select-input[disabled]:hover {
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
   }
 
   .#{$prefix}--select--inline .#{$prefix}--select__arrow {
@@ -22954,6 +24902,7 @@ Select styles
 
 - **Group**: [select](#select)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [carbon--mini-units [function]](#carbon--mini-units-function)
   - [prefix [variable]](#prefix-variable)
   - [spacing-09 [variable]](#spacing-09-variable)
@@ -22963,6 +24912,7 @@ Select styles
   - [ui-04 [variable]](#ui-04-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
   - [field-02 [variable]](#field-02-variable)
   - [ui-05 [variable]](#ui-05-variable)
   - [support-01 [variable]](#support-01-variable)
@@ -23014,6 +24964,13 @@ Slider styles
     background: $ui-03;
     transform: translate(0%, -50%);
     cursor: pointer;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border: 1px solid transparent;
+    }
   }
 
   .#{$prefix}--slider__track:before {
@@ -23037,6 +24994,13 @@ Slider styles
     transform-origin: left;
     transition: background $duration--fast-02 motion(standard, productive);
     pointer-events: none;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border: 1px solid transparent;
+    }
   }
 
   .#{$prefix}--slider__thumb {
@@ -23065,11 +25029,23 @@ Slider styles
       box-shadow: inset 0 0 0 2px $interactive-04, inset 0 0 0 3px $ui-01;
       // 20px / 14px = 1.4286
       transform: translate(-50%, -50%) scale(1.4286);
+
+      // Firefox HCM Fix
+      @media screen and (prefers-contrast) {
+        outline-style: dotted;
+      }
     }
 
     &:active {
       box-shadow: inset 0 0 0 2px $interactive-04;
       transform: translate(-50%, -50%) scale(1.4286);
+    }
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      outline: 1px solid ButtonText;
     }
   }
 
@@ -23177,6 +25153,7 @@ Slider styles
 
 - **Group**: [slider](#slider)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -23312,131 +25289,126 @@ Tabs styles
     @include reset;
     @include type-style('body-short-01');
 
-    display: flex;
+    position: relative;
     width: 100%;
     height: auto;
-    min-height: rem(40px);
     color: $text-01;
+    @include carbon--breakpoint(md) {
+      min-height: rem(40px);
+      background: none;
+    }
   }
 
   .#{$prefix}--tabs--container {
-    min-height: rem(48px);
+    @include carbon--breakpoint(md) {
+      min-height: rem(48px);
+    }
   }
 
-  .#{$prefix}--tabs__nav {
+  .#{$prefix}--tabs-trigger {
     display: flex;
-    flex-direction: row;
-    width: auto;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: auto hidden;
-    list-style: none;
-    transition: max-height $duration--fast-01 motion(standard, productive);
-
-    // hide scrollbars
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
+    align-items: center;
+    justify-content: space-between;
+    height: rem(40px);
+    padding: 0 $spacing-09 0 $spacing-05;
+    color: $text-01;
+    background-color: $field-01;
+    border-bottom: 1px solid $ui-04;
+    outline: 2px solid transparent;
+    cursor: pointer;
+    @include carbon--breakpoint(md) {
       display: none;
     }
   }
 
-  //-----------------------------
-  // Overflow Nav Buttons
-  //-----------------------------
-  .#{$prefix}--tabs__overflow-indicator--left,
-  .#{$prefix}--tabs__overflow-indicator--right {
-    z-index: 1;
-    flex: 1 0 auto;
-    width: $carbon--spacing-03;
+  .#{$prefix}--tabs-trigger:focus,
+  .#{$prefix}--tabs-trigger:active {
+    @include focus-outline('outline');
   }
 
-  .#{$prefix}--tabs__overflow-indicator--left {
-    margin-right: -$carbon--spacing-03;
-    background-image: linear-gradient(to left, transparent, $ui-background);
+  .#{$prefix}--tabs-trigger svg {
+    position: absolute;
+    right: $spacing-05;
+    transition: transform $duration--fast-01 motion(standard, productive);
+    fill: $ui-05;
   }
 
-  .#{$prefix}--tabs__overflow-indicator--right {
-    margin-left: -$carbon--spacing-03;
-    background-image: linear-gradient(to right, transparent, $ui-background);
+  .#{$prefix}--tabs-trigger--open:focus,
+  .#{$prefix}--tabs-trigger--open:active {
+    @include focus-outline('reset');
+
+    transition: outline $duration--fast-01 motion(standard, productive);
   }
 
-  .#{$prefix}--tabs--light .#{$prefix}--tabs__overflow-indicator--left {
-    background-image: linear-gradient(to left, transparent, $ui-01);
+  .#{$prefix}--tabs-trigger--open {
+    background: $ui-03;
   }
 
-  .#{$prefix}--tabs--light .#{$prefix}--tabs__overflow-indicator--right {
-    background-image: linear-gradient(to right, transparent, $ui-01);
+  .#{$prefix}--tabs-trigger--open svg {
+    @include rotate(-180deg, $duration--fast-01, 50% 45%);
   }
 
-  .#{$prefix}--tabs--container .#{$prefix}--tabs__overflow-indicator--left {
-    background-image: linear-gradient(to left, transparent, $ui-03);
+  // There is only a difference in tab color when in mobile/dropdown view
+  .#{$prefix}--tabs--light.#{$prefix}--tabs-trigger {
+    background-color: $field-02;
   }
 
-  .#{$prefix}--tabs--container .#{$prefix}--tabs__overflow-indicator--right {
-    background-image: linear-gradient(to right, transparent, $ui-03);
+  .#{$prefix}--tabs-trigger-text {
+    padding-top: 2px;
+    overflow: hidden;
+    color: $text-01;
+    font-weight: 400;
+    white-space: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
   }
 
-  // Safari-only media query
-  // won't appear correctly with CSS custom properties
-  // see: code snippet and modal overflow indicators
-  @media not all and (min-resolution: 0.001dpcm) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-      .#{$prefix}--tabs__overflow-indicator--left {
-        margin-right: -$carbon--spacing-05;
-        background-image: linear-gradient(
-          to left,
-          rgba($ui-background, 0),
-          $ui-background
-        );
-      }
-
-      .#{$prefix}--tabs__overflow-indicator--right {
-        margin-left: -$carbon--spacing-05;
-        background-image: linear-gradient(
-          to right,
-          rgba($ui-background, 0),
-          $ui-background
-        );
-      }
-
-      .#{$prefix}--tabs--container .#{$prefix}--tabs__overflow-indicator--left {
-        background-image: linear-gradient(to left, rgba($ui-03, 0), $ui-03);
-      }
-      .#{$prefix}--tabs--container
-        .#{$prefix}--tabs__overflow-indicator--right {
-        background-image: linear-gradient(to right, rgba($ui-03, 0), $ui-03);
-      }
-    }
+  .#{$prefix}--tabs-trigger-text:hover {
+    color: $text-01;
   }
 
-  .#{$prefix}--tab--overflow-nav-button {
-    @include button-reset;
+  .#{$prefix}--tabs-trigger-text:focus {
+    outline: none;
+  }
 
+  .#{$prefix}--tabs__nav {
+    @include box-shadow;
+
+    position: absolute;
+    z-index: z('dropdown');
     display: flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    width: $carbon--spacing-08;
+    flex-direction: column;
+    width: 100%;
+    max-height: 600px;
 
-    &:focus {
-      @include focus-outline('outline');
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: $ui-01;
+    transition: max-height $duration--fast-01 motion(standard, productive);
+
+    @include carbon--breakpoint(md) {
+      z-index: auto;
+      flex-direction: row;
+      width: auto;
+      background: none;
+      box-shadow: none;
+      transition: inherit;
     }
   }
 
-  .#{$prefix}--tab--overflow-nav-button--hidden {
-    display: none;
-  }
+  .#{$prefix}--tabs__nav--hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height $duration--fast-01 motion(standard, productive);
 
-  .#{$prefix}--tabs--container .#{$prefix}--tab--overflow-nav-button {
-    width: $carbon--spacing-09;
-    margin: 0;
-    background-color: $ui-03;
-  }
-
-  .#{$prefix}--tab--overflow-nav-button svg {
-    fill: $icon-01;
+    @include carbon--breakpoint(md) {
+      display: flex;
+      max-width: 100%;
+      max-height: none;
+      overflow-x: auto;
+      transition: inherit;
+    }
   }
 
   //-----------------------------
@@ -23446,34 +25418,38 @@ Tabs styles
     @include reset;
 
     display: flex;
+    width: 100%;
+    height: rem(40px);
     padding: 0;
+    background-color: $ui-01;
     cursor: pointer;
     transition: background-color $duration--fast-01 motion(standard, productive);
-  }
 
-  .#{$prefix}--tabs__nav-item + .#{$prefix}--tabs__nav-item {
-    margin-left: rem(1px);
+    @include carbon--breakpoint(md) {
+      height: auto;
+      background: transparent;
+
+      + .#{$prefix}--tabs__nav-item {
+        margin-left: rem(1px);
+      }
+    }
   }
 
   .#{$prefix}--tabs--container .#{$prefix}--tabs__nav-item {
-    background-color: $ui-03;
-  }
+    @include carbon--breakpoint(md) {
+      background-color: $ui-03;
 
-  .#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item
-    + .#{$prefix}--tabs__nav-item {
-    margin-left: 0;
-    // Draws the border without affecting the inner-content
-    box-shadow: rem(-1px) 0 0 0 $ui-04;
-  }
+      + .#{$prefix}--tabs__nav-item {
+        margin-left: 0;
+        // Draws the border without affecting the inner-content
+        box-shadow: -1px 0 0 0 $ui-04;
+      }
 
-  .#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item
-    + .#{$prefix}--tabs__nav-item.#{$prefix}--tabs__nav-item--selected,
-  .#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item.#{$prefix}--tabs__nav-item--selected
-    + .#{$prefix}--tabs__nav-item {
-    box-shadow: none;
+      + .#{$prefix}--tabs__nav-item.#{$prefix}--tabs__nav-item--selected,
+      &.#{$prefix}--tabs__nav-item--selected + .#{$prefix}--tabs__nav-item {
+        box-shadow: none;
+      }
+    }
   }
 
   .#{$prefix}--tabs__nav-item .#{$prefix}--tabs__nav-link {
@@ -23485,8 +25461,30 @@ Tabs styles
   //-----------------------------
   // Item Hover
   //-----------------------------
-  .#{$prefix}--tabs--container .#{$prefix}--tabs__nav-item:hover {
-    background-color: $hover-selected-ui;
+  .#{$prefix}--tabs__nav-item:hover:not(.#{$prefix}--tabs__nav-item--selected) {
+    @include carbon--breakpoint(md) {
+      background: transparent;
+    }
+  }
+
+  .#{$prefix}--tabs__nav-item:hover:not(.#{$prefix}--tabs__nav-item--disabled) {
+    background-color: $hover-ui;
+    box-shadow: 0 -1px 0 $hover-ui;
+
+    @include carbon--breakpoint(md) {
+      background-color: transparent;
+
+      + .#{$prefix}--tabs__nav-item {
+        box-shadow: none;
+      }
+    }
+  }
+
+  .#{$prefix}--tabs--container
+    .#{$prefix}--tabs__nav-item:hover:not(.#{$prefix}--tabs__nav-item--disabled) {
+    @include carbon--breakpoint(md) {
+      background-color: $hover-selected-ui;
+    }
   }
 
   //---------------------------------------------
@@ -23494,7 +25492,6 @@ Tabs styles
   //---------------------------------------------
   .#{$prefix}--tabs__nav-item--disabled,
   .#{$prefix}--tabs__nav-item--disabled:hover {
-    background-color: transparent;
     outline: none;
     cursor: not-allowed;
   }
@@ -23503,94 +25500,138 @@ Tabs styles
     .#{$prefix}--tabs__nav-item.#{$prefix}--tabs__nav-item--disabled,
   .#{$prefix}--tabs--container
     .#{$prefix}--tabs__nav-item.#{$prefix}--tabs__nav-item--disabled:hover {
-    background-color: $disabled-02;
+    @include carbon--breakpoint(md) {
+      background-color: $disabled-02;
+    }
+  }
+
+  .#{$prefix}--tabs--container
+    .#{$prefix}--tabs__nav-item--disabled
+    .#{$prefix}--tabs__nav-link {
+    @include carbon--breakpoint(md) {
+      color: $disabled-03;
+      border-bottom: none;
+    }
   }
 
   //-----------------------------
   // Item Selected
   //-----------------------------
-  .#{$prefix}--tabs__nav-item--selected {
+  .#{$prefix}--tabs__nav-item--selected:not(.#{$prefix}--tabs__nav-item--disabled) {
+    display: none;
+    border: none;
     transition: color $duration--fast-01 motion(standard, productive);
-  }
 
-  .#{$prefix}--tabs__nav-item--selected .#{$prefix}--tabs__nav-link,
-  .#{$prefix}--tabs__nav-item--selected .#{$prefix}--tabs__nav-link:focus,
-  .#{$prefix}--tabs__nav-item--selected .#{$prefix}--tabs__nav-link:active {
-    @include type-style('productive-heading-01');
+    @include carbon--breakpoint(md) {
+      display: flex;
+      .#{$prefix}--tabs__nav-link,
+      .#{$prefix}--tabs__nav-link:focus,
+      .#{$prefix}--tabs__nav-link:active {
+        @include type-style('productive-heading-01');
 
-    color: $text-01;
-    border-bottom: 2px solid $interactive-04;
-  }
-
-  .#{$prefix}--tabs--container .#{$prefix}--tabs__nav-item--selected,
-  .#{$prefix}--tabs--container .#{$prefix}--tabs__nav-item--selected:hover {
-    background-color: $ui-01;
-
-    .#{$prefix}--tabs__nav-link:focus,
-    .#{$prefix}--tabs__nav-link:active {
-      box-shadow: none;
+        color: $text-01;
+        border-bottom: 2px solid $interactive-04;
+      }
     }
   }
 
   .#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item--selected
-    .#{$prefix}--tabs__nav-link {
-    // height - vertical padding
-    line-height: calc(#{rem(48px)} - (#{$spacing-03} * 2));
-    // Draws the border without affecting the inner-content
-    box-shadow: inset 0 2px 0 0 $interactive-04;
-  }
+    .#{$prefix}--tabs__nav-item--selected:not(.#{$prefix}--tabs__nav-item--disabled),
+  .#{$prefix}--tabs--container
+    .#{$prefix}--tabs__nav-item--selected:hover:not(.#{$prefix}--tabs__nav-item--disabled) {
+    @include carbon--breakpoint(md) {
+      background-color: $ui-01;
 
-  .#{$prefix}--tabs--light.#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item--selected,
-  .#{$prefix}--tabs--light.#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item--selected:hover {
-    background-color: $ui-background;
+      .#{$prefix}--tabs__nav-link {
+        padding: $spacing-03 $spacing-05;
+        // height - vertical padding
+        // Draws the border without affecting the inner-content
+        line-height: calc(#{rem(48px)} - (#{$spacing-03} * 2));
+        border-bottom: none;
+        box-shadow: inset 0 2px 0 0 $interactive-04;
+      }
+
+      .#{$prefix}--tabs__nav-link:focus,
+      .#{$prefix}--tabs__nav-link:active {
+        box-shadow: none;
+      }
+    }
   }
 
   //-----------------------------
   // Link
   //-----------------------------
-  .#{$prefix}--tabs__nav-link {
+  a.#{$prefix}--tabs__nav-link {
     @include focus-outline('reset');
 
-    width: rem(160px);
-    padding: $spacing-04 $spacing-05 $spacing-03;
+    display: inline-block;
+    width: calc(100% - 32px);
+    height: rem(40px);
+    margin: 0 $spacing-05;
+    padding: $spacing-04 0;
     overflow: hidden;
     color: $text-02;
+    font-weight: 400;
+    line-height: 1rem;
     white-space: nowrap;
     text-decoration: none;
     text-overflow: ellipsis;
-    border-bottom: $tab-underline-color;
+    border-bottom: 1px solid $ui-03;
     transition: border $duration--fast-01 motion(standard, productive), outline
         $duration--fast-01 motion(standard, productive);
 
     &:focus,
     &:active {
       @include focus-outline('outline');
+
+      width: 100%;
+      margin: 0;
+      padding-left: 16px;
+    }
+
+    @include carbon--breakpoint(md) {
+      width: rem(160px);
+      margin: 0;
+      padding: $spacing-04 $spacing-05 $spacing-03;
+      line-height: inherit;
+      border-bottom: $tab-underline-color;
+
+      &:focus,
+      &:active {
+        width: rem(160px);
+        border-bottom: 2px;
+      }
     }
   }
 
-  .#{$prefix}--tabs--container .#{$prefix}--tabs__nav-link {
-    height: rem(48px);
-    padding: $spacing-03 $spacing-05;
-    // height - vertical padding
-    line-height: calc(#{rem(48px)} - (#{$spacing-03} * 2));
-    border-bottom: 0;
+  .#{$prefix}--tabs--container a.#{$prefix}--tabs__nav-link {
+    @include carbon--breakpoint(md) {
+      height: rem(48px);
+      padding: $spacing-03 $spacing-05;
+      // Height - vertical padding
+      line-height: calc(#{rem(48px)} - (#{$spacing-03} * 2));
+      border-bottom: none;
+    }
   }
 
   //-----------------------------
   //  Link Hover
   //-----------------------------
-  .#{$prefix}--tabs__nav-item:hover .#{$prefix}--tabs__nav-link {
+  .#{$prefix}--tabs__nav-item:hover:not(.#{$prefix}--tabs__nav-item--selected):not(.#{$prefix}--tabs__nav-item--disabled)
+    .#{$prefix}--tabs__nav-link {
     color: $text-01;
-    border-bottom: $tab-underline-color-hover;
+    @include carbon--breakpoint(md) {
+      color: $text-01;
+      border-bottom: $tab-underline-color-hover;
+    }
   }
 
   .#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item
+    .#{$prefix}--tabs__nav-item:hover:not(.#{$prefix}--tabs__nav-item--selected):not(.#{$prefix}--tabs__nav-item--disabled)
     .#{$prefix}--tabs__nav-link {
-    border-bottom: none;
+    @include carbon--breakpoint(md) {
+      border-bottom: none;
+    }
   }
 
   //-----------------------------
@@ -23599,47 +25640,28 @@ Tabs styles
   .#{$prefix}--tabs__nav-item--disabled .#{$prefix}--tabs__nav-link {
     color: $tab-text-disabled;
     border-bottom: $tab-underline-disabled;
-  }
-
-  .#{$prefix}--tabs__nav-item--disabled:hover .#{$prefix}--tabs__nav-link {
-    color: $tab-text-disabled;
-    border-bottom: $tab-underline-disabled;
-    cursor: not-allowed;
     pointer-events: none;
   }
 
+  .#{$prefix}--tabs__nav-item--disabled:hover .#{$prefix}--tabs__nav-link {
+    border-bottom: $tab-underline-disabled;
+    cursor: no-drop;
+  }
+
   .#{$prefix}--tabs__nav-item--disabled .#{$prefix}--tabs__nav-link:focus,
-  .#{$prefix}--tabs__nav-item--disabled .#{$prefix}--tabs__nav-link:active {
+  .#{$prefix}--tabs__nav-item--disabled a.#{$prefix}--tabs__nav-link:active {
     border-bottom: $tab-underline-disabled;
     outline: none;
   }
 
-  .#{$prefix}--tabs--light
-    .#{$prefix}--tabs__nav-item--disabled
-    .#{$prefix}--tabs__nav-link {
-    border-bottom-color: $ui-03;
-  }
-
-  .#{$prefix}--tabs--light
-    .#{$prefix}--tabs__nav-item--disabled:hover
-    .#{$prefix}--tabs__nav-link {
-    border-bottom-color: $ui-03;
-  }
-
-  .#{$prefix}--tabs--light
-    .#{$prefix}--tabs__nav-item--disabled
+  //-----------------------------
+  //  Link Focus
+  //-----------------------------
+  .#{$prefix}--tabs__nav-item:not(.#{$prefix}--tabs__nav-item--selected):not(.#{$prefix}--tabs__nav-item--disabled):not(.#{$prefix}--tabs__nav-item--selected)
     .#{$prefix}--tabs__nav-link:focus,
-  .#{$prefix}--tabs--light
-    .#{$prefix}--tabs__nav-item--disabled
-    .#{$prefix}--tabs__nav-link:active {
-    border-bottom-color: $ui-03;
-  }
-
-  .#{$prefix}--tabs--container
-    .#{$prefix}--tabs__nav-item--disabled
-    .#{$prefix}--tabs__nav-link {
-    color: $disabled-03;
-    border-bottom: none;
+  .#{$prefix}--tabs__nav-item:not(.#{$prefix}--tabs__nav-item--selected):not(.#{$prefix}--tabs__nav-item--disabled):not(.#{$prefix}--tabs__nav-item--selected)
+    a.#{$prefix}--tabs__nav-link:active {
+    color: $text-02;
   }
 
   //-----------------------------
@@ -23661,17 +25683,410 @@ Tabs styles
     @include skeleton;
 
     width: rem(75px);
+    height: rem(12px);
   }
 
   .#{$prefix}--tabs.#{$prefix}--skeleton .#{$prefix}--tabs-trigger {
     @include skeleton;
 
-    width: rem(75px);
-    margin-right: rem(1px);
+    width: rem(100px);
   }
 
   .#{$prefix}--tabs.#{$prefix}--skeleton .#{$prefix}--tabs-trigger svg {
     @include hidden;
+  }
+
+  // TODO: remove namespace and suffix in next major release
+  .#{$prefix}--tabs--scrollable {
+    @include reset;
+    @include type-style('body-short-01');
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: rem(40px);
+    color: $text-01;
+
+    &.#{$prefix}--tabs--scrollable--container {
+      min-height: rem(48px);
+    }
+
+    .#{$prefix}--tabs--scrollable__nav {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: auto hidden;
+      list-style: none;
+      transition: max-height $duration--fast-01 motion(standard, productive);
+
+      // hide scrollbars
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    //-----------------------------
+    // Overflow Nav Buttons
+    //-----------------------------
+    .#{$prefix}--tabs__overflow-indicator--left,
+    .#{$prefix}--tabs__overflow-indicator--right {
+      z-index: 1;
+      flex: 1 0 auto;
+      width: $carbon--spacing-03;
+    }
+
+    .#{$prefix}--tabs__overflow-indicator--left {
+      margin-right: -$carbon--spacing-03;
+      background-image: linear-gradient(to left, transparent, $ui-background);
+    }
+
+    .#{$prefix}--tabs__overflow-indicator--right {
+      margin-left: -$carbon--spacing-03;
+      background-image: linear-gradient(to right, transparent, $ui-background);
+    }
+
+    .#{$prefix}--tabs--scrollable--light
+      .#{$prefix}--tabs__overflow-indicator--left {
+      background-image: linear-gradient(to left, transparent, $ui-01);
+    }
+
+    .#{$prefix}--tabs--scrollable--light
+      .#{$prefix}--tabs__overflow-indicator--right {
+      background-image: linear-gradient(to right, transparent, $ui-01);
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs__overflow-indicator--left {
+      background-image: linear-gradient(to left, transparent, $ui-03);
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs__overflow-indicator--right {
+      background-image: linear-gradient(to right, transparent, $ui-03);
+    }
+
+    // Safari-only media query
+    // won't appear correctly with CSS custom properties
+    // see: code snippet and modal overflow indicators
+    @media not all and (min-resolution: 0.001dpcm) {
+      @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        .#{$prefix}--tabs__overflow-indicator--left {
+          margin-right: -$carbon--spacing-05;
+          background-image: linear-gradient(
+            to left,
+            rgba($ui-background, 0),
+            $ui-background
+          );
+        }
+
+        .#{$prefix}--tabs__overflow-indicator--right {
+          margin-left: -$carbon--spacing-05;
+          background-image: linear-gradient(
+            to right,
+            rgba($ui-background, 0),
+            $ui-background
+          );
+        }
+
+        &.#{$prefix}--tabs--scrollable--container
+          .#{$prefix}--tabs__overflow-indicator--left {
+          background-image: linear-gradient(to left, rgba($ui-03, 0), $ui-03);
+        }
+
+        &.#{$prefix}--tabs--scrollable--container
+          .#{$prefix}--tabs__overflow-indicator--right {
+          background-image: linear-gradient(to right, rgba($ui-03, 0), $ui-03);
+        }
+      }
+    }
+
+    .#{$prefix}--tab--overflow-nav-button {
+      @include button-reset;
+
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+      width: $carbon--spacing-08;
+
+      &:focus {
+        @include focus-outline('outline');
+      }
+    }
+
+    .#{$prefix}--tab--overflow-nav-button--hidden {
+      display: none;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tab--overflow-nav-button {
+      width: $carbon--spacing-09;
+      margin: 0;
+      background-color: $ui-03;
+    }
+
+    .#{$prefix}--tab--overflow-nav-button svg {
+      fill: $icon-01;
+    }
+
+    //-----------------------------
+    // Item
+    //-----------------------------
+    .#{$prefix}--tabs--scrollable__nav-item {
+      @include reset;
+
+      display: flex;
+      padding: 0;
+      cursor: pointer;
+      transition: background-color $duration--fast-01 motion(standard, productive);
+    }
+
+    .#{$prefix}--tabs--scrollable__nav-item
+      + .#{$prefix}--tabs--scrollable__nav-item {
+      margin-left: rem(1px);
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item {
+      background-color: $ui-03;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item
+      + .#{$prefix}--tabs--scrollable__nav-item {
+      margin-left: 0;
+      // Draws the border without affecting the inner-content
+      box-shadow: rem(-1px) 0 0 0 $ui-04;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item
+      + .#{$prefix}--tabs--scrollable__nav-item.#{$prefix}--tabs--scrollable__nav-item--selected,
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item.#{$prefix}--tabs--scrollable__nav-item--selected
+      + .#{$prefix}--tabs--scrollable__nav-item {
+      box-shadow: none;
+    }
+
+    .#{$prefix}--tabs--scrollable__nav-item
+      .#{$prefix}--tabs--scrollable__nav-link {
+      transition: color $duration--fast-01 motion(standard, productive), border-bottom-color
+          $duration--fast-01 motion(standard, productive),
+        outline $duration--fast-01 motion(standard, productive);
+    }
+
+    //-----------------------------
+    // Item Hover
+    //-----------------------------
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item:hover {
+      background-color: $hover-selected-ui;
+    }
+
+    //---------------------------------------------
+    // Item Disabled
+    //---------------------------------------------
+    .#{$prefix}--tabs--scrollable__nav-item--disabled,
+    .#{$prefix}--tabs--scrollable__nav-item--disabled:hover {
+      background-color: transparent;
+      outline: none;
+      cursor: not-allowed;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item.#{$prefix}--tabs--scrollable__nav-item--disabled,
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item.#{$prefix}--tabs--scrollable__nav-item--disabled:hover {
+      background-color: $disabled-02;
+    }
+
+    //-----------------------------
+    // Item Selected
+    //-----------------------------
+    .#{$prefix}--tabs--scrollable__nav-item--selected {
+      transition: color $duration--fast-01 motion(standard, productive);
+    }
+
+    .#{$prefix}--tabs--scrollable__nav-item--selected
+      .#{$prefix}--tabs--scrollable__nav-link,
+    .#{$prefix}--tabs--scrollable__nav-item--selected
+      .#{$prefix}--tabs--scrollable__nav-link:focus,
+    .#{$prefix}--tabs--scrollable__nav-item--selected
+      .#{$prefix}--tabs--scrollable__nav-link:active {
+      @include type-style('productive-heading-01');
+
+      color: $text-01;
+      border-bottom: 2px solid $interactive-04;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item--selected,
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item--selected:hover {
+      background-color: $ui-01;
+
+      .#{$prefix}--tabs--scrollable__nav-link:focus,
+      .#{$prefix}--tabs--scrollable__nav-link:active {
+        box-shadow: none;
+      }
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item--selected
+      .#{$prefix}--tabs--scrollable__nav-link {
+      // height - vertical padding
+      line-height: calc(#{rem(48px)} - (#{$spacing-03} * 2));
+      // Draws the border without affecting the inner-content
+      box-shadow: inset 0 2px 0 0 $interactive-04;
+    }
+
+    &.#{$prefix}--tabs--scrollable--light.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item--selected,
+    &.#{$prefix}--tabs--scrollable--light.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item--selected:hover {
+      background-color: $ui-background;
+    }
+
+    //-----------------------------
+    // Link
+    //-----------------------------
+    .#{$prefix}--tabs--scrollable__nav-link {
+      @include button-reset($width: false);
+      @include focus-outline('reset');
+      @include type-style('body-short-01');
+
+      width: rem(160px);
+      padding: $spacing-04 $spacing-05 $spacing-03;
+      overflow: hidden;
+      color: $text-02;
+      white-space: nowrap;
+      text-align: left;
+      text-decoration: none;
+      text-overflow: ellipsis;
+      border-bottom: $tab-underline-color;
+      transition: border $duration--fast-01 motion(standard, productive), outline
+          $duration--fast-01 motion(standard, productive);
+
+      &:focus,
+      &:active {
+        @include focus-outline('outline');
+      }
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-link {
+      height: rem(48px);
+      padding: $spacing-03 $spacing-05;
+      // height - vertical padding
+      line-height: calc(#{rem(48px)} - (#{$spacing-03} * 2));
+      border-bottom: 0;
+    }
+
+    //-----------------------------
+    //  Link Hover
+    //-----------------------------
+    .#{$prefix}--tabs--scrollable__nav-item:hover
+      .#{$prefix}--tabs--scrollable__nav-link {
+      color: $text-01;
+      border-bottom: $tab-underline-color-hover;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item
+      .#{$prefix}--tabs--scrollable__nav-link {
+      border-bottom: none;
+    }
+
+    //-----------------------------
+    //  Link Disabled
+    //-----------------------------
+    .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link {
+      color: $tab-text-disabled;
+      border-bottom: $tab-underline-disabled;
+    }
+
+    .#{$prefix}--tabs--scrollable__nav-item--disabled:hover
+      .#{$prefix}--tabs--scrollable__nav-link {
+      color: $tab-text-disabled;
+      border-bottom: $tab-underline-disabled;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link:focus,
+    .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link:active {
+      border-bottom: $tab-underline-disabled;
+      outline: none;
+    }
+
+    .#{$prefix}--tabs--scrollable--light
+      .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link {
+      border-bottom-color: $ui-03;
+    }
+
+    .#{$prefix}--tabs--scrollable--light
+      .#{$prefix}--tabs--scrollable__nav-item--disabled:hover
+      .#{$prefix}--tabs--scrollable__nav-link {
+      border-bottom-color: $ui-03;
+    }
+
+    .#{$prefix}--tabs--scrollable--light
+      .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link:focus,
+    .#{$prefix}--tabs--scrollable--light
+      .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link:active {
+      border-bottom-color: $ui-03;
+    }
+
+    &.#{$prefix}--tabs--scrollable--container
+      .#{$prefix}--tabs--scrollable__nav-item--disabled
+      .#{$prefix}--tabs--scrollable__nav-link {
+      color: $disabled-03;
+      border-bottom: none;
+    }
+
+    //-----------------------------
+    //  Tab Content Container
+    //-----------------------------
+    .#{$prefix}--tab-content {
+      padding: $carbon--spacing-05;
+    }
+
+    //-----------------------------
+    // Skeleton state
+    //-----------------------------
+    .#{$prefix}--tabs.#{$prefix}--skeleton {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .#{$prefix}--tabs.#{$prefix}--skeleton
+      .#{$prefix}--tabs--scrollable__nav-link {
+      @include skeleton;
+
+      width: rem(75px);
+    }
+
+    .#{$prefix}--tabs.#{$prefix}--skeleton .#{$prefix}--tabs-trigger {
+      @include skeleton;
+
+      width: rem(75px);
+      margin-right: rem(1px);
+    }
+
+    .#{$prefix}--tabs.#{$prefix}--skeleton .#{$prefix}--tabs-trigger svg {
+      @include hidden;
+    }
   }
 }
 ```
@@ -23680,25 +26095,32 @@ Tabs styles
 
 - **Group**: [tabs](#tabs)
 - **Requires**:
+  - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
-  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
-  - [ui-background [variable]](#ui-background-variable)
-  - [ui-01 [variable]](#ui-01-variable)
-  - [ui-03 [variable]](#ui-03-variable)
-  - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
-  - [carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
-  - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
-  - [icon-01 [variable]](#icon-01-variable)
+  - [spacing-09 [variable]](#spacing-09-variable)
+  - [spacing-05 [variable]](#spacing-05-variable)
+  - [field-01 [variable]](#field-01-variable)
   - [ui-04 [variable]](#ui-04-variable)
+  - [ui-05 [variable]](#ui-05-variable)
+  - [ui-03 [variable]](#ui-03-variable)
+  - [field-02 [variable]](#field-02-variable)
+  - [ui-01 [variable]](#ui-01-variable)
+  - [hover-ui [variable]](#hover-ui-variable)
   - [hover-selected-ui [variable]](#hover-selected-ui-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-03 [variable]](#disabled-03-variable)
   - [interactive-04 [variable]](#interactive-04-variable)
   - [spacing-03 [variable]](#spacing-03-variable)
   - [spacing-04 [variable]](#spacing-04-variable)
-  - [spacing-05 [variable]](#spacing-05-variable)
   - [text-02 [variable]](#text-02-variable)
-  - [disabled-03 [variable]](#disabled-03-variable)
+  - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
+  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
+  - [ui-background [variable]](#ui-background-variable)
+  - [carbon--spacing-08 [variable]](#carbon--spacing-08-variable)
+  - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
+  - [icon-01 [variable]](#icon-01-variable)
 
 ## tag
 
@@ -23726,6 +26148,7 @@ Tabs styles
 - **Requires**:
   - [prefix [variable]](#prefix-variable)
 - **Used by**:
+  - [listbox [mixin]](#listbox-mixin)
   - [tags [mixin]](#tags-mixin)
 
 ### ❌tags [mixin]
@@ -23753,7 +26176,7 @@ Tag styles
     min-width: rem(32px);
     // restricts size of contained elements
     max-width: 100%;
-    min-height: 1.5rem;
+    min-height: rem(24px);
     margin: $carbon--spacing-02;
     padding: $carbon--spacing-02 $carbon--spacing-03;
     word-break: break-word;
@@ -23867,26 +26290,47 @@ Tag styles
 
   // tags used for filtering
   .#{$prefix}--tag--filter {
-    padding-right: rem(2px);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     cursor: pointer;
 
-    &:focus,
     &:hover {
       outline: none;
     }
   }
 
   .#{$prefix}--tag__close-icon {
+    display: flex;
     flex-shrink: 0;
-    width: rem(20px);
-    height: rem(20px);
-    margin: 0 0 0 rem(4px);
-    padding: rem(2px);
+    align-items: center;
+    justify-content: center;
+    width: rem(24px);
+    height: rem(24px);
+    margin: 0 0 0 rem(2px);
+    padding: 0;
     color: currentColor;
     background-color: transparent;
     border: 0;
     border-radius: 50%;
     cursor: pointer;
+    transition: background-color $duration--fast-01 motion(standard, productive),
+      box-shadow $duration--fast-01 motion(standard, productive);
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  .#{$prefix}--tag__custom-icon {
+    flex-shrink: 0;
+    width: rem(16px);
+    height: rem(16px);
+    margin-right: $spacing-02;
+    padding: 0;
+    color: currentColor;
+    background-color: transparent;
+    border: 0;
+    outline: none;
 
     svg {
       fill: currentColor;
@@ -23900,7 +26344,18 @@ Tag styles
   .#{$prefix}--tag__close-icon:focus {
     border-radius: 50%;
     outline: none;
-    box-shadow: inset 0 0 0 2px $focus;
+    box-shadow: inset 0 0 0 1px $focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      outline: 1px solid ButtonText;
+    }
+  }
+
+  .#{$prefix}--tag--high-contrast .#{$prefix}--tag__close-icon:focus {
+    box-shadow: inset 0 0 0 1px $inverse-focus-ui;
   }
 
   .#{$prefix}--tag--filter.#{$prefix}--tag--disabled
@@ -23912,13 +26367,36 @@ Tag styles
     fill: $disabled-02;
   }
 
+  // small tags
+  .#{$prefix}--tag--sm {
+    min-height: rem(18px);
+    padding: 0 $carbon--spacing-03;
+  }
+
+  .#{$prefix}--tag--sm.#{$prefix}--tag--filter {
+    padding-right: 0;
+  }
+
+  .#{$prefix}--tag--sm .#{$prefix}--tag__close-icon {
+    width: rem(18px);
+    height: rem(18px);
+    margin-left: rem(5px);
+  }
+
   // Skeleton state
   .#{$prefix}--tag.#{$prefix}--skeleton {
     @include skeleton;
-    @include tag-theme($bg-color: $ui-03, $text-color: $text-01);
+    @include tag-theme($bg-color: $skeleton-01, $text-color: $text-01);
 
     width: rem(60px);
     overflow: hidden;
+
+    // Safari specific bug (#7672)
+    @media not all and (min-resolution: 0.001dpcm) {
+      @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        transform: translateZ(0);
+      }
+    }
   }
 }
 ```
@@ -23928,6 +26406,7 @@ Tag styles
 - **Group**: [tag](#tag)
 - **Requires**:
   - [tag-theme [mixin]](#tag-theme-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-02 [variable]](#carbon--spacing-02-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
@@ -23936,8 +26415,10 @@ Tag styles
   - [inverse-hover-ui [variable]](#inverse-hover-ui-variable)
   - [disabled-01 [variable]](#disabled-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [spacing-02 [variable]](#spacing-02-variable)
   - [focus [variable]](#focus-variable)
-  - [ui-03 [variable]](#ui-03-variable)
+  - [inverse-focus-ui [variable]](#inverse-focus-ui-variable)
+  - [skeleton-01 [variable]](#skeleton-01-variable)
   - [text-01 [variable]](#text-01-variable)
 
 ## text-area
@@ -24006,7 +26487,7 @@ Text area styles
   //-----------------------------
   .#{$prefix}--text-area:disabled {
     color: $disabled-02;
-    background-color: $disabled-background-color;
+    background-color: $disabled-01;
     border-bottom: 1px solid transparent;
     outline: none;
     cursor: not-allowed;
@@ -24037,6 +26518,7 @@ Text area styles
 
 - **Group**: [text-area](#text-area)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -24047,6 +26529,7 @@ Text area styles
   - [carbon--spacing-04 [variable]](#carbon--spacing-04-variable)
   - [support-01 [variable]](#support-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
+  - [disabled-01 [variable]](#disabled-01-variable)
 
 ## text-input
 
@@ -24125,7 +26608,7 @@ Text input styles
     .#{$prefix}--text-input__invalid-icon--warning {
       fill: $support-03;
 
-      path[data-icon-path='inner-path'] {
+      path:first-of-type {
         opacity: 1;
         fill: $carbon__black-100;
       }
@@ -24139,19 +26622,44 @@ Text input styles
 
     .#{$prefix}--text-input--password__visibility,
     // TODO: remove selector above
-    .#{$prefix}--text-input--password__visibility__toggle.#{$prefix}--tooltip__trigger {
+     .#{$prefix}--btn.#{$prefix}--text-input--password__visibility__toggle.#{$prefix}--tooltip__trigger {
+      @include focus-outline('reset');
+
       position: absolute;
-      right: $carbon--spacing-05;
-      width: rem(16px);
-      height: rem(16px);
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: rem(40px);
+      height: rem(40px);
+      min-height: auto;
       padding: 0;
       background: none;
       border: 0;
       cursor: pointer;
+      transition: outline $duration--fast-01 motion(standard, productive);
 
       svg {
+        transition: fill $duration--fast-01 motion(standard, productive);
         fill: $icon-02;
+
+        // Windows, Firefox HCM Fix
+        @media screen and (-ms-high-contrast: active),
+          screen and (prefers-contrast) {
+          // `ButtonText` is a CSS2 system color to help improve colors in HCM
+          fill: ButtonText;
+        }
       }
+    }
+
+    .#{$prefix}--btn.#{$prefix}--text-input--password__visibility__toggle.#{$prefix}--tooltip__trigger:focus {
+      @include focus-outline('outline');
+    }
+
+    .#{$prefix}--btn.#{$prefix}--text-input--password__visibility__toggle.#{$prefix}--tooltip__trigger:hover,
+    .#{$prefix}--btn.#{$prefix}--text-input--password__visibility__toggle.#{$prefix}--tooltip__trigger:focus
+      svg {
+      fill: $icon-01;
     }
 
     .#{$prefix}--text-input--invalid {
@@ -24183,7 +26691,11 @@ Text input styles
     + .#{$prefix}--text-input--password__visibility__toggle
     svg {
     cursor: not-allowed;
-    opacity: 0.5;
+    fill: $disabled-02;
+
+    &:hover {
+      fill: $disabled-02;
+    }
   }
 
   //-----------------------------
@@ -24353,6 +26865,7 @@ Text input styles
 
 - **Group**: [text-input](#text-input)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-05 [variable]](#carbon--spacing-05-variable)
   - [text-01 [variable]](#text-01-variable)
@@ -24363,6 +26876,7 @@ Text input styles
   - [support-01 [variable]](#support-01-variable)
   - [support-03 [variable]](#support-03-variable)
   - [icon-02 [variable]](#icon-02-variable)
+  - [icon-01 [variable]](#icon-01-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
   - [disabled-01 [variable]](#disabled-01-variable)
   - [ui-03 [variable]](#ui-03-variable)
@@ -24465,14 +26979,24 @@ Tile styles
 
   .#{$prefix}--tile__chevron {
     position: absolute;
-    right: 0.5rem;
-    bottom: 0.5rem;
+    right: $carbon--spacing-05;
+    bottom: $carbon--spacing-05;
+    display: flex;
+    align-items: flex-end;
     height: 1rem;
 
     svg {
+      margin-left: $carbon--spacing-03;
       transform-origin: center;
       transition: $duration--fast-02 motion(standard, productive);
       fill: $ui-05;
+
+      // Windows, Firefox HCM Fix
+      @media screen and (-ms-high-contrast: active),
+        screen and (prefers-contrast) {
+        // `ButtonText` is a CSS2 system color to help improve colors in HCM
+        fill: ButtonText;
+      }
     }
 
     &:hover {
@@ -24536,6 +27060,13 @@ Tile styles
     > .#{$prefix}--tile__checkmark
     svg {
     fill: $ui-05;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--tile-content {
@@ -24565,6 +27096,7 @@ Tile styles
   - [text-01 [variable]](#text-01-variable)
   - [carbon--spacing-09 [variable]](#carbon--spacing-09-variable)
   - [icon-02 [variable]](#icon-02-variable)
+  - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [ui-05 [variable]](#ui-05-variable)
 
 ## time-picker
@@ -24616,7 +27148,7 @@ Time picker styles
         $duration--fast-01 motion(standard, productive);
 
     &::placeholder {
-      color: $text-05;
+      @include placeholder-colors;
     }
   }
 
@@ -24635,6 +27167,18 @@ Time picker styles
       cursor: not-allowed;
     }
   }
+
+  .#{$prefix}--time-picker--sm .#{$prefix}--select-input,
+  .#{$prefix}--time-picker--sm .#{$prefix}--time-picker__input-field {
+    height: rem(32px);
+    max-height: rem(32px);
+  }
+
+  .#{$prefix}--time-picker--xl .#{$prefix}--select-input,
+  .#{$prefix}--time-picker--xl .#{$prefix}--time-picker__input-field {
+    height: rem(48px);
+    max-height: rem(48px);
+  }
 }
 ```
 
@@ -24642,9 +27186,9 @@ Time picker styles
 
 - **Group**: [time-picker](#time-picker)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-01 [variable]](#carbon--spacing-01-variable)
-  - [text-05 [variable]](#text-05-variable)
   - [field-02 [variable]](#field-02-variable)
   - [hover-ui [variable]](#hover-ui-variable)
   - [disabled-02 [variable]](#disabled-02-variable)
@@ -24933,6 +27477,13 @@ Toggle styles
           $duration--fast-01 motion(exit, productive);
       content: '';
       will-change: box-shadow;
+
+      // Windows, Firefox HCM Fix
+      @media screen and (-ms-high-contrast: active),
+        screen and (prefers-contrast) {
+        // `ButtonText` is a CSS2 system color to help improve colors in HCM
+        border: 1px solid ButtonText;
+      }
     }
 
     // Toggle circle
@@ -24948,6 +27499,13 @@ Toggle styles
       border-radius: 50%;
       transition: transform $duration--fast-01 motion(exit, productive);
       content: '';
+
+      // Windows, Firefox HCM Fix
+      @media screen and (-ms-high-contrast: active),
+        screen and (prefers-contrast) {
+        // `ButtonText` is a CSS2 system color to help improve colors in HCM
+        border: 3px solid ButtonText;
+      }
     }
 
     .#{$prefix}--toggle-input__label & {
@@ -25005,6 +27563,13 @@ Toggle styles
     + .#{$prefix}--toggle-input__label
     > .#{$prefix}--toggle__switch::before {
     box-shadow: 0 0 0 1px $ui-02, 0 0 0 3px $focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      outline: 1px solid ButtonText;
+    }
   }
 
   //----------------------------------------------
@@ -25081,7 +27646,7 @@ Toggle styles
   .#{$prefix}--toggle-input--small:disabled:checked
     + .#{$prefix}--toggle-input__label
     .#{$prefix}--toggle__check {
-    fill: $disabled-02;
+    fill: $disabled-01;
   }
 
   //----------------------------------------------
@@ -25104,6 +27669,7 @@ Toggle styles
 - **Group**: [toggle](#toggle)
 - **Requires**:
   - [carbon--rem [function]](#carbon--rem-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [carbon--spacing-03 [variable]](#carbon--spacing-03-variable)
   - [ui-04 [variable]](#ui-04-variable)
@@ -25248,6 +27814,7 @@ Toolbar styles
 
 - **Group**: [toolbar](#toolbar)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-02 [variable]](#text-02-variable)
   - [field-02 [variable]](#field-02-variable)
@@ -25330,6 +27897,7 @@ Toolbar styles
 
 - **Group**: [tooltip](#tooltip)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [inverse-02 [variable]](#inverse-02-variable)
   - [inverse-01 [variable]](#inverse-01-variable)
 - **Used by**:
@@ -25523,6 +28091,7 @@ Toolbar styles
 
 - **Group**: [tooltip](#tooltip)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-01 [variable]](#text-01-variable)
   - [interactive-01 [variable]](#interactive-01-variable)
@@ -25643,6 +28212,13 @@ Tooltip styles
 
   .#{$prefix}--tooltip__trigger svg {
     fill: $icon-02;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--tooltip__trigger:not(.#{$prefix}--btn--icon-only) {
@@ -25685,10 +28261,69 @@ Tooltip styles
     background: $inverse-02;
     border-radius: rem(2px);
 
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border: 1px solid transparent;
+    }
+
     // @todo this can be deprecated in v11 since focus should always be on the content container not the tooltip
     &:focus {
       outline: 0;
       box-shadow: inset 0 0 0 1px $inverse-02, inset 0 0 0 2px $ui-background;
+    }
+
+    &.#{$prefix}--tooltip--top.#{$prefix}--tooltip--align-start,
+    &.#{$prefix}--tooltip--bottom.#{$prefix}--tooltip--align-start {
+      transform: translate(calc(50% - 22px), 0);
+
+      .#{$prefix}--tooltip__caret {
+        margin-left: 15px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--top.#{$prefix}--tooltip--align-end,
+    &.#{$prefix}--tooltip--bottom.#{$prefix}--tooltip--align-end {
+      transform: translate(calc(22px - 50%), 0);
+
+      .#{$prefix}--tooltip__caret {
+        margin-right: 15px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--left.#{$prefix}--tooltip--align-start {
+      transform: translate(0, calc(-15px + 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: 14px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--left.#{$prefix}--tooltip--align-end {
+      transform: translate(0, calc(31px - 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: initial;
+        bottom: 25px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--right.#{$prefix}--tooltip--align-start {
+      transform: translate(0, calc(-26px + 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: 26px;
+      }
+    }
+
+    &.#{$prefix}--tooltip--right.#{$prefix}--tooltip--align-end {
+      transform: translate(0, calc(20px - 50%));
+
+      .#{$prefix}--tooltip__caret {
+        top: initial;
+        bottom: 12px;
+      }
     }
 
     p {
@@ -25713,7 +28348,9 @@ Tooltip styles
         outline-offset: 2px;
       }
 
-      &:active {
+      &:active,
+      &:active:visited,
+      &:active:visited:hover {
         color: $inverse-01;
       }
 
@@ -25863,6 +28500,13 @@ Tooltip styles
     &:focus {
       svg {
         fill: $icon-02;
+
+        // Windows, Firefox HCM Fix
+        @media screen and (-ms-high-contrast: active),
+          screen and (prefers-contrast) {
+          // `ButtonText` is a CSS2 system color to help improve colors in HCM
+          fill: ButtonText;
+        }
       }
     }
   }
@@ -25944,6 +28588,7 @@ Tooltip styles
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
   - [tooltip--definition--legacy [mixin]](#tooltip--definition--legacy-mixin)
   - [tooltip--icon--legacy [mixin]](#tooltip--icon--legacy-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [text-02 [variable]](#text-02-variable)
   - [icon-02 [variable]](#icon-02-variable)
@@ -26100,6 +28745,7 @@ Treeview styles
 
 - **Group**: [treeview](#treeview)
 - **Requires**:
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [spacing-05 [variable]](#spacing-05-variable)
   - [text-02 [variable]](#text-02-variable)
@@ -26293,6 +28939,11 @@ UI shell header
   .#{$prefix}--header__action:focus {
     border-color: $shell-header-focus;
     outline: none;
+
+    // Firefox HCM Fix
+    @media screen and (prefers-contrast) {
+      border-style: dotted;
+    }
   }
 
   .#{$prefix}--header__action:active {
@@ -26312,7 +28963,9 @@ UI shell header
   }
 
   .#{$prefix}--header__menu-toggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .#{$prefix}--header__menu-toggle__hidden {
@@ -26343,6 +28996,13 @@ UI shell header
 
   a.#{$prefix}--header__name:focus {
     border-color: $shell-header-focus;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      border-style: dotted;
+    }
   }
 
   .#{$prefix}--header__name--prefix {
@@ -26352,6 +29012,11 @@ UI shell header
   a.#{$prefix}--header__name,
   a.#{$prefix}--header__name:hover {
     color: $shell-header-text-01;
+  }
+
+  .#{$prefix}--header__menu-toggle:not(.#{$prefix}--header__menu-toggle__hidden)
+    ~ .#{$prefix}--header__name {
+    padding-left: rem(8px);
   }
 
   //--------------------------------------------------------------------------
@@ -26425,6 +29090,12 @@ UI shell header
     color: $shell-header-text-01;
     border-color: $shell-header-focus;
     outline: none;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      border-style: dotted;
+    }
   }
 
   a.#{$prefix}--header__menu-item:hover > svg,
@@ -26576,6 +29247,7 @@ UI shell header
 - **Requires**:
   - [carbon--breakpoint [mixin]](#carbon--breakpoint-mixin)
   - [mini-units [function]](#mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [shell-header-bg-01 [variable]](#shell-header-bg-01-variable)
   - [shell-header-border-01 [variable]](#shell-header-border-01-variable)
@@ -26805,6 +29477,7 @@ UI shell navigation
 - **Group**: [ui-shell](#ui-shell)
 - **Requires**:
   - [mini-units [function]](#mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
 
 ### ❌product-switcher [mixin]
@@ -27335,17 +30008,10 @@ UI shell side nav
     overflow-y: auto;
   }
 
-  // Force all of our side navigation items to be the same dimensions. When our
-  // menu expands, we can undo the forced dimensions.
   .#{$prefix}--side-nav__item {
-    width: mini-units(6);
-    height: mini-units(6);
+    width: auto;
+    height: auto;
     overflow: hidden;
-
-    @include expanded() {
-      width: auto;
-      height: auto;
-    }
   }
 
   .#{$prefix}--side-nav--ux .#{$prefix}--side-nav__item {
@@ -27584,6 +30250,12 @@ UI shell side nav
     width: mini-units(2);
     height: mini-units(2);
     fill: $shell-side-nav-icon-01;
+
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 
   .#{$prefix}--side-nav__icon > svg.#{$prefix}--side-nav-collapse-icon {
@@ -27696,6 +30368,13 @@ UI shell side nav
     .#{$prefix}--header__menu-arrow,
   .#{$prefix}--side-nav .#{$prefix}--header__menu-arrow {
     fill: $shell-side-nav-text-01;
+
+    // Windows, Firefox HCM Fix
+    @media screen and (-ms-high-contrast: active),
+      screen and (prefers-contrast) {
+      // `ButtonText` is a CSS2 system color to help improve colors in HCM
+      fill: ButtonText;
+    }
   }
 }
 ```
@@ -27708,6 +30387,7 @@ UI shell side nav
   - [expanded [mixin]](#expanded-mixin)
   - [text-overflow [mixin]](#text-overflow-mixin)
   - [mini-units [function]](#mini-units-function)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [shell-side-nav-text-01 [variable]](#shell-side-nav-text-01-variable)
   - [shell-side-nav-bg-01 [variable]](#shell-side-nav-bg-01-variable)
@@ -27796,6 +30476,7 @@ UI shell side nav
 - **Group**: [ui-shell](#ui-shell)
 - **Requires**:
   - [carbon--type-style [mixin]](#carbon--type-style-mixin)
+  - [rem [function]](#rem-function)
   - [prefix [variable]](#prefix-variable)
   - [shell-panel-text-01 [variable]](#shell-panel-text-01-variable)
   - [spacing-07 [variable]](#spacing-07-variable)
