@@ -25,7 +25,7 @@
   "dependencies": {
     "@carbon/cli-reporter": "^10.4.0",
     "@octokit/plugin-retry": "^2.2.0",
-    "@octokit/plugin-throttling": "^2.6.0",
+    "@octokit/plugin-throttling": "^3.3.1",
     "@octokit/rest": "^16.28.1",
     "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-commonjs": "^17.0.0",
