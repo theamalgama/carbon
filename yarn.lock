@@ -1703,13 +1703,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@carbon/icon-helpers@npm:0.0.1-beta.5":
-  version: 0.0.1-beta.5
-  resolution: "@carbon/icon-helpers@npm:0.0.1-beta.5"
-  checksum: cb42a5f5286c4b16acdfe9b5ae615453866befd395a0f322012c6c4664cfb3ccdeaca08d16d40b2b3ecc93307e02786c15b37621b40de956010ce13896fe089f
-  languageName: node
-  linkType: hard
-
 "@carbon/icons-handlebars@^10.24.0, @carbon/icons-handlebars@workspace:packages/icons-handlebars":
   version: 0.0.0-use.local
   resolution: "@carbon/icons-handlebars@workspace:packages/icons-handlebars"
@@ -1734,16 +1727,6 @@ __metadata:
     react: ">=16"
   languageName: unknown
   linkType: soft
-
-"@carbon/icons-react@npm:^0.0.1-beta.2":
-  version: 0.0.1-beta.5
-  resolution: "@carbon/icons-react@npm:0.0.1-beta.5"
-  dependencies:
-    "@carbon/icon-helpers": 0.0.1-beta.5
-    prop-types: ^15.6.2
-  checksum: 915e0ad4b17a7392a52cb6a510ee55bbfa1df4547f819816325cd9d776617acc50d8613bc4bf767d7909b234e8394ed845557b27cfa4644e64211c321c6c88b7
-  languageName: node
-  linkType: hard
 
 "@carbon/icons-vue@workspace:packages/icons-vue":
   version: 0.0.0-use.local
@@ -5129,6 +5112,210 @@ __metadata:
   checksum: 708c264ec4b9e9afc52d1e5af5c66ada8c7f8d474af34c3ded2f0cf2e6a6352c5089affe5bf3cbddc79ad816bbcc0e55763ebe458b7e3ed875648baada27d06c
   languageName: node
   linkType: hard
+
+"@theamalgama/carbon-components-react@^10.19.14, @theamalgama/carbon-components-react@workspace:packages/react":
+  version: 0.0.0-use.local
+  resolution: "@theamalgama/carbon-components-react@workspace:packages/react"
+  dependencies:
+    "@babel/cli": ^7.10.0
+    "@babel/core": ^7.10.0
+    "@babel/plugin-external-helpers": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-proposal-export-default-from": ^7.7.4
+    "@babel/plugin-proposal-export-namespace-from": ^7.7.4
+    "@babel/plugin-syntax-dynamic-import": ^7.7.4
+    "@babel/plugin-syntax-import-meta": ^7.7.4
+    "@babel/plugin-transform-object-assign": ^7.7.4
+    "@babel/preset-env": ^7.10.0
+    "@babel/preset-react": ^7.10.0
+    "@carbon/icons-react": ^10.24.0
+    "@carbon/telemetry": 0.0.0-alpha.6
+    "@carbon/test-utils": ^10.14.0
+    "@percy/storybook": ^3.3.1
+    "@rollup/plugin-babel": ^5.2.2
+    "@rollup/plugin-commonjs": ^17.0.0
+    "@rollup/plugin-node-resolve": ^11.1.0
+    "@rollup/plugin-replace": ^2.3.4
+    "@storybook/addon-storysource": ^5.3.19
+    "@storybook/addons": ^5.3.19
+    "@storybook/react": ^5.3.19
+    "@storybook/source-loader": ^5.3.19
+    "@storybook/theming": ^5.3.19
+    "@theamalgama/carbon-components": ^10.19.14
+    babel-core: ^7.0.0-bridge.0
+    babel-loader: ^8.1.0
+    babel-plugin-dev-expression: ^0.2.2
+    babel-plugin-react-docgen: ^4.0.0
+    babel-plugin-transform-inline-environment-variables: ^0.4.0
+    browserslist-config-carbon: ^10.6.0
+    carbon-icons: ^7.0.5
+    chalk: ^2.3.0
+    classnames: 2.2.6
+    cli-table: ^0.3.0
+    core-js: ^3.6.5
+    cross-env: ^5.2.0
+    css-loader: ^3.4.2
+    downshift: 5.2.1
+    fast-sass-loader: ^1.5.0
+    flatpickr: 4.6.1
+    gzip-size: ^6.0.0
+    invariant: ^2.2.3
+    lcov2badge: ^0.1.0
+    lodash.debounce: ^4.0.8
+    lodash.findlast: ^4.5.0
+    lodash.isequal: ^4.5.0
+    lodash.omit: ^4.5.0
+    lodash.throttle: ^4.1.1
+    mini-css-extract-plugin: ^0.9.0
+    node-sass: ^4.13.1
+    npm-which: ^3.0.1
+    object-assign: ^4.1.1
+    postcss-custom-properties: ^9.0.2
+    postcss-loader: ^3.0.0
+    promise: ^8.0.1
+    prop-types: ^15.7.2
+    react: ^16.8.6
+    react-dom: ^16.8.6
+    react-is: ^16.8.6
+    react-test-renderer: ^16.8.6
+    requestanimationframe: ^0.0.23
+    rimraf: ^3.0.0
+    rollup: ^2.38.0
+    rollup-plugin-sizes: ^1.0.3
+    rollup-plugin-strip-banner: ^2.0.0
+    rollup-plugin-terser: ^7.0.2
+    rtlcss: ^2.4.0
+    sass-loader: ^8.0.2
+    storybook-preset-carbon: ^0.1.0
+    string-replace-loader: ^2.1.0
+    terser-webpack-plugin: ^2.3.2
+    use-resize-observer: ^6.0.0
+    warning: ^3.0.0
+    webpack: ^4.41.5
+    whatwg-fetch: ^2.0.3
+    window-or-global: ^1.0.1
+  peerDependencies:
+    "@theamalgama/carbon-components": ^10.19.12
+    carbon-icons: ^7.0.7
+    react: ^16.8.6 || ^17.0.1
+    react-dom: ^16.8.6 || ^17.0.1
+  languageName: unknown
+  linkType: soft
+
+"@theamalgama/carbon-components@^10.19.14, @theamalgama/carbon-components@workspace:packages/components":
+  version: 0.0.0-use.local
+  resolution: "@theamalgama/carbon-components@workspace:packages/components"
+  dependencies:
+    "@babel/core": ^7.10.0
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-proposal-object-rest-spread": ^7.10.0
+    "@babel/plugin-transform-modules-umd": ^7.9.0
+    "@babel/plugin-transform-runtime": ^7.10.0
+    "@babel/preset-env": ^7.10.0
+    "@babel/preset-react": ^7.10.0
+    "@babel/runtime": ^7.10.0
+    "@carbon/cli": ^10.18.0
+    "@carbon/elements": ^10.26.0
+    "@carbon/icons-handlebars": ^10.24.0
+    "@carbon/icons-react": ^10.24.0
+    "@carbon/telemetry": 0.0.0-alpha.6
+    "@carbon/test-utils": ^10.14.0
+    "@frctl/fractal": ^1.1.0
+    "@rollup/plugin-babel": ^5.2.2
+    "@rollup/plugin-commonjs": ^17.0.0
+    "@rollup/plugin-node-resolve": ^11.1.0
+    "@rollup/plugin-replace": ^2.3.4
+    "@rollup/plugin-virtual": ^2.0.3
+    "@theamalgama/carbon-components": ^10.19.14
+    "@theamalgama/carbon-components-react": ^10.19.14
+    adaro: 1.0.4
+    autoprefixer: ^9.7.4
+    babel-core: ^7.0.0-bridge.0
+    babel-loader: ^8.1.0
+    babel-plugin-dev-expression: ^0.2.2
+    babel-plugin-istanbul: ^6.0.0
+    babel-plugin-rewire: ^1.1.0
+    bluebird: ~3.1.1
+    browser-sync: ^2.26.3
+    browserslist-config-carbon: ^10.6.0
+    chokidar: ^2.0.0
+    classnames: ^2.2.0
+    commander: ^2.13.0
+    core-js: ^3.6.5
+    cross-env: ^5.2.0
+    css-loader: ^3.4.2
+    custom-event: ^1.0.0
+    del: ~2.0.2
+    diff: ^5.0.0
+    express-handlebars: ^3.0.0
+    fancy-log: ^1.3.0
+    fibers: ^4.0.1
+    flatpickr: 4.6.1
+    glob: ^7.1.2
+    globby: ^9.1.0
+    gulp: ^4.0.0
+    gulp-axe-webdriver: ^3.1.0
+    gulp-babel: ^8.0.0
+    gulp-header: ^2.0.0
+    gulp-jsdoc3: ^2.0.0
+    gulp-nodemon: ^2.4.2
+    gulp-postcss: ^8.0.0
+    gulp-rename: ^1.4.0
+    gulp-sass: ^4.0.0
+    gulp-sass-lint: ^1.4.0
+    gulp-sourcemaps: ^2.6.0
+    gulp-terser: ^1.0.0
+    handlebars: ^4.0.12
+    handlebars-helpers: ^0.10.0
+    html-loader: ^0.5.0
+    jasmine-core: ^3.0.0
+    karma: ^4.0.0
+    karma-chrome-launcher: ^2.2.0
+    karma-coverage: ^1.1.0
+    karma-firefox-launcher: ^2.1.0
+    karma-html2js-preprocessor: ^1.1.0
+    karma-ie-launcher: ^1.0.0
+    karma-jasmine: ^2.0.1
+    karma-safari-launcher: ^1.0.0
+    karma-sourcemap-loader: ~0.3.7
+    karma-spec-reporter: 0.0.32
+    karma-webpack: ^3.0.0
+    lodash.debounce: ^4.0.8
+    lolex: ^3.0.0
+    markdown-it: ^8.4.0
+    minimatch: ^3.0.4
+    mkdirp: ^0.5.0
+    mock-raf: ^1.0.0
+    node-sass: ^4.13.1
+    nodemon: ^1.18.7
+    path-to-regexp: ^2.2.0
+    portscanner: ^2.2.0
+    postcss-custom-properties: ^9.0.0
+    postcss-loader: ^3.0.0
+    promise: ^8.0.1
+    prop-types: ^15.6.0
+    react: ^16.8.6
+    react-copy-to-clipboard: ^5.0.0
+    react-dom: ^16.8.6
+    react-ga: ^2.4.0
+    rollup: ^2.38.0
+    rollup-plugin-filesize: ^9.1.0
+    rollup-plugin-terser: ^7.0.2
+    sass: ^1.24.5
+    sass-loader: ^8.0.2
+    serve-static: ^1.13.0
+    style-loader: ^1.1.3
+    terser: ^4.6.3
+    terser-webpack-plugin: ^2.3.2
+    through2: ^3.0.0
+    vinyl-named: ^1.1.0
+    warning: ^3.0.0
+    webpack: ^4.41.5
+    webpack-dev-middleware: ^3.7.2
+    webpack-hot-middleware: ^2.21.0
+    whatwg-fetch: ^3.0.0
+  languageName: unknown
+  linkType: soft
 
 "@tootallnate/once@npm:1":
   version: 1.1.2
@@ -9057,248 +9244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"carbon-components-react@npm:^6.0.0":
-  version: 6.116.2
-  resolution: "carbon-components-react@npm:6.116.2"
-  dependencies:
-    "@carbon/icons-react": ^0.0.1-beta.2
-    classnames: 2.2.6
-    downshift: ^1.31.14
-    flatpickr: 4.5.5
-    focus-trap-react: ^6.0.0
-    invariant: ^2.2.3
-    lodash.debounce: ^4.0.8
-    lodash.isequal: ^4.5.0
-    lodash.omit: ^4.5.0
-    react-is: ^16.8.2
-    warning: ^3.0.0
-    window-or-global: ^1.0.1
-  peerDependencies:
-    carbon-components: ^9.87.2
-    carbon-icons: ^7.0.7
-    react: ^16.4.0
-    react-dom: ^16.4.0
-  checksum: afb4fafac7e300b765f7a484c0c2087e01b133700412529fe6080617a9e62e5ecd5ebaae122400cf63e2760e2299e4759fee94f4e516844b0c45c81775396941
-  languageName: node
-  linkType: hard
-
-"carbon-components-react@workspace:packages/react":
-  version: 0.0.0-use.local
-  resolution: "carbon-components-react@workspace:packages/react"
-  dependencies:
-    "@babel/cli": ^7.10.0
-    "@babel/core": ^7.10.0
-    "@babel/plugin-external-helpers": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-proposal-export-default-from": ^7.7.4
-    "@babel/plugin-proposal-export-namespace-from": ^7.7.4
-    "@babel/plugin-syntax-dynamic-import": ^7.7.4
-    "@babel/plugin-syntax-import-meta": ^7.7.4
-    "@babel/plugin-transform-object-assign": ^7.7.4
-    "@babel/preset-env": ^7.10.0
-    "@babel/preset-react": ^7.10.0
-    "@carbon/icons-react": ^10.24.0
-    "@carbon/telemetry": 0.0.0-alpha.6
-    "@carbon/test-utils": ^10.14.0
-    "@percy/storybook": ^3.3.1
-    "@rollup/plugin-babel": ^5.2.2
-    "@rollup/plugin-commonjs": ^17.0.0
-    "@rollup/plugin-node-resolve": ^11.1.0
-    "@rollup/plugin-replace": ^2.3.4
-    "@storybook/addon-storysource": ^5.3.19
-    "@storybook/addons": ^5.3.19
-    "@storybook/react": ^5.3.19
-    "@storybook/source-loader": ^5.3.19
-    "@storybook/theming": ^5.3.19
-    babel-core: ^7.0.0-bridge.0
-    babel-loader: ^8.1.0
-    babel-plugin-dev-expression: ^0.2.2
-    babel-plugin-react-docgen: ^4.0.0
-    babel-plugin-transform-inline-environment-variables: ^0.4.0
-    browserslist-config-carbon: ^10.6.0
-    carbon-components: ^10.27.0
-    carbon-icons: ^7.0.5
-    chalk: ^2.3.0
-    classnames: 2.2.6
-    cli-table: ^0.3.0
-    core-js: ^3.6.5
-    cross-env: ^5.2.0
-    css-loader: ^3.4.2
-    downshift: 5.2.1
-    fast-sass-loader: ^1.5.0
-    flatpickr: 4.6.1
-    gzip-size: ^6.0.0
-    invariant: ^2.2.3
-    lcov2badge: ^0.1.0
-    lodash.debounce: ^4.0.8
-    lodash.findlast: ^4.5.0
-    lodash.isequal: ^4.5.0
-    lodash.omit: ^4.5.0
-    lodash.throttle: ^4.1.1
-    mini-css-extract-plugin: ^0.9.0
-    node-sass: ^4.13.1
-    npm-which: ^3.0.1
-    object-assign: ^4.1.1
-    postcss-custom-properties: ^9.0.2
-    postcss-loader: ^3.0.0
-    promise: ^8.0.1
-    prop-types: ^15.7.2
-    react: ^16.8.6
-    react-dom: ^16.8.6
-    react-is: ^16.8.6
-    react-test-renderer: ^16.8.6
-    requestanimationframe: ^0.0.23
-    rimraf: ^3.0.0
-    rollup: ^2.38.0
-    rollup-plugin-sizes: ^1.0.3
-    rollup-plugin-strip-banner: ^2.0.0
-    rollup-plugin-terser: ^7.0.2
-    rtlcss: ^2.4.0
-    sass-loader: ^8.0.2
-    storybook-preset-carbon: ^0.1.0
-    string-replace-loader: ^2.1.0
-    terser-webpack-plugin: ^2.3.2
-    use-resize-observer: ^6.0.0
-    warning: ^3.0.0
-    webpack: ^4.41.5
-    whatwg-fetch: ^2.0.3
-    window-or-global: ^1.0.1
-  peerDependencies:
-    carbon-components: ^10.9.0
-    carbon-icons: ^7.0.7
-    react: ^16.8.6 || ^17.0.1
-    react-dom: ^16.8.6 || ^17.0.1
-  languageName: unknown
-  linkType: soft
-
-"carbon-components@^10.27.0, carbon-components@workspace:packages/components":
-  version: 0.0.0-use.local
-  resolution: "carbon-components@workspace:packages/components"
-  dependencies:
-    "@babel/core": ^7.10.0
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-proposal-object-rest-spread": ^7.10.0
-    "@babel/plugin-transform-modules-umd": ^7.9.0
-    "@babel/plugin-transform-runtime": ^7.10.0
-    "@babel/preset-env": ^7.10.0
-    "@babel/preset-react": ^7.10.0
-    "@babel/runtime": ^7.10.0
-    "@carbon/cli": ^10.18.0
-    "@carbon/elements": ^10.26.0
-    "@carbon/icons-handlebars": ^10.24.0
-    "@carbon/icons-react": ^10.24.0
-    "@carbon/telemetry": 0.0.0-alpha.6
-    "@carbon/test-utils": ^10.14.0
-    "@frctl/fractal": ^1.1.0
-    "@rollup/plugin-babel": ^5.2.2
-    "@rollup/plugin-commonjs": ^17.0.0
-    "@rollup/plugin-node-resolve": ^11.1.0
-    "@rollup/plugin-replace": ^2.3.4
-    "@rollup/plugin-virtual": ^2.0.3
-    adaro: 1.0.4
-    autoprefixer: ^9.7.4
-    babel-core: ^7.0.0-bridge.0
-    babel-loader: ^8.1.0
-    babel-plugin-dev-expression: ^0.2.2
-    babel-plugin-istanbul: ^6.0.0
-    babel-plugin-rewire: ^1.1.0
-    bluebird: ~3.1.1
-    browser-sync: ^2.26.3
-    browserslist-config-carbon: ^10.6.0
-    carbon-components: ^9.0.0
-    carbon-components-react: ^6.0.0
-    chokidar: ^2.0.0
-    classnames: ^2.2.0
-    commander: ^2.13.0
-    core-js: ^3.6.5
-    cross-env: ^5.2.0
-    css-loader: ^3.4.2
-    custom-event: ^1.0.0
-    del: ~2.0.2
-    diff: ^5.0.0
-    express-handlebars: ^3.0.0
-    fancy-log: ^1.3.0
-    fibers: ^4.0.1
-    flatpickr: 4.6.1
-    glob: ^7.1.2
-    globby: ^9.1.0
-    gulp: ^4.0.0
-    gulp-axe-webdriver: ^3.1.0
-    gulp-babel: ^8.0.0
-    gulp-header: ^2.0.0
-    gulp-jsdoc3: ^2.0.0
-    gulp-nodemon: ^2.4.2
-    gulp-postcss: ^8.0.0
-    gulp-rename: ^1.4.0
-    gulp-sass: ^4.0.0
-    gulp-sass-lint: ^1.4.0
-    gulp-sourcemaps: ^2.6.0
-    gulp-terser: ^1.0.0
-    handlebars: ^4.0.12
-    handlebars-helpers: ^0.10.0
-    html-loader: ^0.5.0
-    jasmine-core: ^3.0.0
-    karma: ^4.0.0
-    karma-chrome-launcher: ^2.2.0
-    karma-coverage: ^1.1.0
-    karma-firefox-launcher: ^2.1.0
-    karma-html2js-preprocessor: ^1.1.0
-    karma-ie-launcher: ^1.0.0
-    karma-jasmine: ^2.0.1
-    karma-safari-launcher: ^1.0.0
-    karma-sourcemap-loader: ~0.3.7
-    karma-spec-reporter: 0.0.32
-    karma-webpack: ^3.0.0
-    lodash.debounce: ^4.0.8
-    lolex: ^3.0.0
-    markdown-it: ^8.4.0
-    minimatch: ^3.0.4
-    mkdirp: ^0.5.0
-    mock-raf: ^1.0.0
-    node-sass: ^4.13.1
-    nodemon: ^1.18.7
-    path-to-regexp: ^2.2.0
-    portscanner: ^2.2.0
-    postcss-custom-properties: ^9.0.0
-    postcss-loader: ^3.0.0
-    promise: ^8.0.1
-    prop-types: ^15.6.0
-    react: ^16.8.6
-    react-copy-to-clipboard: ^5.0.0
-    react-dom: ^16.8.6
-    react-ga: ^2.4.0
-    rollup: ^2.38.0
-    rollup-plugin-filesize: ^9.1.0
-    rollup-plugin-terser: ^7.0.2
-    sass: ^1.24.5
-    sass-loader: ^8.0.2
-    serve-static: ^1.13.0
-    style-loader: ^1.1.3
-    terser: ^4.6.3
-    terser-webpack-plugin: ^2.3.2
-    through2: ^3.0.0
-    vinyl-named: ^1.1.0
-    warning: ^3.0.0
-    webpack: ^4.41.5
-    webpack-dev-middleware: ^3.7.2
-    webpack-hot-middleware: ^2.21.0
-    whatwg-fetch: ^3.0.0
-  languageName: unknown
-  linkType: soft
-
-"carbon-components@npm:^9.0.0":
-  version: 9.91.5
-  resolution: "carbon-components@npm:9.91.5"
-  dependencies:
-    carbon-icons: ^7.0.7
-    flatpickr: 4.5.7
-    lodash.debounce: ^4.0.8
-    warning: ^3.0.0
-  checksum: 28f9bc3ce94327eec6c985dadd434d6a2a0ca7e4c680eb84ca75b0a53728bf187b1b4dd9918cc6761907fe387cc29df23ffa1d8e0dad59a8f3ec254619a7bd07
-  languageName: node
-  linkType: hard
-
-"carbon-icons@npm:^7.0.5, carbon-icons@npm:^7.0.7":
+"carbon-icons@npm:^7.0.5":
   version: 7.0.7
   resolution: "carbon-icons@npm:7.0.7"
   checksum: 144c1000195e4c3a472cdeae3d2cd9fdc5b9727f4cb89422fe9e621f8b8d9c1ebec2a9ab326fef816856e1fccb88e319ae90085dd93153a82a1e10f49c98ae8a
@@ -12319,16 +12265,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"downshift@npm:^1.31.14":
-  version: 1.31.16
-  resolution: "downshift@npm:1.31.16"
-  peerDependencies:
-    prop-types: ">=15"
-    react: ">=0.14.x"
-  checksum: fb128ab1f3b55cd004edf21fb67f15d1ab7f8ec3c9ea73a13d5fc67344ad204901ccefb4485061fe2970f24e5d66f9963cbc809701c55fb4c42aecf19a471f17
-  languageName: node
-  linkType: hard
-
 "duplexer2@npm:0.0.2":
   version: 0.0.2
   resolution: "duplexer2@npm:0.0.2"
@@ -14625,20 +14561,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flatpickr@npm:4.5.5":
-  version: 4.5.5
-  resolution: "flatpickr@npm:4.5.5"
-  checksum: 97f1d656d7dcda1b79fab59d3afa87db74d043380f8ecdad240d63217fa1a0aaed5a34894dc0ef57608c3f7ce646842e9855708575abb5dafe6b206da1d38b49
-  languageName: node
-  linkType: hard
-
-"flatpickr@npm:4.5.7":
-  version: 4.5.7
-  resolution: "flatpickr@npm:4.5.7"
-  checksum: 8435bf36ba8010521d7aac61f3b8d9db0dc0b226d93ab8076d306a3c7a7ba944556990fd6c145604b1e868cd9a0ad9a98dff1636a7f71ee3f6dd391356dceded
-  languageName: node
-  linkType: hard
-
 "flatpickr@npm:4.6.1":
   version: 4.6.1
   resolution: "flatpickr@npm:4.6.1"
@@ -14688,28 +14610,6 @@ __metadata:
   version: 0.6.6
   resolution: "focus-lock@npm:0.6.6"
   checksum: d1e4da0453c906c9f8ec7c2bf4c5347cf085606d2aa5a86dcb7b87ff0540634d33296dbbe715e4271d50cabf6dfdc156905430867ebedde9baf96e96372116f6
-  languageName: node
-  linkType: hard
-
-"focus-trap-react@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "focus-trap-react@npm:6.0.0"
-  dependencies:
-    focus-trap: ^4.0.2
-  peerDependencies:
-    react: 0.14.x || ^15.0.0 || ^16.0.0
-    react-dom: 0.14.x || ^15.0.0 || ^16.0.0
-  checksum: fbe13de526bda67645b27e22290862ede3e5c27b65e3e399a0128f34399beb62da9d89a3360cf53014f5687b83a1c89283d41e2748e3db29628fac098481ece5
-  languageName: node
-  linkType: hard
-
-"focus-trap@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "focus-trap@npm:4.0.2"
-  dependencies:
-    tabbable: ^3.1.2
-    xtend: ^4.0.1
-  checksum: 88c551089757fd82fb01ecd5ac6eaa4cb5e65211c361bea239744d0588dc23633691999367511bcbff744cee7cb80dc087e55b3668fb3a511ce6ba7b8a93816e
   languageName: node
   linkType: hard
 
@@ -30740,13 +30640,6 @@ resolve@1.1.x:
     es-abstract: ^1.17.0-next.1
     has-symbols: ^1.0.1
   checksum: 6f3edf4676c4bb0454e86bcefcddc1609b41f954e688bd92dbacd77b0564f90fec3d8876a724329fb8d9695e4d077971adde6cf17e3bc356562c056e24ee985e
-  languageName: node
-  linkType: hard
-
-"tabbable@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "tabbable@npm:3.1.2"
-  checksum: 5327ee223cf4c75b420961db340f18f2bc7af5d962fe977fa184d4bcb596abc37ccf562aaeff3382fe8af04433e1d36b446afb0f770cec2ba422af98c36b8222
   languageName: node
   linkType: hard
 
